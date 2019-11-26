@@ -1,0 +1,24 @@
+BASE <http://ror.community/foo>
+PREFIX schema: <http://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fast: <http://id.worldcat.org/fast/>
+
+CONSTRUCT {
+    ?URI schema:parent ?p;
+         .
+  }
+  FROM <file:parents.csv>
+WHERE {
+BIND(URI(CONCAT('#',?id)) as ?URI)
+  BIND(URI(CONCAT('#',?parent)) as ?p)
+}
+
+CONSTRUCT {
+  ?i a schema:Organization;
+       schema:name ?name;
+      .
+  }
+FROM <file:orgs.csv>
+WHERE {
+ BIND(URI(CONCAT('#',?id)) as ?i)
+}

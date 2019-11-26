@@ -1,0 +1,21 @@
+* UC Davis
+
+This directory shows an example of managing data for UC Davis colleges and
+departments.  In this case, we imagine the maintaince of the local organizations
+in a [[https://docs.google.com/spreadsheets/d/1bKELAUYev0qz1hn5vYIYXAYTSLRH38jVDMi__3wBe6g/edit?usp=sharing][Google Sheet]] though this could easily be a relational database as well.
+Organization of the data in this manner is
+
+** Data
+
+For this example, there are multiple tables to represent the data. ~orgs.csv~
+contains the overall
+
+To create the ttl file from the CSV file, we need a sparql query.  This is the
+orgs.sparql file.  Then we can create the file like this:
+
+#+BEGIN_SRC bash
+tarql=~/.local/bin/tarql
+${tarql} orgs.sparql
+#+END_SRC
+
+#+RESULTS:
