@@ -1,0 +1,249 @@
+title,notation,label
+1101-Applications of logic,1101,Applications of logic
+1102-Deductive Logic,1102,Deductive Logic
+1103-General Logic,1103,General Logic
+1104-Inductive Logic,1104,Inductive Logic
+1105-Methodology,1105,Methodology
+1199-Other specialties on logic (specify),1199,Other specialties on logic (specify)
+1201-Algebra,1201,Algebra
+1202-Analysis and functional analysis,1202,Analysis and functional analysis
+1203-Computer Sciences,1203,Computer Sciences
+1204-Geometry,1204,Geometry
+1205-Number Theory,1205,Number Theory
+1206-Numerical Analysis,1206,Numerical Analysis
+1207-Operations Research,1207,Operations Research
+1208-Probability,1208,Probability
+1209-Statistics,1209,Statistics
+1210-Topology,1210,Topology
+1299-Other mathematical specialities,1299,Other mathematical specialities
+2101-Cosmology and cosmogony,2101,Cosmology and cosmogony
+2102-Interplanetary medium,2102,Interplanetary medium
+2103-Optical astronomy,2103,Optical astronomy
+2104-Planetology (2512 3324),2104,Planetology (2512 3324)
+2105-Radioastronomy,2105,Radioastronomy
+2106-Solar System,2106,Solar System
+2199-Other astronomical specialties (specify),2199,Other astronomical specialties (specify)
+2201-Acoustics,2201,Acoustics
+2202-Electromagnetism,2202,Electromagnetism
+2203-Electronics,2203,Electronics
+2204-Fluids (physics of),2204,Fluids (physics of)
+2205-Mechanics,2205,Mechanics
+2206-Molecular physics,2206,Molecular physics
+2207-Nuclear physics,2207,Nuclear physics
+2208-Nucleonics,2208,Nucleonics
+2209-Optics,2209,Optics
+2210-Physical chemistry,2210,Physical chemistry
+2211-Solid state physics,2211,Solid state physics
+2212-Theoretical physics,2212,Theoretical physics
+2213-Thermodynamics,2213,Thermodynamics
+2214-Units and Constants,2214,Units and Constants
+2290-High energy Physics,2290,High energy Physics
+2299-Other physical specialties (specify),2299,Other physical specialties (specify)
+2301-Analytical Chemistry,2301,Analytical Chemistry
+2302-Biochemistry,2302,Biochemistry
+2303-Inorganic chemistry ,2303,Inorganic chemistry 
+2304-Macromolecular chemistry ,2304,Macromolecular chemistry 
+2305-Nuclear Chemistry,2305,Nuclear Chemistry
+2306-Organic Chemistry ,2306,Organic Chemistry 
+2307-Physical chemistry ,2307,Physical chemistry 
+2390-Pharmaceutical chemistry,2390,Pharmaceutical chemistry
+2399-Other chemical specialties (specify),2399,Other chemical specialties (specify)
+2401-Animal biology (Zoology) ,2401,Animal biology (Zoology) 
+2402-Anthropology (physical) ,2402,Anthropology (physical) 
+2403-Biochemistry ,2403,Biochemistry 
+2404-Biomathematics,2404,Biomathematics
+2405-Biometrics,2405,Biometrics
+2406-Biophysics,2406,Biophysics
+2407-Cell biology,2407,Cell biology
+2408-Ethology,2408,Ethology
+2409-Genetics ,2409,Genetics 
+2410-Human biology ,2410,Human biology 
+2411-Human physiology ,2411,Human physiology 
+2412-Immunology ,2412,Immunology 
+2413-Insect Biology (Entomology) ,2413,Insect Biology (Entomology) 
+2414-Microbiology ,2414,Microbiology 
+2415-Molecular biology ,2415,Molecular biology 
+2416-Palaeontology,2416,Palaeontology
+2417-Plant Biology (Botany) ,2417,Plant Biology (Botany) 
+2418-Radiobiology ,2418,Radiobiology 
+2419-Symbiosis,2419,Symbiosis
+2420-Virology ,2420,Virology 
+2490-Neurosciences,2490,Neurosciences
+2499-Other specialties of biology (specify),2499,Other specialties of biology (specify)
+2501-Atmospheric sciences ,2501,Atmospheric sciences 
+2502-Climatology ,2502,Climatology 
+2503-Geochemistry,2503,Geochemistry
+2504-Geodesy,2504,Geodesy
+2505-Geography ,2505,Geography 
+2506-Geology,2506,Geology
+2507-Geophysics,2507,Geophysics
+2508-Hydrology ,2508,Hydrology 
+2509-Meteorology ,2509,Meteorology 
+2510-Oceanography,2510,Oceanography
+2511-Soil Science (Soil Science) ,2511,Soil Science (Soil Science) 
+2512-Science space (2104 2102 3324),2512,Science space (2104 2102 3324)
+"2599-Other Earth, Space or Environmental specialities (specify)",2599,"Other Earth, Space or Environmental specialities (specify)"
+3101-Agricultural chemistry,3101,Agricultural chemistry
+3102-Agricultural engineering,3102,Agricultural engineering
+3103-Agronomy ,3103,Agronomy 
+3104-Animal husbandry,3104,Animal husbandry
+3105-Fish and wildlife ,3105,Fish and wildlife 
+3106-Forestry ,3106,Forestry 
+3107-Horticulture,3107,Horticulture
+3108-Phytopathology ,3108,Phytopathology 
+3109-Veterinary sciences ,3109,Veterinary sciences 
+3199-Other agricultural specialities (specify),3199,Other agricultural specialities (specify)
+3201-Clinical Sciences,3201,Clinical Sciences
+3202-Epidemiology ,3202,Epidemiology 
+3203-Forensic Medicine ,3203,Forensic Medicine 
+3204-Occupational medicine,3204,Occupational medicine
+3205-Internal medicine,3205,Internal medicine
+3206-Nutritional sciences ,3206,Nutritional sciences 
+3207-Pathology,3207,Pathology
+3208-Pharmacodynamics,3208,Pharmacodynamics
+3209-Pharmacology ,3209,Pharmacology 
+3210-Preventive medicine,3210,Preventive medicine
+3211-Psychiatry ,3211,Psychiatry 
+3212-Public health,3212,Public health
+3213-Surgery,3213,Surgery
+3214-Toxicology,3214,Toxicology
+3299-Other medical specialties (specify),3299,Other medical specialties (specify)
+3301-Aeronautical technology and engineering ,3301,Aeronautical technology and engineering 
+3302-Biochemical technology ,3302,Biochemical technology 
+3303-Chemical technology and engineering ,3303,Chemical technology and engineering 
+3304-Computer technology ,3304,Computer technology 
+3305-Construction technology ,3305,Construction technology 
+3306-Electrical technology and engineering,3306,Electrical technology and engineering
+3307-Electronic Technology ,3307,Electronic Technology 
+3308-Environmental technology and enviromental,3308,Environmental technology and enviromental
+3309-Food technology ,3309,Food technology 
+3310-Industrial Technology ,3310,Industrial Technology 
+3311-Instrumentation Technology,3311,Instrumentation Technology
+3312-Materials Technology,3312,Materials Technology
+3313-Mechanical Engineering and Technology,3313,Mechanical Engineering and Technology
+3314-Medical technology ,3314,Medical technology 
+3315-Metallurgical technology,3315,Metallurgical technology
+3316-Metal products technology,3316,Metal products technology
+3317-motor vehicle technology,3317,motor vehicle technology
+3318-Mining technology ,3318,Mining technology 
+3319-Naval Technology,3319,Naval Technology
+3320-Nuclear technology ,3320,Nuclear technology 
+3321-Petroleum and coal technology ,3321,Petroleum and coal technology 
+3322-Power technology ,3322,Power technology 
+3323-Railway technology ,3323,Railway technology 
+3324-Space Technology ,3324,Space Technology 
+3325-Telecommunications technology ,3325,Telecommunications technology 
+3326-Textile technology ,3326,Textile technology 
+3327-Transportation systems technology ,3327,Transportation systems technology 
+3328-Technological process,3328,Technological process
+3329-Urban Planning,3329,Urban Planning
+3399-Other technological specialities (specify),3399,Other technological specialities (specify)
+5101-Cultural anthropology,5101,Cultural anthropology
+5102-Ethnography and Ethnology,5102,Ethnography and Ethnology
+5103-Social anthropology,5103,Social anthropology
+5199-Other anthropological specialities (specify),5199,Other anthropological specialities (specify)
+5201-Fertility,5201,Fertility
+5202-General demography,5202,General demography
+5203-Geographical demography ,5203,Geographical demography 
+5204-Historical Demography,5204,Historical Demography
+5205-Mortality,5205,Mortality
+5206-Population characteristics,5206,Population characteristics
+5207-Population size and demographic evolution,5207,Population size and demographic evolution
+5299-Other demographic specialities (specify),5299,Other demographic specialities (specify)
+5301-Domestic fiscal policy and public finance,5301,Domestic fiscal policy and public finance
+5302-Econometrics,5302,Econometrics
+5303-Economic accounting,5303,Economic accounting
+5304-Economic activity,5304,Economic activity
+5305-Economic Systems,5305,Economic Systems
+5306-Economics of technological change ,5306,Economics of technological change 
+5307-Economic theory,5307,Economic theory
+5308-General economics,5308,General economics
+5309-Industrial organization and public policy,5309,Industrial organization and public policy
+5310-International economics,5310,International economics
+5311-Organization and management of enterprises ,5311,Organization and management of enterprises 
+5312-Sectorial economics,5312,Sectorial economics
+5399-Other seconomic specialities,5399,Other seconomic specialities
+5401-Economic Geography,5401,Economic Geography
+5402-Historical geography,5402,Historical geography
+5403-Human geography ,5403,Human geography 
+5404-Regional geography,5404,Regional geography
+5499-Other geographical specialities (specify),5499,Other geographical specialities (specify)
+5501-Biographies,5501,Biographies
+5502-General History,5502,General History
+5503-History of countries,5503,History of countries
+5504-History by epochs,5504,History by epochs
+5505-Sciences auxiliary to history,5505,Sciences auxiliary to history
+5506-Specialized histories,5506,Specialized histories
+5599-Other historical specialities (specify),5599,Other historical specialities (specify)
+5601-Canon law ,5601,Canon law 
+5602-General theory and methods,5602,General theory and methods
+5603-International law,5603,International law
+5604-Legal organization,5604,Legal organization
+5605-National law and legislation,5605,National law and legislation
+5699-Other legal specialities (specify),5699,Other legal specialities (specify)
+5701-Applied linguistics,5701,Applied linguistics
+5702-Diachronic linguistics,5702,Diachronic linguistics
+5703-Linguistic geography ,5703,Linguistic geography 
+5704-Linguistic theory,5704,Linguistic theory
+5705-Synchronic linguistics,5705,Synchronic linguistics
+5799-Other specialities language (specify),5799,Other specialities language (specify)
+5801-Educational theory and methods,5801,Educational theory and methods
+5802-Organization and planning of education,5802,Organization and planning of education
+5803-Teacher training and employment,5803,Teacher training and employment
+5899-Other specialities pedagogical (specify),5899,Other specialities pedagogical (specify)
+5901-International relations ,5901,International relations 
+5902-Policy sciences ,5902,Policy sciences 
+5903-Political Ideologies ,5903,Political Ideologies 
+5904-Political Institutions,5904,Political Institutions
+5905-Political life,5905,Political life
+5906-Political sociology,5906,Political sociology
+5907-Political systems,5907,Political systems
+5908-Political theory,5908,Political theory
+5909-Public administration,5909,Public administration
+5910-Public opinion ,5910,Public opinion 
+5999-Other specialties policies (specify),5999,Other specialties policies (specify)
+6101-Abnormal psychology ,6101,Abnormal psychology 
+6102-Adolescent and child psychology,6102,Adolescent and child psychology
+6103-Counselling and guidance ,6103,Counselling and guidance 
+6104-Educational psychology,6104,Educational psychology
+6105-Evaluation and measurement in psychology,6105,Evaluation and measurement in psychology
+6106-Experimental psychology,6106,Experimental psychology
+6107-General psychology,6107,General psychology
+6108-Geriatric psychology ,6108,Geriatric psychology 
+6109-Ocupational and personnel psychology,6109,Ocupational and personnel psychology
+6110-Parapsychology,6110,Parapsychology
+6111-Personality,6111,Personality
+6112-Psychological study of social issues,6112,Psychological study of social issues
+6113-Psychopharmacology ,6113,Psychopharmacology 
+6114-Social psychology ,6114,Social psychology 
+6199-Other psychological specialities (specify),6199,Other psychological specialities (specify)
+6201-Architecture,6201,Architecture
+"6202-Literary theory, analysis and criticism",6202,"Literary theory, analysis and criticism"
+"6203-Fine arts theory, analysis and criticism",6203,"Fine arts theory, analysis and criticism"
+6299-Other artistic specialities (specify),6299,Other artistic specialities (specify)
+6301-Cultural sociology,6301,Cultural sociology
+6302-Experimental sociology,6302,Experimental sociology
+6303-General sociology,6303,General sociology
+6304-International disorganization ,6304,International disorganization 
+6305-Mathematical sociology,6305,Mathematical sociology
+6306-Occupational sociology,6306,Occupational sociology
+6307-Social change and development,6307,Social change and development
+6308-Social communications,6308,Social communications
+6309-Social groups,6309,Social groups
+6310-Social problems - Social disorganization,6310,Social problems - Social disorganization
+6311-Sociology of human settlements,6311,Sociology of human settlements
+6399-sociological specialities Other (specify),6399,sociological specialities Other (specify)
+7101-Classical ethics,7101,Classical ethics
+7102-Ethics of individuals,7102,Ethics of individuals
+7103-Group ethics,7103,Group ethics
+7104-Prospective ethics,7104,Prospective ethics
+7199-Other specialities related to ethics (specify),7199,Other specialities related to ethics (specify)
+7201-Philosophy of knowledge,7201,Philosophy of knowledge
+7202-Philosophical anthropology,7202,Philosophical anthropology
+7203-General philosophy,7203,General philosophy
+7204-Philosophical systems,7204,Philosophical systems
+7205-Philosophy of science,7205,Philosophy of science
+7206-Philosophy of nature,7206,Philosophy of nature
+7207-Social philosophy,7207,Social philosophy
+7208-philosophical doctrines,7208,philosophical doctrines
+7299-Other specialities philosophical (specify),7299,Other specialities philosophical (specify)

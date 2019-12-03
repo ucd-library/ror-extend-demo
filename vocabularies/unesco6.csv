@@ -1,0 +1,2233 @@
+title,notation,label
+1102.01-Analogy,1102.01,Analogy
+1102.02-Boolean Algebra,1102.02,Boolean Algebra
+1102.03-Formal Logic,1102.03,Formal Logic
+1102.04-Formalized languages,1102.04,Formalized languages
+1102.05-Formal systems,1102.05,Formal systems
+1102.06-Foundations of mathematics,1102.06,Foundations of mathematics
+1102.07-Generalization,1102.07,Generalization
+1102.08-Mathematical logic,1102.08,Mathematical logic
+1102.09-Modal Logic,1102.09,Modal Logic
+1102.10-Model theory,1102.10,Model theory
+1102.11-Proff theory,1102.11,Proff theory
+1102.12-Propositional Calculus,1102.12,Propositional Calculus
+1102.13-Recursive functions,1102.13,Recursive functions
+1102.14-Symbolic logic,1102.14,Symbolic logic
+1102.15-Theory of formal languages,1102.15,Theory of formal languages
+1102.99-Other (specify),1102.99,Other (specify)
+1104.01-Induction,1104.01,Induction
+1104.02-Intuitionism,1104.02,Intuitionism
+1104.03-Probability,1104.03,Probability
+1104.99-Other (specify),1104.99,Other (specify)
+1105.01-Scientific method,1105.01,Scientific method
+1105.99-Other (specify),1105.99,Other (specify)
+1201.01-Algebraic geometry,1201.01,Algebraic geometry
+1201.02-Axiomatic set theory,1201.02,Axiomatic set theory
+1201.03-Category theory,1201.03,Category theory
+1201.04-Differential algebra,1201.04,Differential algebra
+"1201.05-Fields, rings, algebra",1201.05,"Fields, rings, algebra"
+"1201.06-Groups, generalizations",1201.06,"Groups, generalizations"
+1201.07-Homological algebra,1201.07,Homological algebra
+1201.08-Lattices,1201.08,Lattices
+1201.09-Lie algebra,1201.09,Lie algebra
+1201.10-Linear algebra,1201.10,Linear algebra
+1201.11-Matrix theory,1201.11,Matrix theory
+1201.12-Non-associative algebras,1201.12,Non-associative algebras
+1201.13-Polynomials,1201.13,Polynomials
+1201.14-Representation theory,1201.14,Representation theory
+1201.99-Other (specify),1201.99,Other (specify)
+1202.01-Algebra of operators,1202.01,Algebra of operators
+1202.02-Approximation theory,1202.02,Approximation theory
+1202.03-Banach spaces and algebras,1202.03,Banach spaces and algebras
+1202.04-Calculus of variations,1202.04,Calculus of variations
+1202.05-Combinatorial analysis,1202.05,Combinatorial analysis
+"1202.06-Convexity, Inequalities",1202.06,"Convexity, Inequalities"
+1202.07-Difference equations,1202.07,Difference equations
+1202.08-Functional equations,1202.08,Functional equations
+1202.09-Functions of a complex variable,1202.09,Functions of a complex variable
+1202.10-Functions of real variables,1202.10,Functions of real variables
+1202.11-Functions of several complex variables,1202.11,Functions of several complex variables
+1202.12-Global Analysis,1202.12,Global Analysis
+1202.13-Harmonic analysis,1202.13,Harmonic analysis
+1202.14-Hilbert Spaces,1202.14,Hilbert Spaces
+1202.15-Integral equations,1202.15,Integral equations
+1202.16-Integral transforms,1202.16,Integral transforms
+"1202.17-Measure, integration, area",1202.17,"Measure, integration, area"
+1202.18-Operational calculus,1202.18,Operational calculus
+1202.19-Ordinary differential equations,1202.19,Ordinary differential equations
+1202.20-Partial differential equations,1202.20,Partial differential equations
+1202.21-Potential theory,1202.21,Potential theory
+"1202.22-Series, summability",1202.22,"Series, summability"
+1202.23-Special functions,1202.23,Special functions
+1202.24-Subharmonic functions,1202.24,Subharmonic functions
+1202.25-Topological linear spaces,1202.25,Topological linear spaces
+1202.26-Trigonometric series and integrals,1202.26,Trigonometric series and integrals
+1202.99-Other (specify),1202.99,Other (specify)
+1203.01-Accounting,1203.01,Accounting
+1203.02-Algorithmic languages,1203.02,Algorithmic languages
+1203.03-Analog computing,1203.03,Analog computing
+1203.04-Artificial Intelligence,1203.04,Artificial Intelligence
+1203.05-Automated manufacturing systems,1203.05,Automated manufacturing systems
+1203.06-Automated quality control systems,1203.06,Automated quality control systems
+1203.07-Causal modelling,1203.07,Causal modelling
+1203.08-Codes and coding systems,1203.08,Codes and coding systems
+1203.09-Computer-assisted design,1203.09,Computer-assisted design
+1203.10-Computer-assisted instruction,1203.10,Computer-assisted instruction
+1203.11-Computer software,1203.11,Computer software
+1203.12-Data banks,1203.12,Data banks
+1203.13-Digital computing,1203.13,Digital computing
+1203.14-Environmental control systems,1203.14,Environmental control systems
+1203.15-Heuristics,1203.15,Heuristics
+1203.16-Hybrid computing,1203.16,Hybrid computing
+1203.17-Informatics,1203.17,Informatics
+1203.18-Information systems and components; design and components,1203.18,Information systems and components; design and components
+1203.19-Inventory Control,1203.19,Inventory Control
+1203.20-Medical monitoring systems,1203.20,Medical monitoring systems
+1203.21-Navigation and space telemetry systems,1203.21,Navigation and space telemetry systems
+1203.22-Production control systems,1203.22,Production control systems
+1203.23-Programming languages,1203.23,Programming languages
+1203.24-Programming theory,1203.24,Programming theory
+1203.25-Sensors systems design,1203.25,Sensors systems design
+1203.26-Simulation,1203.26,Simulation
+1203.99-Other (specify),1203.99,Other (specify)
+1204.01-Affine geometry,1204.01,Affine geometry
+1204.02-Complex manifolds,1204.02,Complex manifolds
+1204.03-Convex domains,1204.03,Convex domains
+1204.04-Differential geometry,1204.04,Differential geometry
+1204.05-Extremum problems,1204.05,Extremum problems
+1204.06-Euclidean geometry,1204.06,Euclidean geometry
+1204.07-Finite geometries,1204.07,Finite geometries
+1204.08-Foundations,1204.08,Foundations
+1204.09-Non-Euclidean geometries,1204.09,Non-Euclidean geometries
+1204.10-Projective geometry,1204.10,Projective geometry
+1204.11-Riemannian geometry,1204.11,Riemannian geometry
+1204.12-Tensor Analysis,1204.12,Tensor Analysis
+1204.99-Other (specify),1204.99,Other (specify)
+1205.01-Algebraic numbers theory,1205.01,Algebraic numbers theory
+1205.02-Analytic number theory,1205.02,Analytic number theory
+1205.03-Diophantine problems,1205.03,Diophantine problems
+1205.04-Elementary number theory,1205.04,Elementary number theory
+1205.05-Geometry of numbers,1205.05,Geometry of numbers
+1205.99-Other (specify),1205.99,Other (specify)
+1206.01-Algorithms construction,1206.01,Algorithms construction
+1206.02-Differential equations,1206.02,Differential equations
+1206.03-Error analysis,1206.03,Error analysis
+1206.04-Functional Equations,1206.04,Functional Equations
+1206.05-Integral equations,1206.05,Integral equations
+1206.06-Integro-differential equations,1206.06,Integro-differential equations
+"1206.07-Interpolation, approximation and curve fitting",1206.07,"Interpolation, approximation and curve fitting"
+1206.08-Iterative Methods,1206.08,Iterative Methods
+1206.09-Linear Equations,1206.09,Linear Equations
+1206.10-Matrices,1206.10,Matrices
+1206.11-Numerical differentiation,1206.11,Numerical differentiation
+1206.12-Ordinary differential equations,1206.12,Ordinary differential equations
+1206.13-Partial differential equations,1206.13,Partial differential equations
+1206.14-Quadratura,1206.14,Quadratura
+1206.99-Other (specify),1206.99,Other (specify)
+1207.01-Activity analysis,1207.01,Activity analysis
+1207.02-Control systems,1207.02,Control systems
+1207.03-Cybernetics,1207.03,Cybernetics
+1207.04-Distribution and transport,1207.04,Distribution and transport
+1207.05-Dynamic programming,1207.05,Dynamic programming
+1207.06-Game theory,1207.06,Game theory
+1207.07-Integer programming,1207.07,Integer programming
+1207.08-Inventory,1207.08,Inventory
+1207.09-Linear programming,1207.09,Linear programming
+1207.10-Networks flow,1207.10,Networks flow
+1207.11-Non-linear Ppogramming,1207.11,Non-linear Ppogramming
+1207.12-Queuing,1207.12,Queuing
+1207.13-Scheduling,1207.13,Scheduling
+1207.14-Systems formulation,1207.14,Systems formulation
+1207.15-Systems reliability,1207.15,Systems reliability
+1207.99-Other (specify),1207.99,Other (specify)
+1208.01-Actuarial mathematics,1208.01,Actuarial mathematics
+1208.02-Analytic probability theory,1208.02,Analytic probability theory
+1208.03-Application of probability,1208.03,Application of probability
+1208.04-Foundations of probability,1208.04,Foundations of probability
+1208.05-Limit theorems,1208.05,Limit theorems
+1208.06-Markov processes,1208.06,Markov processes
+1208.07-Plausibility,1208.07,Plausibility
+1208.08-Stochastic processes,1208.08,Stochastic processes
+1208.09-Subjective probabilities,1208.09,Subjective probabilities
+1208.99-Other (specify),1208.99,Other (specify)
+1209.01-Analytical statistics,1209.01,Analytical statistics
+1209.02-Computing for statistics,1209.02,Computing for statistics
+1209.03-Data analysis,1209.03,Data analysis
+1209.04-Decision procedures and theory,1209.04,Decision procedures and theory
+1209.05-Design and analysis of experiments,1209.05,Design and analysis of experiments
+1209.06-Distribution-free and nonparametric methods,1209.06,Distribution-free and nonparametric methods
+1209.07-Distribution and probability theory,1209.07,Distribution and probability theory
+1209.08-Foundations of statistical inference,1209.08,Foundations of statistical inference
+1209.09-Multivariate analysis,1209.09,Multivariate analysis
+1209.10-Sampling theory and techniques,1209.10,Sampling theory and techniques
+1209.11-Stochastic theory and time series analysis,1209.11,Stochastic theory and time series analysis
+1209.12-Techniques of statistical association,1209.12,Techniques of statistical association
+1209.13-Techniques of statistical inferenc,1209.13,Techniques of statistical inferenc
+1209.14-Techniques of statistical prediction,1209.14,Techniques of statistical prediction
+1209.15-Time series,1209.15,Time series
+1209.99-Other (specify),1209.99,Other (specify)
+1210.01-Abstract spaces,1210.01,Abstract spaces
+1210.02-Cohomology,1210.02,Cohomology
+1210.03-Differential manifolds,1210.03,Differential manifolds
+1210.04-Fibre bundles and spaces,1210.04,Fibre bundles and spaces
+1210.05-General topology,1210.05,General topology
+1210.06-Homology,1210.06,Homology
+1210.07-Homotopy,1210.07,Homotopy
+1210.08-Lie groups,1210.08,Lie groups
+1210.09-Piecewise linear topology,1210.09,Piecewise linear topology
+1210.10-Point-set topology,1210.10,Point-set topology
+1210.11-Three dimensional topology,1210.11,Three dimensional topology
+1210.12-Topological groups,1210.12,Topological groups
+1210.13-Topological dynamics,1210.13,Topological dynamics
+1210.14-Topological embedding,1210.14,Topological embedding
+1210.15-Topological manifolds,1210.15,Topological manifolds
+1210.16-Transformation groups,1210.16,Transformation groups
+1210.99-Other (specify),1210.99,Other (specify)
+2101.01-Binary stars,2101.01,Binary stars
+2101.02-Clusters,2101.02,Clusters
+2101.03-Cosmic Rays,2101.03,Cosmic Rays
+2101.04-Galaxies,2101.04,Galaxies
+2101.05-Gravitation,2101.05,Gravitation
+2101.06-Nebulae,2101.06,Nebulae
+2101.07-Novae,2101.07,Novae
+2101.08-Pulsars,2101.08,Pulsars
+2101.09-Quasars,2101.09,Quasars
+2101.10-Stars,2101.10,Stars
+2101.11-Stellar evolution and HR diagram,2101.11,Stellar evolution and HR diagram
+2101.12-Stellar composition,2101.12,Stellar composition
+2101.13-Super-novae,2101.13,Super-novae
+2101.14-Variable stars,2101.14,Variable stars
+2101.15-X-ray sources,2101.15,X-ray sources
+2101.99-Other (specify),2101.99,Other (specify)
+2102.01-Interplanetary fields,2102.01,Interplanetary fields
+2102.02-Interplanetary matter,2102.02,Interplanetary matter
+2102.03-Interplanetary particles,2102.03,Interplanetary particles
+2102.99-Other (specify),2102.99,Other (specify)
+2103.01-Position astronomy,2103.01,Position astronomy
+2103.02-Telescopes,2103.02,Telescopes
+2103.03-Spectroscopy,2103.03,Spectroscopy
+2103.99-Other (specify),2103.99,Other (specify)
+2104.01-Comets,2104.01,Comets
+2104.02-Meteorites,2104.02,Meteorites
+2104.03-Planetary atmospheres,2104.03,Planetary atmospheres
+2104.04-Planetary geology,2104.04,Planetary geology
+2104.05-Planetary physics,2104.05,Planetary physics
+2104.06-Planetary magnetic fields,2104.06,Planetary magnetic fields
+2104.07-Planets,2104.07,Planets
+2104.08-Satellites,2104.08,Satellites
+2104.09-Tektites,2104.09,Tektites
+2104.10-The Moon,2104.10,The Moon
+2104.99-Other (specify),2104.99,Other (specify)
+2105.01-Antennae,2105.01,Antennae
+2105.02-Radio-telescopes,2105.02,Radio-telescopes
+2105.99-Other (specify),2105.99,Other (specify)
+2106.01-Solar energy,2106.01,Solar energy
+2106.02-Solar physics,2106.02,Solar physics
+2106.03-Solar wind,2106.03,Solar wind
+2106.04-The Sun,2106.04,The Sun
+2106.99-Other (specify),2106.99,Other (specify)
+2201.01-Acoustic properties of solids,2201.01,Acoustic properties of solids
+2201.02-Architectural Acoustics,2201.02,Architectural Acoustics
+2201.03-Hearing (physics of),2201.03,Hearing (physics of)
+2201.04-Music (physics of),2201.04,Music (physics of)
+2201.05-Noise,2201.05,Noise
+2201.06-Shock waves,2201.06,Shock waves
+2201.07-Sonar,2201.07,Sonar
+2201.08-Speech (physics of),2201.08,Speech (physics of)
+2201.09-Ultrasonics,2201.09,Ultrasonics
+2201.10-Underwater sounds,2201.10,Underwater sounds
+2201.11-Vibrations,2201.11,Vibrations
+2201.99-Other (specify),2201.99,Other (specify)
+2202.01-Conductivity,2202.01,Conductivity
+2202.02-Electrical quantities and their measurement,2202.02,Electrical quantities and their measurement
+2202.03-Electricity,2202.03,Electricity
+2202.04-Electromagnetic waves,2202.04,Electromagnetic waves
+2202.05-Gamma rays,2202.05,Gamma rays
+"2202.06-Infrared, visible and ultraviolet radiation",2202.06,"Infrared, visible and ultraviolet radiation"
+2202.07-Interaction of electromagnetic waves with matter,2202.07,Interaction of electromagnetic waves with matter
+2202.08-Magnetism,2202.08,Magnetism
+2202.09-Propagation of electromagnetic waves,2202.09,Propagation of electromagnetic waves
+2202.10-Radiowaves and microwaves,2202.10,Radiowaves and microwaves
+2202.11-Superconductivity,2202.11,Superconductivity
+2202.12-X-rays,2202.12,X-rays
+2202.99-Other (specify),2202.99,Other (specify)
+2203.01-Circuits,2203.01,Circuits
+2203.02-Circuit elements,2203.02,Circuit elements
+2203.03-Electron tubes,2203.03,Electron tubes
+2203.04-Electron Microscopy,2203.04,Electron Microscopy
+2203.05-Electron states,2203.05,Electron states
+2203.06-Electron transport,2203.06,Electron transport
+2203.07-Integrated circuits,2203.07,Integrated circuits
+2203.08-Photoelectricity,2203.08,Photoelectricity
+2203.09-Piezo-electricity,2203.09,Piezo-electricity
+2203.99-Other (specify),2203.99,Other (specify)
+2204.01-Colloids,2204.01,Colloids
+2204.02-Dispersions,2204.02,Dispersions
+2204.03-Fluid flow,2204.03,Fluid flow
+2204.04-Fluid mechanics,2204.04,Fluid mechanics
+2204.05-Gases,2204.05,Gases
+2204.06-High pressure phenomena,2204.06,High pressure phenomena
+2204.07-Ionisation,2204.07,Ionisation
+2204.08-Liquids,2204.08,Liquids
+2204.09-Magnetofluid dynamics (Magnetofluidodinámica),2204.09,Magnetofluid dynamics (Magnetofluidodinámica)
+2204.10-Plasmas (physics of),2204.10,Plasmas (physics of)
+2204.11-Quantum fluids,2204.11,Quantum fluids
+2204.99-Other (specify),2204.99,Other (specify)
+2205.01-Analytical mechanics,2205.01,Analytical mechanics
+2205.02-Continuous mechanics,2205.02,Continuous mechanics
+2205.03-Elasticity,2205.03,Elasticity
+2205.04-Fluid mechanics,2205.04,Fluid mechanics
+2205.05-Friction,2205.05,Friction
+2205.06-Many body theory,2205.06,Many body theory
+2205.07-Measurement of mechanical properties,2205.07,Measurement of mechanical properties
+2205.08-Plasticity,2205.08,Plasticity
+2205.09-Solid mechanics,2205.09,Solid mechanics
+2205.10-Statistical mechanics,2205.10,Statistical mechanics
+2205.99-Other (specify),2205.99,Other (specify)
+2206.01-Free radicals,2206.01,Free radicals
+2206.02-Inorganic molecules,2206.02,Inorganic molecules
+2206.03-Macromolecules,2206.03,Macromolecules
+2206.04-Mesic and muonic molecules,2206.04,Mesic and muonic molecules
+2206.05-Molecular beams,2206.05,Molecular beams
+2206.06-Molecular ions,2206.06,Molecular ions
+2206.07-Molecular spectroscopy,2206.07,Molecular spectroscopy
+2206.08-Molecular structure,2206.08,Molecular structure
+2206.09-Organic molecules,2206.09,Organic molecules
+2206.10-Polymers (physics of),2206.10,Polymers (physics of)
+2206.99-Other (specify),2206.99,Other (specify)
+2207.01-Atomic beams,2207.01,Atomic beams
+2207.02-Atomic ions,2207.02,Atomic ions
+2207.03-Atomic physics,2207.03,Atomic physics
+2207.04-Atoms with Z greater than 2,2207.04,Atoms with Z greater than 2
+2207.05-Collision processes,2207.05,Collision processes
+2207.06-Electron beams,2207.06,Electron beams
+2207.07-Electron paramagnetic resonance,2207.07,Electron paramagnetic resonance
+2207.08-Electron spin resonance,2207.08,Electron spin resonance
+2207.09-Energy Conversion,2207.09,Energy Conversion
+2207.10-Fission (nuclear),2207.10,Fission (nuclear)
+2207.11-Helium atom,2207.11,Helium atom
+2207.12-Hydrogen atom,2207.12,Hydrogen atom
+2207.13-Isotopes,2207.13,Isotopes
+2207.14-Nuclear decay,2207.14,Nuclear decay
+2207.15-Nuclear Energy,2207.15,Nuclear Energy
+2207.16-Nuclear magnetic resonance,2207.16,Nuclear magnetic resonance
+2207.17-Nuclear reaction and scattering,2207.17,Nuclear reaction and scattering
+2207.18-Nuclear reactors,2207.18,Nuclear reactors
+2207.19-Nuclear structure,2207.19,Nuclear structure
+2207.20-Radioisotopes,2207.20,Radioisotopes
+2207.21-Thermonuclear fusion,2207.21,Thermonuclear fusion
+2207.90-Low energy experimental nuclear physics,2207.90,Low energy experimental nuclear physics
+2207.99-Other (specify),2207.99,Other (specify)
+2208.01-Beam handling,2208.01,Beam handling
+2208.02-Beam sources,2208.02,Beam sources
+2208.03-Fusion reactors,2208.03,Fusion reactors
+2208.04-Nuclei,2208.04,Nuclei
+2208.05-Particle accelerators,2208.05,Particle accelerators
+2208.06-Particle detectors,2208.06,Particle detectors
+2208.07-Particle physics,2208.07,Particle physics
+2208.08-Particles sources,2208.08,Particles sources
+2208.09-Plasma Containment,2208.09,Plasma Containment
+2208.99-Other (specify),2208.99,Other (specify)
+2209.01-Absorption spectroscopy,2209.01,Absorption spectroscopy
+2209.02-Cinematography,2209.02,Cinematography
+2209.03-Colorimetry,2209.03,Colorimetry
+2209.04-Emission spectroscopy,2209.04,Emission spectroscopy
+2209.05-Fibre Optics,2209.05,Fibre Optics
+2209.06-Geometric optics,2209.06,Geometric optics
+2209.07-Holography,2209.07,Holography
+2209.08-Ilumination,2209.08,Ilumination
+2209.09-Infrared radiation,2209.09,Infrared radiation
+2209.10-lasers,2209.10,lasers
+2209.11-Light,2209.11,Light
+2209.12-Microscopes,2209.12,Microscopes
+2209.13-Non-linear Optics,2209.13,Non-linear Optics
+2209.14-Optical properties of solids,2209.14,Optical properties of solids
+2209.15-Optometry,2209.15,Optometry
+2209.16-Photographic instrumentation,2209.16,Photographic instrumentation
+2209.17-Photography,2209.17,Photography
+2209.18-Photometry,2209.18,Photometry
+2209.19-Physical optics,2209.19,Physical optics
+2209.20-Radiometry,2209.20,Radiometry
+2209.21-Spectroscopy,2209.21,Spectroscopy
+2209.22-Ultra-violet radiation,2209.22,Ultra-violet radiation
+2209.23-Visible radiation,2209.23,Visible radiation
+2209.24-Vision (physics of),2209.24,Vision (physics of)
+2209.90-Digital treatment. Images,2209.90,Digital treatment. Images
+2209.99-Other (specify),2209.99,Other (specify)
+2210.01-Catalysis,2210.01,Catalysis
+2210.02-Chemical and phase equilibrium,2210.02,Chemical and phase equilibrium
+2210.03-Chemical kinetics,2210.03,Chemical kinetics
+2210.04-Colloids chemistry,2210.04,Colloids chemistry
+2210.05-Electrochemistry,2210.05,Electrochemistry
+2210.06-Electrolytes,2210.06,Electrolytes
+2210.07-Electronic spectroscopy,2210.07,Electronic spectroscopy
+2210.08-Emulsions,2210.08,Emulsions
+2210.09-Energy transfer,2210.09,Energy transfer
+2210.10-Fast reactions; explosives,2210.10,Fast reactions; explosives
+2210.11-Flames,2210.11,Flames
+2210.12-Fuel cells (theory of),2210.12,Fuel cells (theory of)
+2210.13-Fused salts,2210.13,Fused salts
+2210.14-Gas phase physics,2210.14,Gas phase physics
+2210.15-High temperatures chemistry,2210.15,High temperatures chemistry
+2210.16-Interfacial chemistry,2210.16,Interfacial chemistry
+2210.17-Ion eschange,2210.17,Ion eschange
+2210.18-liquid state physics,2210.18,liquid state physics
+2210.19-Membrane phenomena,2210.19,Membrane phenomena
+2210.20-Molecular spectroscopy,2210.20,Molecular spectroscopy
+2210.21-Phase equilibria,2210.21,Phase equilibria
+2210.22-Photochemistry,2210.22,Photochemistry
+2210.23-Quantum theory,2210.23,Quantum theory
+2210.24-Radiochemistry,2210.24,Radiochemistry
+2210.25-Relation processes,2210.25,Relation processes
+2210.26-Scattering phenomena,2210.26,Scattering phenomena
+2210.27-States of matter,2210.27,States of matter
+2210.28-Solid state chemistry,2210.28,Solid state chemistry
+2210.29-Solid state physics,2210.29,Solid state physics
+2210.30-Solutions,2210.30,Solutions
+2210.31-Thermochemistry,2210.31,Thermochemistry
+2210.32-Thermodynamics,2210.32,Thermodynamics
+2210.33-Transport phenomena,2210.33,Transport phenomena
+2210.34-Valence theory,2210.34,Valence theory
+2210.90-Physical chemistry of Polymers,2210.90,Physical chemistry of Polymers
+2210.91-Physical Chemistry: Gas phase chemistry,2210.91,Physical Chemistry: Gas phase chemistry
+2210.93-Liquid crystals,2210.93,Liquid crystals
+2210.99-Other (specify),2210.99,Other (specify)
+2211.01-Alloys,2211.01,Alloys
+2211.02-Composites,2211.02,Composites
+2211.03-Crystal growth,2211.03,Crystal growth
+2211.04-Crystallography,2211.04,Crystallography
+2211.05-Crystal structure,2211.05,Crystal structure
+2211.06-Dendrites,2211.06,Dendrites
+2211.07-Dielectrics,2211.07,Dielectrics
+2211.08-Diffusion in solids,2211.08,Diffusion in solids
+2211.09-Electron carriers properties,2211.09,Electron carriers properties
+2211.10-Electron states,2211.10,Electron states
+2211.11-Electron transport properties,2211.11,Electron transport properties
+2211.12-Imperfections,2211.12,Imperfections
+2211.13-Interaction of radiation with solids,2211.13,Interaction of radiation with solids
+2211.14-Interfaces,2211.14,Interfaces
+2211.15-Lattice mechanics,2211.15,Lattice mechanics
+2211.16-Luminescence,2211.16,Luminescence
+2211.17-Magnetic properties,2211.17,Magnetic properties
+2211.18-Magnetic resonance,2211.18,Magnetic resonance
+2211.19-Mechanical properties,2211.19,Mechanical properties
+2211.20-metallic conductors,2211.20,metallic conductors
+2211.21-Metallurgy,2211.21,Metallurgy
+2211.22-Metallography,2211.22,Metallography
+2211.23-Non-crystalline states,2211.23,Non-crystalline states
+2211.24-Optical properties,2211.24,Optical properties
+2211.25-Semiconductors,2211.25,Semiconductors
+2211.26-Solid state devices,2211.26,Solid state devices
+2211.27-Superconductors,2211.27,Superconductors
+2211.28-Surfaces,2211.28,Surfaces
+2211.29-Thermal properties of solids,2211.29,Thermal properties of solids
+2211.30-Tribology,2211.30,Tribology
+2211.90-Solid state physics. Thin sheet,2211.90,Solid state physics. Thin sheet
+2211.91-Solid State physics. Solids spectroscopy,2211.91,Solid State physics. Solids spectroscopy
+2211.99-Other (specify),2211.99,Other (specify)
+2212.01-Electromagnetic fields,2212.01,Electromagnetic fields
+2212.02-Elementary particles ,2212.02,Elementary particles 
+2212.03-Energy (physics),2212.03,Energy (physics)
+2212.04-Fields,2212.04,Fields
+2212.05-Gravitation ,2212.05,Gravitation 
+2212.06-Gravitational fields,2212.06,Gravitational fields
+2212.07-Gravitons,2212.07,Gravitons
+2212.08-Hadrons,2212.08,Hadrons
+2212.09-Leptons,2212.09,Leptons
+2212.10-Mass,2212.10,Mass
+2212.11-Photons ,2212.11,Photons 
+2212.12-Quantum field theory ,2212.12,Quantum field theory 
+2212.13-Radiation (electromagnetic) ,2212.13,Radiation (electromagnetic) 
+2212.14-Theory of relativity,2212.14,Theory of relativity
+2212.99-Other (specify),2212.99,Other (specify)
+2213.01-Changes of state,2213.01,Changes of state
+2213.02-Heat transfer (physics of),2213.02,Heat transfer (physics of)
+2213.03-High pressure,2213.03,High pressure
+2213.04-High temperature,2213.04,High temperature
+2213.05-Kinetic theory,2213.05,Kinetic theory
+2213.06-Low temperatures,2213.06,Low temperatures
+2213.07-Phase transition,2213.07,Phase transition
+2213.08-Thermal measurement techniques,2213.08,Thermal measurement techniques
+2213.09-Thermodynamic equilibria,2213.09,Thermodynamic equilibria
+2213.10-Thermodynamic relationships,2213.10,Thermodynamic relationships
+2213.11-Transport phenomena,2213.11,Transport phenomena
+2213.99-Other (specify),2213.99,Other (specify)
+2214.01-Constants (physics),2214.01,Constants (physics)
+2214.02-Metrology,2214.02,Metrology
+2214.03-Standard units,2214.03,Standard units
+2214.04-Unit calibration,2214.04,Unit calibration
+2214.05-Unit conversion,2214.05,Unit conversion
+2214.99-Other (specify),2214.99,Other (specify)
+2290.01-Theoretical high energy physics,2290.01,Theoretical high energy physics
+2301.01-Absorption spectroscopy,2301.01,Absorption spectroscopy
+2301.02-Biochemical analysis,2301.02,Biochemical analysis
+2301.03-Chromatographic analysis,2301.03,Chromatographic analysis
+2301.04-Electrochemical Analysis,2301.04,Electrochemical Analysis
+2301.05-Emission spectroscopy,2301.05,Emission spectroscopy
+2301.06-Fluorimetry,2301.06,Fluorimetry
+2301.07-Gravimetry,2301.07,Gravimetry
+2301.08-Infrared spectroscopy,2301.08,Infrared spectroscopy
+2301.09-Magnetic resonance spectroscopy,2301.09,Magnetic resonance spectroscopy
+2301.10-Mass spectroscopy,2301.10,Mass spectroscopy
+2301.11-Microchemical analysis,2301.11,Microchemical analysis
+2301.12-Microscopy,2301.12,Microscopy
+2301.13-Microwave spectroscopy,2301.13,Microwave spectroscopy
+2301.14-Phosphorimetry,2301.14,Phosphorimetry
+2301.15-Polymer analysis,2301.15,Polymer analysis
+2301.16-Radiochemical analysis,2301.16,Radiochemical analysis
+2301.17-Raman spectroscopy,2301.17,Raman spectroscopy
+2301.18-Thermal analytical methods,2301.18,Thermal analytical methods
+2301.19-Volumetry,2301.19,Volumetry
+2301.20-X-Ray spectroscopy,2301.20,X-Ray spectroscopy
+2301.99-Other (specify),2301.99,Other (specify)
+2302.01-Alkaloids,2302.01,Alkaloids
+2302.02-Amino Acids,2302.02,Amino Acids
+2302.03-Antimetabolites,2302.03,Antimetabolites
+2302.04-Biochemical genetics,2302.04,Biochemical genetics
+2302.05-Biosynthesis,2302.05,Biosynthesis
+2302.06-Chemotherapy,2302.06,Chemotherapy
+2302.07-Clinical chemistry,2302.07,Clinical chemistry
+2302.08-Co-enzymes,2302.08,Co-enzymes
+2302.09-enzymology,2302.09,enzymology
+2302.10-Essential oils,2302.10,Essential oils
+2302.11-Fatty acids,2302.11,Fatty acids
+2302.12-Fermentation,2302.12,Fermentation
+2302.13-Feedback regulation,2302.13,Feedback regulation
+2302.14-Glucides,2302.14,Glucides
+2302.15-Hormones,2302.15,Hormones
+2302.16-Immunochemistry,2302.16,Immunochemistry
+2302.17-Intermediary metabolism,2302.17,Intermediary metabolism
+2302.18-Lipids,2302.18,Lipids
+2302.19-Metabolic processes,2302.19,Metabolic processes
+2302.20-Microbiological chemistry,2302.20,Microbiological chemistry
+2302.21-Molecular biology,2302.21,Molecular biology
+2302.22-Molecular pharmacology,2302.22,Molecular pharmacology
+2302.23-Nucleic acids,2302.23,Nucleic acids
+2302.24-Peptides,2302.24,Peptides
+2302.25-Photosynthesis,2302.25,Photosynthesis
+2302.26-Physical biochemistry,2302.26,Physical biochemistry
+2302.27-Proteins,2302.27,Proteins
+2302.28-Starch,2302.28,Starch
+2302.29-Steroids ,2302.29,Steroids 
+2302.30-Terpenes,2302.30,Terpenes
+2302.31-Trace-elements ,2302.31,Trace-elements 
+2302.32-Vitamins ,2302.32,Vitamins 
+2302.33-Waxes,2302.33,Waxes
+2302.90-Food biochemistry,2302.90,Food biochemistry
+2302.91-Biological macromolecules chemistry,2302.91,Biological macromolecules chemistry
+2302.99-Other (specify),2302.99,Other (specify)
+2303.01-Actinides chemistry,2303.01,Actinides chemistry
+2303.02-Alkaline earths,2303.02,Alkaline earths
+2303.03-Alkaline elements,2303.03,Alkaline elements
+2303.04-Boron compounds,2303.04,Boron compounds
+2303.05-Carbon,2303.05,Carbon
+2303.06-Chlorine compounds,2303.06,Chlorine compounds
+2303.07-Co-ordination compounds,2303.07,Co-ordination compounds
+2303.08-Electron deficient compounds,2303.08,Electron deficient compounds
+2303.09-Electropositive elements,2303.09,Electropositive elements
+2303.10-Fluorine compounds,2303.10,Fluorine compounds
+2303.11-Germanium,2303.11,Germanium
+2303.12-Graphite,2303.12,Graphite
+2303.13-Halogens,2303.13,Halogens
+2303.14-Hydrogen,2303.14,Hydrogen
+2303.15-Hydrides,2303.15,Hydrides
+2303.16-Inorganic reactions (mechanisms of),2303.16,Inorganic reactions (mechanisms of)
+2303.17-Lead compounds,2303.17,Lead compounds
+2303.18-Metals,2303.18,Metals
+2303.19-Metal alkyls,2303.19,Metal alkyls
+2303.20-Nitrogen compounds,2303.20,Nitrogen compounds
+2303.21-Organo-metallic compounds ,2303.21,Organo-metallic compounds 
+2303.22-Phosphorous compounds,2303.22,Phosphorous compounds
+2303.23-Pigments chemistry,2303.23,Pigments chemistry
+2303.24-Rare earths,2303.24,Rare earths
+2303.25-Sodium compounds,2303.25,Sodium compounds
+2303.26-Structure of inorganic compounds,2303.26,Structure of inorganic compounds
+2303.27-Sulfur compounds,2303.27,Sulfur compounds
+2303.28-Synthetic elements,2303.28,Synthetic elements
+2303.29-Transition elements,2303.29,Transition elements
+2303.30-Transuranic elements,2303.30,Transuranic elements
+2303.31-Water chemistry ,2303.31,Water chemistry 
+2303.99-Other (specify),2303.99,Other (specify)
+2304.01-Cellular plastics,2304.01,Cellular plastics
+2304.02-Cellulose,2304.02,Cellulose
+2304.03-Composites polymers,2304.03,Composites polymers
+2304.04-Elastomers,2304.04,Elastomers
+2304.05-Gums,2304.05,Gums
+2304.06-High polymers,2304.06,High polymers
+2304.07-Inorganic polymers,2304.07,Inorganic polymers
+2304.08-Macromolecules,2304.08,Macromolecules
+2304.09-Modification of macromolecules,2304.09,Modification of macromolecules
+2304.10-Monomers chemistry,2304.10,Monomers chemistry
+2304.11-Natural fibers,2304.11,Natural fibers
+2304.12-Network polymers,2304.12,Network polymers
+2304.13-Polyelectrolytes,2304.13,Polyelectrolytes
+2304.14-Polyesters,2304.14,Polyesters
+2304.15-Polyethylene,2304.15,Polyethylene
+2304.16-Polymer analysis ,2304.16,Polymer analysis 
+2304.17-Polymer in dispersed form,2304.17,Polymer in dispersed form
+2304.18-Polypeptides and proteins ,2304.18,Polypeptides and proteins 
+2304.19-Polysaccharides ,2304.19,Polysaccharides 
+2304.20-Polystyrene,2304.20,Polystyrene
+2304.21-Polyurethanes,2304.21,Polyurethanes
+2304.22-Stability of macromolecules,2304.22,Stability of macromolecules
+2304.23-Synthesis of macromolecules,2304.23,Synthesis of macromolecules
+2304.24-Synthetic fibres ,2304.24,Synthetic fibres 
+2304.99-Other (specify),2304.99,Other (specify)
+2305.01-Hot atoms chemistry,2305.01,Hot atoms chemistry
+2305.02-Isotope tracers,2305.02,Isotope tracers
+2305.03-Marked molecules,2305.03,Marked molecules
+2305.04-Radiation chemistry,2305.04,Radiation chemistry
+2305.05-Radiochemistry,2305.05,Radiochemistry
+2305.06-Radioisotopes ,2305.06,Radioisotopes 
+2305.07-Separation of isotopes ,2305.07,Separation of isotopes 
+2305.99-Other (specify),2305.99,Other (specify)
+2306.01-Aliphatic hydrocarbons,2306.01,Aliphatic hydrocarbons
+2306.02-Aromatic hydrocarbons,2306.02,Aromatic hydrocarbons
+2306.03-benzene derivatives,2306.03,benzene derivatives
+2306.04-Bicyclic chemistry,2306.04,Bicyclic chemistry
+2306.05-Carbanion chemistry,2306.05,Carbanion chemistry
+2306.06-Carbohydrates chemistry ,2306.06,Carbohydrates chemistry 
+2306.07-Carbonium chemistry,2306.07,Carbonium chemistry
+2306.08-Dyestuff chemistry ,2306.08,Dyestuff chemistry 
+2306.09-Free radicals ,2306.09,Free radicals 
+2306.10-Heterocyclic compounds,2306.10,Heterocyclic compounds
+2306.11-Organometallic,2306.11,Organometallic
+2306.12-Organophosphorus chemistry,2306.12,Organophosphorus chemistry
+2306.13-Organosilicon chemistry,2306.13,Organosilicon chemistry
+2306.14-Organosulfur chemistry,2306.14,Organosulfur chemistry
+2306.15-Reaction Mechanisms,2306.15,Reaction Mechanisms
+2306.16-Stereochemistry and conformational analysis,2306.16,Stereochemistry and conformational analysis
+2306.17-Steroids chemistry ,2306.17,Steroids chemistry 
+2306.18-Structure of organic molecules,2306.18,Structure of organic molecules
+2306.90-Organic natural products chemistry,2306.90,Organic natural products chemistry
+2306.91-Organic chemistry. Instrumental analysis,2306.91,Organic chemistry. Instrumental analysis
+2306.99-Other (specify),2306.99,Other (specify)
+"2390.01-Design, synthesis and study of new drugs",2390.01,"Design, synthesis and study of new drugs"
+2401.01-Animal anatomy ,2401.01,Animal anatomy 
+2401.02-Animal behaviour,2401.02,Animal behaviour
+2401.03-Animal communication,2401.03,Animal communication
+2401.04-Animal cytology,2401.04,Animal cytology
+2401.05-Animal development,2401.05,Animal development
+2401.06-Animal ecology,2401.06,Animal ecology
+2401.07-Animal embryology,2401.07,Animal embryology
+2401.08-Animal genetics ,2401.08,Animal genetics 
+2401.09-Animal growth,2401.09,Animal growth
+2401.10-Animal histology,2401.10,Animal histology
+2401.11-Animal pathology ,2401.11,Animal pathology 
+2401.12-Animal parasitology,2401.12,Animal parasitology
+2401.13-Animal physiology,2401.13,Animal physiology
+2401.14-Animal Taxonomy,2401.14,Animal Taxonomy
+2401.15-General Zoology,2401.15,General Zoology
+2401.16-Herpetology,2401.16,Herpetology
+2401.17-Invertebrates,2401.17,Invertebrates
+2401.18-Mammology,2401.18,Mammology
+2401.19-Marine zoology ,2401.19,Marine zoology 
+2401.20-Ornithology,2401.20,Ornithology
+2401.21-Primatology ,2401.21,Primatology 
+2401.22-Protozoology,2401.22,Protozoology
+2401.23-Vertebrates,2401.23,Vertebrates
+2401.90-Zoology: letiology,2401.90,Zoology: letiology
+2401.91-Non-insect invertebrates,2401.91,Non-insect invertebrates
+2401.99-Other (specify),2401.99,Other (specify)
+2402.01-Anthropological archives,2402.01,Anthropological archives
+2402.02-Anthropological genetics ,2402.02,Anthropological genetics 
+2402.03-Anthropometry and forensic anthropology,2402.03,Anthropometry and forensic anthropology
+2402.04-Body composition,2402.04,Body composition
+2402.05-Body constitution,2402.05,Body constitution
+2402.06-Ethnology,2402.06,Ethnology
+2402.07-Medical anthropology,2402.07,Medical anthropology
+2402.08-Nutritional habits,2402.08,Nutritional habits
+2402.09-Osteology,2402.09,Osteology
+2402.10-Population biology ,2402.10,Population biology 
+2402.11-Primate behavior ,2402.11,Primate behavior 
+2402.12-Primate somatology ,2402.12,Primate somatology 
+2402.13-Racial biology ,2402.13,Racial biology 
+2402.14-Somatic growth,2402.14,Somatic growth
+2402.15-Somatic ageing,2402.15,Somatic ageing
+2402.99-Other (specify),2402.99,Other (specify)
+2404.01-Biostatistics,2404.01,Biostatistics
+2404.99-Other (specify),2404.99,Other (specify)
+2406.01-Bioacoustics,2406.01,Bioacoustics
+2406.02-Bioelectricity,2406.02,Bioelectricity
+2406.03-Bioenergetics,2406.03,Bioenergetics
+2406.04-Bio-mechanics,2406.04,Bio-mechanics
+2406.05-Bio-optics,2406.05,Bio-optics
+2406.06-Medical physics,2406.06,Medical physics
+2406.99-Other (specify),2406.99,Other (specify)
+2407.01-Cell culture,2407.01,Cell culture
+2407.02-Cell genetics,2407.02,Cell genetics
+2407.03-Cell morphology,2407.03,Cell morphology
+2407.04-Cytology,2407.04,Cytology
+2407.05-Tissueculture,2407.05,Tissueculture
+2407.90-Wall cell structure,2407.90,Wall cell structure
+2407.99-Other (specify),2407.99,Other (specify)
+2408.01-Animal,2408.01,Animal
+2408.02-Human ,2408.02,Human 
+2408.03-Insects ,2408.03,Insects 
+2408.99-Other (specify),2408.99,Other (specify)
+2409.01-Embryology,2409.01,Embryology
+2409.02-Genetic engineering,2409.02,Genetic engineering
+2409.03-Population genetics ,2409.03,Population genetics 
+2409.90-Animal citogenetics,2409.90,Animal citogenetics
+2409.91-Genetic development,2409.91,Genetic development
+2409.92-Plant molecular genetics,2409.92,Plant molecular genetics
+2409.99-Other (specify),2409.99,Other (specify)
+2410.01-Blood groups,2410.01,Blood groups
+2410.02-Human anatomy,2410.02,Human anatomy
+2410.03-Human cytology,2410.03,Human cytology
+2410.04-Human development,2410.04,Human development
+2410.05-Human ecology,2410.05,Human ecology
+2410.06-Human embryology,2410.06,Human embryology
+2410.07-Human genetics,2410.07,Human genetics
+2410.08-Human histology,2410.08,Human histology
+2410.09-Human neuro-anatomy,2410.09,Human neuro-anatomy
+2410.10-Human physiology ,2410.10,Human physiology 
+2410.11-Sensory organs,2410.11,Sensory organs
+2410.12-Systemic anatomy,2410.12,Systemic anatomy
+2410.13-Topographic anatomy,2410.13,Topographic anatomy
+2410.99-Other (specify),2410.99,Other (specify)
+2411.01-Attitude physiology,2411.01,Attitude physiology
+2411.02-Anesthesiology,2411.02,Anesthesiology
+2411.03-Cardio-vascular physiology,2411.03,Cardio-vascular physiology
+2411.04-Endocrine physiology,2411.04,Endocrine physiology
+2411.05-Enviromental physiology,2411.05,Enviromental physiology
+2411.06-Exercise physiology,2411.06,Exercise physiology
+2411.07-Gastro-intestinal physiology,2411.07,Gastro-intestinal physiology
+2411.08-Human metabolisms,2411.08,Human metabolisms
+2411.09-Human temperature regulation,2411.09,Human temperature regulation
+2411.10-Muscle physiology,2411.10,Muscle physiology
+2411.11-Neurophysiology,2411.11,Neurophysiology
+2411.12-Physiology of the central nervous system,2411.12,Physiology of the central nervous system
+2411.13-Physiology of hearing ,2411.13,Physiology of hearing 
+2411.14-Physiology of speech ,2411.14,Physiology of speech 
+2411.15-Physiology of vision ,2411.15,Physiology of vision 
+2411.16-Reproduction physiology,2411.16,Reproduction physiology
+2411.17-Respiration physiology,2411.17,Respiration physiology
+2411.18-Transport physiology,2411.18,Transport physiology
+2411.99-Other (specify),2411.99,Other (specify)
+2412.01-Antigens,2412.01,Antigens
+2412.02-Antibodies,2412.02,Antibodies
+2412.03-Antigen-antibody reaction,2412.03,Antigen-antibody reaction
+2412.04-Antibody formation,2412.04,Antibody formation
+2412.05-Hypersensitivity,2412.05,Hypersensitivity
+2412.06-Immunisation,2412.06,Immunisation
+2412.07-Immunochemistry ,2412.07,Immunochemistry 
+2412.08-Organ transplantation,2412.08,Organ transplantation
+2412.09-Tissue antibodies,2412.09,Tissue antibodies
+2412.10-Vaccines,2412.10,Vaccines
+2412.99-Other (specify),2412.99,Other (specify)
+2413.01-General entomology,2413.01,General entomology
+2413.02-Insect development ,2413.02,Insect development 
+2413.03-Insect ecology,2413.03,Insect ecology
+2413.04-Insect morphology,2413.04,Insect morphology
+2413.05-Insect physiology,2413.05,Insect physiology
+2413.06-Insect taxonomy,2413.06,Insect taxonomy
+2413.99-Other (specify),2413.99,Other (specify)
+2414.01-Antibiotics ,2414.01,Antibiotics 
+2414.02-Bacterial physiology,2414.02,Bacterial physiology
+2414.03-bacterial metabolism,2414.03,bacterial metabolism
+2414.04-Bacteriology,2414.04,Bacteriology
+2414.05-Bacteriophage,2414.05,Bacteriophage
+2414.06-Fungi ,2414.06,Fungi 
+2414.07-Microbial Metabolism,2414.07,Microbial Metabolism
+2414.08-Microbial processes ,2414.08,Microbial processes 
+2414.09-Molds,2414.09,Molds
+2414.10-Mycology (Yeast),2414.10,Mycology (Yeast)
+2414.90-Microbiology: Vegetal residues degradation,2414.90,Microbiology: Vegetal residues degradation
+2414.99-Other (specify),2414.99,Other (specify)
+2415.01-Molecular biology of microorganisms,2415.01,Molecular biology of microorganisms
+2415.02-Plant Molecular Biology,2415.02,Plant Molecular Biology
+2416.01-Animal palaentology,2416.01,Animal palaentology
+2416.02-invertebrate paleontology,2416.02,invertebrate paleontology
+2416.03-Palinology,2416.03,Palinology
+2416.04-Plant palaeontology ,2416.04,Plant palaeontology 
+2416.05-Vertebrate palaeontology,2416.05,Vertebrate palaeontology
+2416.99-Other (specify),2416.99,Other (specify)
+2417.01-Bryology,2417.01,Bryology
+2417.02-Dendrology,2417.02,Dendrology
+2417.03-General botany,2417.03,General botany
+2417.04-Limnology,2417.04,Limnology
+2417.05-Marine biology ,2417.05,Marine biology 
+2417.06-Mycology (mushrooms),2417.06,Mycology (mushrooms)
+2417.07-Phycology,2417.07,Phycology
+2417.08-Phytobiology,2417.08,Phytobiology
+2417.09-Phytopathology ,2417.09,Phytopathology 
+2417.10-Paleobotany ,2417.10,Paleobotany 
+2417.11-Plant anatomy,2417.11,Plant anatomy
+2417.12-Plant cytology,2417.12,Plant cytology
+2417.13-Plant ecology,2417.13,Plant ecology
+2417.14-Plant genetics,2417.14,Plant genetics
+2417.15-Development growth ,2417.15,Development growth 
+2417.16-Plant histology,2417.16,Plant histology
+2417.17-Plant nutrition,2417.17,Plant nutrition
+2417.18-Plant parasitology,2417.18,Plant parasitology
+2417.19-Plant physiology,2417.19,Plant physiology
+2417.20-Plant taxonomy,2417.20,Plant taxonomy
+2417.21-Pteridology,2417.21,Pteridology
+2417.90-Biological nutrient fixation and mobilization,2417.90,Biological nutrient fixation and mobilization
+2417.91-Biological nitrogen fixation,2417.91,Biological nitrogen fixation
+2417.92-Ripening physiology,2417.92,Ripening physiology
+2417.99-Other (specify),2417.99,Other (specify)
+2420.01-Arbor viruses,2420.01,Arbor viruses
+2420.02-Bacteriophages ,2420.02,Bacteriophages 
+2420.03-Dermatropic viruses,2420.03,Dermatropic viruses
+2420.04-Enteric viruses,2420.04,Enteric viruses
+2420.05-Neurotropic viruses,2420.05,Neurotropic viruses
+2420.06-Pantropic viruses,2420.06,Pantropic viruses
+2420.07-Pox viruses,2420.07,Pox viruses
+2420.08-Respiratory viruses,2420.08,Respiratory viruses
+2420.09-Viscerotropic viruses,2420.09,Viscerotropic viruses
+2420.91-Animal virology,2420.91,Animal virology
+2420.99-Other (specify),2420.99,Other (specify)
+2490.01-Neurophysiology,2490.01,Neurophysiology
+2490.02-Neurochemistry,2490.02,Neurochemistry
+2501.01-Aeronomy,2501.01,Aeronomy
+2501.02-Airglow,2501.02,Airglow
+2501.03-Air-sea interaction ,2501.03,Air-sea interaction 
+2501.04-Atmospheric acoustics ,2501.04,Atmospheric acoustics 
+2501.05-atmospheric chemistry,2501.05,atmospheric chemistry
+2501.06-Atmospheric dynamics,2501.06,Atmospheric dynamics
+2501.07-Atmospheric electricity,2501.07,Atmospheric electricity
+2501.08-Atmospheric optics ,2501.08,Atmospheric optics 
+2501.09-Atmospheric radioactivity ,2501.09,Atmospheric radioactivity 
+2501.10-Atmospheric structure,2501.10,Atmospheric structure
+2501.11-atmospheric thermodynamics,2501.11,atmospheric thermodynamics
+2501.12-Atmospheric turbulence,2501.12,Atmospheric turbulence
+2501.13-Aurora,2501.13,Aurora
+2501.14-Cloud physics,2501.14,Cloud physics
+2501.15-Cosmic rays ,2501.15,Cosmic rays 
+2501.16-Dissemination (atmospheric),2501.16,Dissemination (atmospheric)
+2501.17-Geomagnetic pulsations,2501.17,Geomagnetic pulsations
+2501.18-Ionosphere,2501.18,Ionosphere
+2501.19-Magnetospheric particles,2501.19,Magnetospheric particles
+2501.20-Magnetospheric waves,2501.20,Magnetospheric waves
+2501.21-Numerical modelling,2501.21,Numerical modelling
+2501.22-Precipitation physics,2501.22,Precipitation physics
+2501.23-Radioactive transfer,2501.23,Radioactive transfer
+2501.24-Solar wind,2501.24,Solar wind
+2501.99-Other (specify),2501.99,Other (specify)
+2502.01-Analytical climatology,2502.01,Analytical climatology
+2502.02-Applied climatology,2502.02,Applied climatology
+2502.03-Bioclimatology,2502.03,Bioclimatology
+2502.04-Microclimatology,2502.04,Microclimatology
+2502.05-Paleoclimatology,2502.05,Paleoclimatology
+2502.06-Physical climatology,2502.06,Physical climatology
+2502.07-Regional climatology,2502.07,Regional climatology
+2502.99-Other (specify),2502.99,Other (specify)
+2503.01-Cosmochemistry ,2503.01,Cosmochemistry 
+2503.02-Experimental petrology,2503.02,Experimental petrology
+2503.03-Exploration geochemistry,2503.03,Exploration geochemistry
+2503.04-Geochronology and radio isotope,2503.04,Geochronology and radio isotope
+2503.05-High temperature geochemistry,2503.05,High temperature geochemistry
+2503.06-Low temperatures geochemistry,2503.06,Low temperatures geochemistry
+2503.07-Organic geochemistry,2503.07,Organic geochemistry
+2503.08-Stable isotopes,2503.08,Stable isotopes
+2503.09-Trace elements distribution,2503.09,Trace elements distribution
+2503.99-Other (specify),2503.99,Other (specify)
+2504.01-Geodesic astronomy ,2504.01,Geodesic astronomy 
+2504.02-Geodesic cartography,2504.02,Geodesic cartography
+2504.03-Geodesic navigation,2504.03,Geodesic navigation
+2504.04-Geodesic photogrammetry,2504.04,Geodesic photogrammetry
+2504.05-Geodetic surveying,2504.05,Geodetic surveying
+2504.06-Physical geodesy,2504.06,Physical geodesy
+2504.07-Satellite geodesy ,2504.07,Satellite geodesy 
+2504.08-Theoretical geodesy,2504.08,Theoretical geodesy
+2504.99-Other (specify),2504.99,Other (specify)
+2505.01-Biogeography ,2505.01,Biogeography 
+2505.02-Geographical cartography,2505.02,Geographical cartography
+2505.03-Geography of natural resources,2505.03,Geography of natural resources
+2505.04-Land utilization ,2505.04,Land utilization 
+2505.05-Location theory,2505.05,Location theory
+2505.06-Medical geography,2505.06,Medical geography
+2505.07-Physical geography,2505.07,Physical geography
+2505.08-Topographic geography,2505.08,Topographic geography
+2505.99-Other (specify),2505.99,Other (specify)
+2506.01-Areal geology,2506.01,Areal geology
+2506.02-Coal geologi ,2506.02,Coal geologi 
+2506.03-Engineering geology,2506.03,Engineering geology
+2506.04-Environmental geology,2506.04,Environmental geology
+2506.05-Geohydrology ,2506.05,Geohydrology 
+2506.06-Geological surveys,2506.06,Geological surveys
+2506.07-Geomorphology,2506.07,Geomorphology
+2506.08-Geothermal processes and energy ,2506.08,Geothermal processes and energy 
+2506.09-Glacial geology ,2506.09,Glacial geology 
+2506.10-Mineral deposits,2506.10,Mineral deposits
+2506.11-Mineralogy,2506.11,Mineralogy
+2506.12-Petroleum geology ,2506.12,Petroleum geology 
+"2506.13-Petrology, igneous and metamorphic",2506.13,"Petrology, igneous and metamorphic"
+"2506.14-Petrology, sedimentary",2506.14,"Petrology, sedimentary"
+2506.15-Photogeology,2506.15,Photogeology
+2506.16-Remote sensing (geology),2506.16,Remote sensing (geology)
+2506.17-Rock mechanisms,2506.17,Rock mechanisms
+2506.18-Sedimentology,2506.18,Sedimentology
+2506.19-Stratigraphy ,2506.19,Stratigraphy 
+2506.20-Structural geology,2506.20,Structural geology
+2506.21-Volcanology,2506.21,Volcanology
+2506.22-Well log analysis,2506.22,Well log analysis
+2506.99-Other (specify),2506.99,Other (specify)
+2507.01-Geomagnetism and magnetic explotarion,2507.01,Geomagnetism and magnetic explotarion
+2507.02-Gravity (earth) and gravity exploration ,2507.02,Gravity (earth) and gravity exploration 
+2507.03-Heat flow (earth),2507.03,Heat flow (earth)
+2507.04-Paleomagnetism,2507.04,Paleomagnetism
+2507.05-Seismology and seismic exploration,2507.05,Seismology and seismic exploration
+2507.06-Solid-earth and geophysics,2507.06,Solid-earth and geophysics
+2507.07-Tectonics,2507.07,Tectonics
+2507.99-Other (specify),2507.99,Other (specify)
+2508.01-Erosion (water),2508.01,Erosion (water)
+2508.02-Evaporation,2508.02,Evaporation
+2508.03-Glaciology ,2508.03,Glaciology 
+2508.04-Groundwater,2508.04,Groundwater
+2508.05-Hydrobiology,2508.05,Hydrobiology
+2508.06-Hydrography,2508.06,Hydrography
+2508.07-Ice ,2508.07,Ice 
+2508.08-Limnology,2508.08,Limnology
+2508.09-Permafrost,2508.09,Permafrost
+2508.10-Precipitation,2508.10,Precipitation
+2508.11-Quality of water ,2508.11,Quality of water 
+2508.12-Snow,2508.12,Snow
+2508.13-Soil moisture,2508.13,Soil moisture
+2508.14-Surface waters,2508.14,Surface waters
+2508.15-Transpiration,2508.15,Transpiration
+2508.99-Other (specify),2508.99,Other (specify)
+2509.01-Agricultural mMeteorology,2509.01,Agricultural mMeteorology
+2509.02-Air pollution ,2509.02,Air pollution 
+2509.03-Extended weather forecasting,2509.03,Extended weather forecasting
+2509.04-Hydrometeorology ,2509.04,Hydrometeorology 
+2509.05-Industrial meteorology,2509.05,Industrial meteorology
+2509.06-Marine meteorology ,2509.06,Marine meteorology 
+2509.07-Mesometeorología,2509.07,Mesometeorología
+2509.08-Micrometeorology,2509.08,Micrometeorology
+2509.09-Numerical weather prediction,2509.09,Numerical weather prediction
+2509.10-Observation briefing (weather),2509.10,Observation briefing (weather)
+2509.11-Operational forecasting (weather),2509.11,Operational forecasting (weather)
+2509.12-Polar meteorology,2509.12,Polar meteorology
+2509.13-Radar meteorology,2509.13,Radar meteorology
+2509.14-Radio meteorology,2509.14,Radio meteorology
+2509.15-Rocket meteorology,2509.15,Rocket meteorology
+2509.16-Satellite meteorology ,2509.16,Satellite meteorology 
+2509.17-Synoptic meteorology,2509.17,Synoptic meteorology
+2509.18-Tropical meteorology,2509.18,Tropical meteorology
+2509.19-Weather analysis,2509.19,Weather analysis
+2509.20-Weather modification,2509.20,Weather modification
+2509.99-Other (specify),2509.99,Other (specify)
+2510.01-Biological oceanography,2510.01,Biological oceanography
+2510.02-Chemical oceanography,2510.02,Chemical oceanography
+2510.03-Descriptive oceanography,2510.03,Descriptive oceanography
+2510.04-Marine botany ,2510.04,Marine botany 
+2510.05-Marine zoology ,2510.05,Marine zoology 
+2510.06-Ocean-bottom processes ,2510.06,Ocean-bottom processes 
+2510.07-Physical oceanography ,2510.07,Physical oceanography 
+2510.08-Sea-air interactions ,2510.08,Sea-air interactions 
+2510.09-Sea ice ,2510.09,Sea ice 
+2510.10-Shore and near-shore processes,2510.10,Shore and near-shore processes
+2510.11-Underwater sounds,2510.11,Underwater sounds
+2510.90-Marine Geology (oceanography),2510.90,Marine Geology (oceanography)
+2510.91-Renewable resources (oceanography),2510.91,Renewable resources (oceanography)
+2510.92-Marine aquaculture (oceanography),2510.92,Marine aquaculture (oceanography)
+2510.99-Other (specify),2510.99,Other (specify)
+2511.01-Soil biochemistry,2511.01,Soil biochemistry
+2511.02-Soil biology,2511.02,Soil biology
+2511.03-soil cartography,2511.03,soil cartography
+2511.04-Soil chemistry,2511.04,Soil chemistry
+2511.05-Soil classification,2511.05,Soil classification
+2511.06-Soil xonservation,2511.06,Soil xonservation
+2511.07-Soil engineering,2511.07,Soil engineering
+2511.08-Soil mechanics (agriculture),2511.08,Soil mechanics (agriculture)
+2511.09-Soil microbiology,2511.09,Soil microbiology
+2511.10-Soil mineralogy,2511.10,Soil mineralogy
+2511.11-Soil morphology and genesis,2511.11,Soil morphology and genesis
+2511.12-Soil physics,2511.12,Soil physics
+2511.99-Other (specify),2511.99,Other (specify)
+2512.01-Exobiology,2512.01,Exobiology
+2512.02-Space medicine,2512.02,Space medicine
+2512.03-Space physiology ,2512.03,Space physiology 
+2512.99-Other (specify),2512.99,Other (specify)
+3101.01-Dairy products,3101.01,Dairy products
+3101.02-Fertilizer processing,3101.02,Fertilizer processing
+3101.03-Fertilizer utilization,3101.03,Fertilizer utilization
+3101.04-Fish products,3101.04,Fish products
+3101.05-Fungicides ,3101.05,Fungicides 
+3101.06-Herbicides ,3101.06,Herbicides 
+3101.07-Insecticides ,3101.07,Insecticides 
+3101.08-Non-food crop products,3101.08,Non-food crop products
+3101.09-Pesticides,3101.09,Pesticides
+3101.10-Plant growth regulators ,3101.10,Plant growth regulators 
+3101.99-Other (specify),3101.99,Other (specify)
+3102.01-Agricultural mechanics ,3102.01,Agricultural mechanics 
+3102.02-Drainage ,3102.02,Drainage 
+3102.03-Farm construction ,3102.03,Farm construction 
+3102.04-Farm equipment ,3102.04,Farm equipment 
+3102.05-Irrigation (ver 3305.19),3102.05,Irrigation (ver 3305.19)
+3102.99-Other (specify),3102.99,Other (specify)
+3103.01-Crop breeding,3103.01,Crop breeding
+3103.02-Crop hybridisation,3103.02,Crop hybridisation
+3103.03-Crop management,3103.03,Crop management
+3103.04-Crop protection,3103.04,Crop protection
+3103.05-Cultural engineering,3103.05,Cultural engineering
+3103.06-Field crops,3103.06,Field crops
+3103.07-Forage crops,3103.07,Forage crops
+3103.08-Management for plant production,3103.08,Management for plant production
+3103.09-Ornamental crops,3103.09,Ornamental crops
+3103.10-Pasture,3103.10,Pasture
+3103.11-Seeds,3103.11,Seeds
+3103.12-Soil behavior under alternative uses ,3103.12,Soil behavior under alternative uses 
+3103.13-Soil fertility ,3103.13,Soil fertility 
+3103.14-Turf,3103.14,Turf
+3103.15-Weed control ,3103.15,Weed control 
+3103.90-Plant propagation,3103.90,Plant propagation
+3103.91-Combined water and fertilizer use (management),3103.91,Combined water and fertilizer use (management)
+3103.99-Other (specify),3103.99,Other (specify)
+3104.01-Apiculture,3104.01,Apiculture
+3104.02-Bovine,3104.02,Bovine
+3104.03-Breeding,3104.03,Breeding
+3104.04-Care and management,3104.04,Care and management
+3104.05-Equine,3104.05,Equine
+3104.06-Nutrition ,3104.06,Nutrition 
+3104.07-Ovine,3104.07,Ovine
+3104.08-Porcine,3104.08,Porcine
+3104.09-Poultry farming,3104.09,Poultry farming
+3104.10-Products,3104.10,Products
+3104.11-Reproduction,3104.11,Reproduction
+3104.12-Selection,3104.12,Selection
+3104.13-Sericulture,3104.13,Sericulture
+3104.90-Livestock production system,3104.90,Livestock production system
+3104.99-Other (specify),3104.99,Other (specify)
+3105.01-Controls,3105.01,Controls
+3105.02-Fish farming,3105.02,Fish farming
+3105.03-Fish finding,3105.03,Fish finding
+3105.04-Fish preservation,3105.04,Fish preservation
+3105.05-Fish processing,3105.05,Fish processing
+3105.06-Fishing mechanics,3105.06,Fishing mechanics
+3105.07-Food habits,3105.07,Food habits
+3105.08-Game,3105.08,Game
+3105.09-Habitat influences,3105.09,Habitat influences
+3105.10-Population dynamics,3105.10,Population dynamics
+3105.11-Propagation and management,3105.11,Propagation and management
+3105.12-Wild life conservation and management,3105.12,Wild life conservation and management
+3105.99-Other (specify),3105.99,Other (specify)
+3106.01-Conservation,3106.01,Conservation
+3106.02-Cultural engineering,3106.02,Cultural engineering
+3106.03-Erosion control,3106.03,Erosion control
+3106.04-Management,3106.04,Management
+3106.05-Products,3106.05,Products
+3106.06-Protection,3106.06,Protection
+3106.07-Range management,3106.07,Range management
+3106.08-Sylviculture,3106.08,Sylviculture
+3106.09-Watershed management,3106.09,Watershed management
+3106.99-Other (specify),3106.99,Other (specify)
+3107.01-Breeding,3107.01,Breeding
+3107.02-Cultural engineering,3107.02,Cultural engineering
+3107.03-Floriculture,3107.03,Floriculture
+3107.04-Fruit,3107.04,Fruit
+3107.05-Hybridisation,3107.05,Hybridisation
+3107.06-Vegetables,3107.06,Vegetables
+3107.99-Other (specify),3107.99,Other (specify)
+3108.01-Bacteria,3108.01,Bacteria
+"3108.02-Disease control, biological",3108.02,"Disease control, biological"
+"3108.03-Disease control, chemical",3108.03,"Disease control, chemical"
+"3108.04-Disease control, enviromental",3108.04,"Disease control, enviromental"
+3108.05-Fungi ,3108.05,Fungi 
+3108.06-Nematodes,3108.06,Nematodes
+3108.07-Physiogenesis,3108.07,Physiogenesis
+"3108.08-Plant susceptibility, resistance",3108.08,"Plant susceptibility, resistance"
+3108.09-Viruses ,3108.09,Viruses 
+3108.99-Other (specify),3108.99,Other (specify)
+3109.01-Anatomy ,3109.01,Anatomy 
+3109.02-Genetics ,3109.02,Genetics 
+3109.03-Immunology ,3109.03,Immunology 
+3109.04-Internal medicine ,3109.04,Internal medicine 
+3109.05-Microbiology ,3109.05,Microbiology 
+3109.06-Nutrition ,3109.06,Nutrition 
+3109.07-Pathology ,3109.07,Pathology 
+3109.08-Pharmacology ,3109.08,Pharmacology 
+3109.09-Physiology ,3109.09,Physiology 
+3109.10-Surgery ,3109.10,Surgery 
+3109.11-Virology ,3109.11,Virology 
+3109.99-Other (specify),3109.99,Other (specify)
+3201.01-Cancerology ,3201.01,Cancerology 
+3201.02-Clinical Genetics ,3201.02,Clinical Genetics 
+3201.03-clinical microbiology ,3201.03,clinical microbiology 
+3201.04-Clinical pathology,3201.04,Clinical pathology
+3201.05-Clinical psychology ,3201.05,Clinical psychology 
+3201.06-Dermatology,3201.06,Dermatology
+3201.07-Geriatrics ,3201.07,Geriatrics 
+3201.08-Gynaecology,3201.08,Gynaecology
+3201.09-Ophthalmology,3201.09,Ophthalmology
+3201.10-Pediatrics,3201.10,Pediatrics
+3201.11-Radiology,3201.11,Radiology
+3201.12-Radiotherapy ,3201.12,Radiotherapy 
+3201.13-Syphilography,3201.13,Syphilography
+3201.99-Other (specify),3201.99,Other (specify)
+3204.01-Nuclear medicine ,3204.01,Nuclear medicine 
+3204.02-Occupational diseases,3204.02,Occupational diseases
+3204.03-Occupational health,3204.03,Occupational health
+3204.04-Rehabilitation (medical),3204.04,Rehabilitation (medical)
+3204.99-Other (specify),3204.99,Other (specify)
+3205.01-Cardiology ,3205.01,Cardiology 
+3205.02-Endocrinology,3205.02,Endocrinology
+3205.03-Gastro-enterology,3205.03,Gastro-enterology
+3205.04-Haematology ,3205.04,Haematology 
+3205.05-Infectious diseases ,3205.05,Infectious diseases 
+3205.06-Nephrology,3205.06,Nephrology
+3205.07-Neurology,3205.07,Neurology
+3205.08-Pulmonary diseases,3205.08,Pulmonary diseases
+3205.09-Rheumatology,3205.09,Rheumatology
+3205.99-Other (specify),3205.99,Other (specify)
+3206.01-Digestion,3206.01,Digestion
+3206.02-Energy metabolism,3206.02,Energy metabolism
+3206.03-Natural toxicants,3206.03,Natural toxicants
+3206.04-Food deficiencies,3206.04,Food deficiencies
+3206.05-Food pathogens,3206.05,Food pathogens
+3206.06-Food requirements,3206.06,Food requirements
+3206.07-Mineral elements in food,3206.07,Mineral elements in food
+3206.08-Nutrients,3206.08,Nutrients
+3206.09-Nutrient values,3206.09,Nutrient values
+3206.10-Nutritional diseases,3206.10,Nutritional diseases
+3206.11-Toxicity of food,3206.11,Toxicity of food
+3206.12-Trace elements in food ,3206.12,Trace elements in food 
+3206.13-Vitamins ,3206.13,Vitamins 
+3206.99-Other (specify),3206.99,Other (specify)
+3207.01-Allergies,3207.01,Allergies
+3207.02-Atherosclerosis,3207.02,Atherosclerosis
+3207.03-Carcinogenesis ,3207.03,Carcinogenesis 
+3207.04-Cardio-vascular pathology ,3207.04,Cardio-vascular pathology 
+3207.05-Comparative pathology,3207.05,Comparative pathology
+3207.06-Endotoxins,3207.06,Endotoxins
+3207.07-Experimental pathology,3207.07,Experimental pathology
+3207.08-Haematology ,3207.08,Haematology 
+3207.09-Histopathology,3207.09,Histopathology
+3207.10-Immunopathology ,3207.10,Immunopathology 
+3207.11-Neuropathology,3207.11,Neuropathology
+3207.12-Parasitology,3207.12,Parasitology
+3207.13-Oncology ,3207.13,Oncology 
+3207.14-Osteopathology,3207.14,Osteopathology
+3207.15-Radiation pathology ,3207.15,Radiation pathology 
+3207.16-Stress,3207.16,Stress
+3207.17-Teratology (study of monsters),3207.17,Teratology (study of monsters)
+3207.18-Thrombosis ,3207.18,Thrombosis 
+3207.99-Other (specify),3207.99,Other (specify)
+3208.01-Absorption of drugs,3208.01,Absorption of drugs
+3208.02-Action of drugs ,3208.02,Action of drugs 
+"3208.03-Activation, multiple processes",3208.03,"Activation, multiple processes"
+"3208.04-Active locations, receptors",3208.04,"Active locations, receptors"
+"3208.05-Catalysis, autocatalysis, inmunocatalysis",3208.05,"Catalysis, autocatalysis, inmunocatalysis"
+3208.06-Chemotherapy ,3208.06,Chemotherapy 
+3208.07-Interaction of antigens,3208.07,Interaction of antigens
+3208.08-Mechanisms of action of drugs ,3208.08,Mechanisms of action of drugs 
+3208.09-drug metabolic processes,3208.09,drug metabolic processes
+3208.99-Other (specify),3208.99,Other (specify)
+3209.01-Analysis of pharmaceuticals,3209.01,Analysis of pharmaceuticals
+3209.02-Composition of drugs,3209.02,Composition of drugs
+3209.03-Evaluation of drugs,3209.03,Evaluation of drugs
+3209.04-Naturally occurring drugs ,3209.04,Naturally occurring drugs 
+3209.05-Pharmacognosy,3209.05,Pharmacognosy
+3209.06-Pharmacopoeas,3209.06,Pharmacopoeas
+3209.07-Phytopharmaceuticals,3209.07,Phytopharmaceuticals
+3209.08-Preparation of drugs,3209.08,Preparation of drugs
+3209.09-Psychopharmacology ,3209.09,Psychopharmacology 
+3209.10-Radiopharmaceuticals,3209.10,Radiopharmaceuticals
+3209.11-Standardization of drugs,3209.11,Standardization of drugs
+3209.12-Synthetic drugs,3209.12,Synthetic drugs
+3209.99-Other (specify),3209.99,Other (specify)
+3213.01-Abdominal surgery,3213.01,Abdominal surgery
+3213.02-Aesthetic surgery,3213.02,Aesthetic surgery
+3213.03-Anaesthesiology,3213.03,Anaesthesiology
+3213.04-Bone surgery,3213.04,Bone surgery
+3213.05-Ear-nose-throat surgery,3213.05,Ear-nose-throat surgery
+3213.06-Experimental surgery,3213.06,Experimental surgery
+3213.07-Heart surgery,3213.07,Heart surgery
+3213.08-Neurosurgery,3213.08,Neurosurgery
+3213.09-Ocular surgery,3213.09,Ocular surgery
+3213.10-Orthopaedic surgery,3213.10,Orthopaedic surgery
+3213.11-Physiotherapy,3213.11,Physiotherapy
+3213.12-Proctology,3213.12,Proctology
+3213.13-Stomatology-orthodonty ,3213.13,Stomatology-orthodonty 
+3213.14-Transplantation surgery,3213.14,Transplantation surgery
+3213.15-Traumatology,3213.15,Traumatology
+3213.16-Urology,3213.16,Urology
+3213.17-Vascular surgery,3213.17,Vascular surgery
+3213.99-Other (specify),3213.99,Other (specify)
+3301.01-Aerodynamics,3301.01,Aerodynamics
+3301.02-Aerodynamic loads,3301.02,Aerodynamic loads
+3301.03-Aerodynamic theory,3301.03,Aerodynamic theory
+3301.04-Aircraft,3301.04,Aircraft
+"3301.05-aviation fuels, combustion",3301.05,"aviation fuels, combustion"
+3301.06-Aircraft structures,3301.06,Aircraft structures
+3301.07-Air cushion devices ,3301.07,Air cushion devices 
+3301.08-Airports and air transport ,3301.08,Airports and air transport 
+3301.09-Compressors and turbines,3301.09,Compressors and turbines
+3301.10-Flight tests and research,3301.10,Flight tests and research
+3301.11-Flutter and vibration ,3301.11,Flutter and vibration 
+3301.12-Hydrodynamics,3301.12,Hydrodynamics
+3301.13-Instrumentation (aviation),3301.13,Instrumentation (aviation)
+3301.14-Landing loads,3301.14,Landing loads
+3301.15-Propulsion systems,3301.15,Propulsion systems
+3301.16-Propulsion system materials,3301.16,Propulsion system materials
+3301.17-Rotary wing,3301.17,Rotary wing
+3301.18-Stability and control,3301.18,Stability and control
+3301.99-Other (specify),3301.99,Other (specify)
+3302.01-Antibiotics technology ,3302.01,Antibiotics technology 
+3302.02-Fermentation technology ,3302.02,Fermentation technology 
+3302.03-Industrial microbiology ,3302.03,Industrial microbiology 
+3302.90-Biochemical engineering,3302.90,Biochemical engineering
+3302.99-Other (specify),3302.99,Other (specify)
+3303.01-Catalysis technology,3303.01,Catalysis technology
+3303.02-Chemical economics,3303.02,Chemical economics
+3303.03-Chemical processes,3303.03,Chemical processes
+3303.04-Chemical separation,3303.04,Chemical separation
+3303.05-Chemical synthesis,3303.05,Chemical synthesis
+3303.06-Combustion technology ,3303.06,Combustion technology 
+3303.07-Corrosion technology ,3303.07,Corrosion technology 
+3303.08-Deionization ,3303.08,Deionization 
+3303.09-Electrochemical operations ,3303.09,Electrochemical operations 
+3303.10-Electroplating,3303.10,Electroplating
+3303.11-Industrial chemistry,3303.11,Industrial chemistry
+3303.12-Nuclear-chemical processes,3303.12,Nuclear-chemical processes
+3303.13-Preservation technology ,3303.13,Preservation technology 
+3303.14-Protective coatings,3303.14,Protective coatings
+3303.15-Refractory coating,3303.15,Refractory coating
+3303.16-Water repellent coatings,3303.16,Water repellent coatings
+3303.90-Technology Chemical Surfactants,3303.90,Technology Chemical Surfactants
+3303.99-Other (specify),3303.99,Other (specify)
+3304.01-Analog computers,3304.01,Analog computers
+3304.02-analog-digital converters,3304.02,analog-digital converters
+3304.03-Arithmetic and machine instructions,3304.03,Arithmetic and machine instructions
+3304.04-Central processing units,3304.04,Central processing units
+3304.05-Character recognition systems,3304.05,Character recognition systems
+3304.06-Computer architecture ,3304.06,Computer architecture 
+3304.07-Computer peripherals,3304.07,Computer peripherals
+3304.08-Computer reliability,3304.08,Computer reliability
+3304.09-Computer serviceability,3304.09,Computer serviceability
+"3304.10-Computer terminals, graphic display devices and plotters",3304.10,"Computer terminals, graphic display devices and plotters"
+3304.11-Computing systems design,3304.11,Computing systems design
+3304.12-Control devices,3304.12,Control devices
+3304.13-Data transmission devices,3304.13,Data transmission devices
+3304.14-Digital computers,3304.14,Digital computers
+3304.15-Hybrid computers,3304.15,Hybrid computers
+3304.16-Logical design,3304.16,Logical design
+3304.17-Real-time systems,3304.17,Real-time systems
+3304.18-Storage devices,3304.18,Storage devices
+3304.99-Other (specify),3304.99,Other (specify)
+3305.01-Architectural design ,3305.01,Architectural design 
+3305.02-Airports construction ,3305.02,Airports construction 
+"3305.03-Buildings, large and skyscrapers",3305.03,"Buildings, large and skyscrapers"
+3305.04-Bridges,3305.04,Bridges
+3305.05-Concrete (technology of),3305.05,Concrete (technology of)
+3305.06-Civil engineering,3305.06,Civil engineering
+3305.07-Dams,3305.07,Dams
+3305.08-Drainage ,3305.08,Drainage 
+3305.09-Excavations,3305.09,Excavations
+3305.10-Foundations,3305.10,Foundations
+3305.11-Harbours,3305.11,Harbours
+3305.12-Heavy constructions,3305.12,Heavy constructions
+3305.13-Highways ,3305.13,Highways 
+3305.14-Houses,3305.14,Houses
+3305.15-Hydraulic engineering ,3305.15,Hydraulic engineering 
+3305.16-Hyperstatic systems,3305.16,Hyperstatic systems
+3305.17-Industrial and commercial buildings,3305.17,Industrial and commercial buildings
+3305.18-Inland waterways,3305.18,Inland waterways
+3305.19-Irrigation ,3305.19,Irrigation 
+3305.20-Light constructions,3305.20,Light constructions
+3305.21-Metallic constructions,3305.21,Metallic constructions
+3305.22-Metrology of building,3305.22,Metrology of building
+3305.23-Organization of works,3305.23,Organization of works
+3305.24-Prefabricated constructions,3305.24,Prefabricated constructions
+3305.25-Prefabricated concrete,3305.25,Prefabricated concrete
+3305.26-Public buildings,3305.26,Public buildings
+3305.27-Railway construction ,3305.27,Railway construction 
+"3305.28-Regulations, codes and specifications ",3305.28,"Regulations, codes and specifications "
+3305.29-Road construction ,3305.29,Road construction 
+3305.30-Sewers and water purification ,3305.30,Sewers and water purification 
+3305.31-Soil mechanics (construction),3305.31,Soil mechanics (construction)
+3305.32-Structural engineering,3305.32,Structural engineering
+3305.33-Structural strength,3305.33,Structural strength
+3305.34-Topography of building,3305.34,Topography of building
+3305.35-Tunnels,3305.35,Tunnels
+3305.36-Underground works ,3305.36,Underground works 
+3305.37-Urban planning ,3305.37,Urban planning 
+3305.38-Water supply,3305.38,Water supply
+3305.39-Wood constructions ,3305.39,Wood constructions 
+3305.90-Heat transfer in building,3305.90,Heat transfer in building
+3305.99-Other (specify),3305.99,Other (specify)
+3306.01-Direct current power utilization,3306.01,Direct current power utilization
+3306.02-Electrical applications,3306.02,Electrical applications
+3306.03-Electric motors,3306.03,Electric motors
+3306.04-Electric lighting ,3306.04,Electric lighting 
+3306.05-Insulated conductors,3306.05,Insulated conductors
+3306.06-Manufacture of electrical equipment,3306.06,Manufacture of electrical equipment
+3306.07-Rotating machinery,3306.07,Rotating machinery
+3306.08-Switchgear,3306.08,Switchgear
+3306.09-Transmission and distribution,3306.09,Transmission and distribution
+3306.99-Other (specify),3306.99,Other (specify)
+3307.01-Antennae ,3307.01,Antennae 
+3307.02-Audio-electronics ,3307.02,Audio-electronics 
+3307.03-Circuit design ,3307.03,Circuit design 
+3307.04-Electro-acoustic transducers,3307.04,Electro-acoustic transducers
+3307.05-Electron tubes ,3307.05,Electron tubes 
+3307.06-Filter design,3307.06,Filter design
+3307.07-Laser devices ,3307.07,Laser devices 
+3307.08-Microwave devices ,3307.08,Microwave devices 
+3307.09-Photo-electric devices ,3307.09,Photo-electric devices 
+3307.10-Radar,3307.10,Radar
+3307.11-Radio receivers ,3307.11,Radio receivers 
+3307.12-Radio transmitters ,3307.12,Radio transmitters 
+3307.13-Recording devices,3307.13,Recording devices
+3307.14-Semi-conductor devices ,3307.14,Semi-conductor devices 
+3307.15-Sonar devices ,3307.15,Sonar devices 
+3307.16-Sonic devices,3307.16,Sonic devices
+3307.17-Thermo-electric devices,3307.17,Thermo-electric devices
+3307.18-Thermo-ionic devices,3307.18,Thermo-ionic devices
+3307.19-Transistors ,3307.19,Transistors 
+3307.20-TV emitters (transmitters) ,3307.20,TV emitters (transmitters) 
+3307.21-TV receivers (See 3325.09),3307.21,TV receivers (See 3325.09)
+3307.22-Ultrasonic devices ,3307.22,Ultrasonic devices 
+3307.23-X-ray devices ,3307.23,X-ray devices 
+3307.90-Microelectronics,3307.90,Microelectronics
+3307.91-Microelectronics: Silicon Technology,3307.91,Microelectronics: Silicon Technology
+3307.92-Microelectronics: III-V Technologies and alternatives,3307.92,Microelectronics: III-V Technologies and alternatives
+3307.93-Microelectronics: Design,3307.93,Microelectronics: Design
+3307.99-Other (specify),3307.99,Other (specify)
+3308.01-Air pollution control ,3308.01,Air pollution control 
+3308.02-industrial wastes,3308.02,industrial wastes
+3308.03-Insect control technology ,3308.03,Insect control technology 
+3308.04-Pollution engineering,3308.04,Pollution engineering
+3308.05-Radio active waste disposal ,3308.05,Radio active waste disposal 
+3308.06-Reclamation of water ,3308.06,Reclamation of water 
+3308.07-Refuse disposal,3308.07,Refuse disposal
+3308.08-Rodent control technology,3308.08,Rodent control technology
+3308.09-Sanitary engineering ,3308.09,Sanitary engineering 
+3308.10-Sewage technology ,3308.10,Sewage technology 
+3308.11-Water pollution control ,3308.11,Water pollution control 
+3308.99-Other (specify),3308.99,Other (specify)
+3309.01-Alcoholic beverages ,3309.01,Alcoholic beverages 
+3309.02-Animal feed ,3309.02,Animal feed 
+3309.03-Antioxidants in food,3309.03,Antioxidants in food
+3309.04-Bakery,3309.04,Bakery
+3309.05-Brewing ,3309.05,Brewing 
+3309.06-Canning,3309.06,Canning
+3309.07-Cereal products,3309.07,Cereal products
+3309.08-Colours ,3309.08,Colours 
+3309.09-Dairy products,3309.09,Dairy products
+3309.10-Flavour ,3309.10,Flavour 
+3309.11-Flour milling ,3309.11,Flour milling 
+3309.12-Food additives,3309.12,Food additives
+3309.13-Food preservation,3309.13,Food preservation
+3309.14-Food processing,3309.14,Food processing
+3309.15-Food sanitation,3309.15,Food sanitation
+3309.16-Freeze-drying ,3309.16,Freeze-drying 
+3309.17-Lyophilization,3309.17,Lyophilization
+3309.18-Non-alcoholic beverages,3309.18,Non-alcoholic beverages
+3309.19-Pasteurization,3309.19,Pasteurization
+3309.20-Properties of food,3309.20,Properties of food
+3309.21-Protein foods ,3309.21,Protein foods 
+3309.22-Refrigeration ,3309.22,Refrigeration 
+3309.23-Stabilisers,3309.23,Stabilisers
+3309.24-Starch ,3309.24,Starch 
+3309.25-Sterilisation of food,3309.25,Sterilisation of food
+3309.26-Sugar ,3309.26,Sugar 
+3309.27-Synthetic foods,3309.27,Synthetic foods
+3309.28-Vegetable oils and fats ,3309.28,Vegetable oils and fats 
+3309.29-Wine ,3309.29,Wine 
+3309.90-Microbiology of food,3309.90,Microbiology of food
+3309.91-Keeping postharvest,3309.91,Keeping postharvest
+3309.92-Biochemistry and microbiology of fermentation processes,3309.92,Biochemistry and microbiology of fermentation processes
+3309.93-Canned vegetables,3309.93,Canned vegetables
+3309.95-Food technology: Heat transfer,3309.95,Food technology: Heat transfer
+3309.99-Other (specify),3309.99,Other (specify)
+3310.01-Industrial equipment ,3310.01,Industrial equipment 
+3310.02-Industrial machinery ,3310.02,Industrial machinery 
+3310.03-Industrial processes,3310.03,Industrial processes
+3310.04-Maintenance engineering ,3310.04,Maintenance engineering 
+3310.05-Processing engineering,3310.05,Processing engineering
+3310.06-Process specifications,3310.06,Process specifications
+3310.07-Time and motion study ,3310.07,Time and motion study 
+3310.99-Other (specify),3310.99,Other (specify)
+3311.01-Automation technology,3311.01,Automation technology
+3311.02-Control engineering,3311.02,Control engineering
+3311.03-Dental instruments ,3311.03,Dental instruments 
+3311.04-Electro-optical devices,3311.04,Electro-optical devices
+3311.05-Electrical test equipment,3311.05,Electrical test equipment
+3311.06-Electrical instruments,3311.06,Electrical instruments
+3311.07-Electronic instruments ,3311.07,Electronic instruments 
+3311.08-Laboratory equipment,3311.08,Laboratory equipment
+3311.09-Lenses,3311.09,Lenses
+3311.10-Medical instruments ,3311.10,Medical instruments 
+3311.11-Optical instruments ,3311.11,Optical instruments 
+3311.12-Photographic and cinematographic equipment ,3311.12,Photographic and cinematographic equipment 
+3311.13-Scientific apparatus,3311.13,Scientific apparatus
+3311.14-Servomechanisms,3311.14,Servomechanisms
+3311.15-Telechiric techniques,3311.15,Telechiric techniques
+3311.16-Temperature measurement instruments ,3311.16,Temperature measurement instruments 
+3311.17-Test equipment,3311.17,Test equipment
+3311.18-Thermo static instruments,3311.18,Thermo static instruments
+3311.19-Timing Devices,3311.19,Timing Devices
+3311.99-Other (specify),3311.99,Other (specify)
+3312.01-Abrasives,3312.01,Abrasives
+3312.02-Binders,3312.02,Binders
+3312.03-Ceramics,3312.03,Ceramics
+3312.04-Cermets,3312.04,Cermets
+3312.05-Clay products,3312.05,Clay products
+3312.06-Glass,3312.06,Glass
+3312.07-Limes,3312.07,Limes
+3312.08-Material properties,3312.08,Material properties
+3312.09-Material resistance,3312.09,Material resistance
+3312.10-Plastics ,3312.10,Plastics 
+3312.11-Refractories ,3312.11,Refractories 
+3312.12-Testing of materials,3312.12,Testing of materials
+3312.13-Wood technology ,3312.13,Wood technology 
+3312.99-Other (specify),3312.99,Other (specify)
+3313.01-Air blowers,3313.01,Air blowers
+3313.02-Air compressors ,3313.02,Air compressors 
+3313.03-Bearings,3313.03,Bearings
+3313.04-Construction equipment ,3313.04,Construction equipment 
+"3313.05-Dies, jigs and patterns",3313.05,"Dies, jigs and patterns"
+3313.06-Farm machinery ,3313.06,Farm machinery 
+3313.07-Food machinery ,3313.07,Food machinery 
+3313.08-Gas engines,3313.08,Gas engines
+3313.09-Gears,3313.09,Gears
+3313.10-Heating equipment ,3313.10,Heating equipment 
+3313.11-Hydraulic machinery ,3313.11,Hydraulic machinery 
+3313.12-Industrial machinery and equipment ,3313.12,Industrial machinery and equipment 
+3313.13-Internal combustion engines (general) ,3313.13,Internal combustion engines (general) 
+3313.14-Machine tools and accessories,3313.14,Machine tools and accessories
+3313.15-Machine design,3313.15,Machine design
+3313.16-Materials handling equipment ,3313.16,Materials handling equipment 
+3313.17-Mechanized operations,3313.17,Mechanized operations
+3313.18-Mining machinery ,3313.18,Mining machinery 
+3313.19-Nuclear machinery ,3313.19,Nuclear machinery 
+3313.20-Papermaking machinery,3313.20,Papermaking machinery
+3313.21-Petrleum extracting machinery ,3313.21,Petrleum extracting machinery 
+3313.22-Pneumatic equipment,3313.22,Pneumatic equipment
+3313.23-Power transmission equipment (mechanical) ,3313.23,Power transmission equipment (mechanical) 
+3313.24-Printing and duplicating machinery ,3313.24,Printing and duplicating machinery 
+3313.25-Pumps and liquid handling equipment ,3313.25,Pumps and liquid handling equipment 
+3313.26-Refrigerating equipment ,3313.26,Refrigerating equipment 
+3313.27-specialized industrial machinery,3313.27,specialized industrial machinery
+3313.28-Steam engines,3313.28,Steam engines
+3313.29-Textile machinery ,3313.29,Textile machinery 
+3313.30-Turbines,3313.30,Turbines
+3313.31-Vending and service machinery,3313.31,Vending and service machinery
+3313.99-Other (specify),3313.99,Other (specify)
+3314.01-Artificial organs,3314.01,Artificial organs
+3314.02-Prosthetic devices,3314.02,Prosthetic devices
+3314.99-Other (specify),3314.99,Other (specify)
+3315.01-Aluminum,3315.01,Aluminum
+3315.02-Copper,3315.02,Copper
+3315.03-Electrometallurgical products ,3315.03,Electrometallurgical products 
+3315.04-Foundries (general),3315.04,Foundries (general)
+"3315.05-Iron and steel mills, foundries and forges",3315.05,"Iron and steel mills, foundries and forges"
+3315.06-Lead and zinc,3315.06,Lead and zinc
+3315.07-Metallurgical products (special),3315.07,Metallurgical products (special)
+3315.08-Metallurgical Services,3315.08,Metallurgical Services
+"3315.09-Non-ferrous smelting, refining and processing",3315.09,"Non-ferrous smelting, refining and processing"
+3315.10-Non-ferrous castings,3315.10,Non-ferrous castings
+3315.11-Powder metallurgy,3315.11,Powder metallurgy
+3315.12-Precious metals,3315.12,Precious metals
+3315.13-Precision casting,3315.13,Precision casting
+3315.14-Radioactive metals,3315.14,Radioactive metals
+3315.15-Rare metals,3315.15,Rare metals
+"3315.16-Refining, including zone refining",3315.16,"Refining, including zone refining"
+3315.17-Refractory metals ,3315.17,Refractory metals 
+3315.90-Non-ferrous extractive metallurgy,3315.90,Non-ferrous extractive metallurgy
+3315.99-Other (specify),3315.99,Other (specify)
+3316.01-autoclaves and boilers ,3316.01,autoclaves and boilers 
+3316.02-Cans and containers,3316.02,Cans and containers
+3316.03-Distilling equipment ,3316.03,Distilling equipment 
+3316.04-Electroplated and coated products ,3316.04,Electroplated and coated products 
+"3316.05-Furnaces, ovens, kilns",3316.05,"Furnaces, ovens, kilns"
+3316.06-Hardware,3316.06,Hardware
+"3316.07-Machined, and turned products",3316.07,"Machined, and turned products"
+3316.08-Metal fabrication services,3316.08,Metal fabrication services
+"3316.09-Pipes, fittings and valves ",3316.09,"Pipes, fittings and valves "
+3316.10-Pressure vessels ,3316.10,Pressure vessels 
+3316.11-sheet metal products,3316.11,sheet metal products
+3316.12-Stampings,3316.12,Stampings
+3316.13-Structural steel products,3316.13,Structural steel products
+3316.14-Weldings,3316.14,Weldings
+3316.15-Wire products,3316.15,Wire products
+3316.99-Other (specify),3316.99,Other (specify)
+3317.01-All terrain vehicles,3317.01,All terrain vehicles
+3317.02-Automobiles,3317.02,Automobiles
+"3317.03-Buses, lorries and trailers",3317.03,"Buses, lorries and trailers"
+3317.04-Diesel engines ,3317.04,Diesel engines 
+3317.05-Motor cycles,3317.05,Motor cycles
+3317.06-Motor transport services,3317.06,Motor transport services
+3317.07-Parts and accessories,3317.07,Parts and accessories
+3317.08-Piston engines ,3317.08,Piston engines 
+3317.09-Rotating engines ,3317.09,Rotating engines 
+3317.10-Traffic engineering ,3317.10,Traffic engineering 
+3317.99-Other (specify),3317.99,Other (specify)
+3318.01-Coal minning ,3318.01,Coal minning 
+3318.02-Concentration of ores ,3318.02,Concentration of ores 
+3318.03-Iron ores,3318.03,Iron ores
+3318.04-Mining services,3318.04,Mining services
+3318.05-Non-ferrous metal ores,3318.05,Non-ferrous metal ores
+3318.06-Non-metallic minerals,3318.06,Non-metallic minerals
+3318.07-Quarry products,3318.07,Quarry products
+3318.08-Sulphur,3318.08,Sulphur
+3318.09-Uranium and radioactive ores,3318.09,Uranium and radioactive ores
+3318.99-Other (specify),3318.99,Other (specify)
+3319.01-Air cushion devices ,3319.01,Air cushion devices 
+3319.02-Boats,3319.02,Boats
+3319.03-Inland waterway craft,3319.03,Inland waterway craft
+3319.04-Marine auxiliaries,3319.04,Marine auxiliaries
+3319.05-Marine engines,3319.05,Marine engines
+3319.06-Marine transportation ,3319.06,Marine transportation 
+3319.07-Merchant ships,3319.07,Merchant ships
+3319.08-Naval architecture,3319.08,Naval architecture
+3319.09-Ocean transport ,3319.09,Ocean transport 
+3319.10-Propellers,3319.10,Propellers
+3319.11-Shafting,3319.11,Shafting
+3319.12-Shipbuilding,3319.12,Shipbuilding
+3319.13-Underwater craft,3319.13,Underwater craft
+3319.99-Other (specify),3319.99,Other (specify)
+3320.01-Isotope applications ,3320.01,Isotope applications 
+3320.02-Isotope separation ,3320.02,Isotope separation 
+3320.03-Nuclear explosions,3320.03,Nuclear explosions
+3320.04-Nuclear fission reactors ,3320.04,Nuclear fission reactors 
+3320.05-Nuclear fusion reactors ,3320.05,Nuclear fusion reactors 
+3320.06-Nuclear tests,3320.06,Nuclear tests
+3320.99-Other (specify),3320.99,Other (specify)
+3321.01-Asphaltic materials,3321.01,Asphaltic materials
+3321.02-Coal chemicals ,3321.02,Coal chemicals 
+3321.03-Crude petroleum,3321.03,Crude petroleum
+3321.04-Gas pipelines,3321.04,Gas pipelines
+3321.05-Liquefied gas,3321.05,Liquefied gas
+3321.06-Lubricating oil and grease,3321.06,Lubricating oil and grease
+3321.07-Natural Gas,3321.07,Natural Gas
+3321.08-Oilfield equipment,3321.08,Oilfield equipment
+3321.09-Oilfield services,3321.09,Oilfield services
+3321.10-Oil pipelines,3321.10,Oil pipelines
+3321.11-Petrochemicals,3321.11,Petrochemicals
+"3321.12-Petroleum products: petrol, oils, waxes",3321.12,"Petroleum products: petrol, oils, waxes"
+3321.13-Refinery's Design,3321.13,Refinery's Design
+3321.14-Storage (oil and gas),3321.14,Storage (oil and gas)
+3321.90-Coals characterization,3321.90,Coals characterization
+3321.99-Other (specify),3321.99,Other (specify)
+3322.01-Power distribution,3322.01,Power distribution
+3322.02-Power generation,3322.02,Power generation
+3322.03-Power generators,3322.03,Power generators
+3322.04-Power transmission ,3322.04,Power transmission 
+3322.05-unconventional sources of energy ,3322.05,unconventional sources of energy 
+3322.99-Other (specify),3322.99,Other (specify)
+3323.01-Locomotives,3323.01,Locomotives
+3323.02-Railroad equipment,3323.02,Railroad equipment
+3323.03-Railway services,3323.03,Railway services
+3323.04-Rapid transit,3323.04,Rapid transit
+3323.05-Rolling stock,3323.05,Rolling stock
+3323.99-Other (specify),3323.99,Other (specify)
+3324.01-Artificial satellites ,3324.01,Artificial satellites 
+3324.02-Missiles: launching and recovery,3324.02,Missiles: launching and recovery
+3324.03-Missile facilities,3324.03,Missile facilities
+3324.04-Rocket engines,3324.04,Rocket engines
+3324.05-Space craft,3324.05,Space craft
+3324.06-Space tracking,3324.06,Space tracking
+3324.07-Vehicle control,3324.07,Vehicle control
+3324.99-Other (specify),3324.99,Other (specify)
+"3325.01-Broadcasting, sound and television ",3325.01,"Broadcasting, sound and television "
+3325.02-Cable television,3325.02,Cable television
+3325.03-Cinematography ,3325.03,Cinematography 
+3325.04-Microwave links ,3325.04,Microwave links 
+3325.05-Radiocommunications ,3325.05,Radiocommunications 
+3325.06-Satellite communications ,3325.06,Satellite communications 
+3325.07-Telegraph,3325.07,Telegraph
+3325.08-Telephone,3325.08,Telephone
+3325.09-Television ,3325.09,Television 
+3325.99-Other (specify),3325.99,Other (specify)
+3326.01-Cotton,3326.01,Cotton
+3326.02-Flax,3326.02,Flax
+3326.03-Jute,3326.03,Jute
+3326.04-Spinning,3326.04,Spinning
+3326.05-Synthetic textiles ,3326.05,Synthetic textiles 
+3326.06-Weaving,3326.06,Weaving
+3326.07-Wool,3326.07,Wool
+3326.99-Other (specify),3326.99,Other (specify)
+"3327.01-Airlines operations, air-traffic control",3327.01,"Airlines operations, air-traffic control"
+3327.02-Traffic analysis ,3327.02,Traffic analysis 
+3327.03-Urban Transit systems ,3327.03,Urban Transit systems 
+3327.04-Combinations of systems,3327.04,Combinations of systems
+3327.99-Other (specify),3327.99,Other (specify)
+3328.01-Absorption,3328.01,Absorption
+3328.02-Agitation,3328.02,Agitation
+3328.03-Centrifugation,3328.03,Centrifugation
+3328.04-Compressing ,3328.04,Compressing 
+3328.05-Crystallisation,3328.05,Crystallisation
+3328.06-Deionisation ,3328.06,Deionisation 
+3328.07-Distillation and condensation ,3328.07,Distillation and condensation 
+3328.08-Drying,3328.08,Drying
+3328.09-Evaporation,3328.09,Evaporation
+3328.10-Filtration,3328.10,Filtration
+3328.11-Flotation ,3328.11,Flotation 
+3328.12-Flow through porous media,3328.12,Flow through porous media
+3328.13-Fluidization of solids,3328.13,Fluidization of solids
+3328.14-Freeze-drying ,3328.14,Freeze-drying 
+3328.15-Handling of solids ,3328.15,Handling of solids 
+3328.16-Heat transfer ,3328.16,Heat transfer 
+3328.17-Liquid-liquid extraction,3328.17,Liquid-liquid extraction
+3328.18-Mass Transfer,3328.18,Mass Transfer
+3328.19-Mixing,3328.19,Mixing
+"3328.20-Pipes, fittings and valves ",3328.20,"Pipes, fittings and valves "
+3328.21-Pumping ,3328.21,Pumping 
+3328.22-Screening,3328.22,Screening
+3328.23-Sedimentation,3328.23,Sedimentation
+3328.24-Size-reduction,3328.24,Size-reduction
+3328.25-Solid-liquid extraction,3328.25,Solid-liquid extraction
+3328.26-Refrigeration ,3328.26,Refrigeration 
+3328.27-Vapor-liquid transfer,3328.27,Vapor-liquid transfer
+3328.99-Other (specify),3328.99,Other (specify)
+3329.01-Building Codes ,3329.01,Building Codes 
+3329.02-Communications,3329.02,Communications
+3329.03-Community organization,3329.03,Community organization
+3329.04-Land Use,3329.04,Land Use
+3329.05-Regional development,3329.05,Regional development
+3329.06-Sanitary services,3329.06,Sanitary services
+3329.07-Transportation ,3329.07,Transportation 
+3329.08-Urban environment,3329.08,Urban environment
+3329.09-Urban-ural relations ,3329.09,Urban-ural relations 
+3329.99-Other (specify),3329.99,Other (specify)
+5101.01-Adornment,5101.01,Adornment
+5101.02-Clothing,5101.02,Clothing
+"5101.03-Dances, feasts ",5101.03,"Dances, feasts "
+5101.04-Ethno-musicology ,5101.04,Ethno-musicology 
+5101.05-Ethnolinguistics,5101.05,Ethnolinguistics
+5101.06-Museology,5101.06,Museology
+5101.07-Myths,5101.07,Myths
+5101.08-Magic,5101.08,Magic
+"5101.09-Poems, stories",5101.09,"Poems, stories"
+5101.10-Religion ,5101.10,Religion 
+5101.11-Sorcery,5101.11,Sorcery
+5101.12-Symbolism ,5101.12,Symbolism 
+5101.13-Traditional medicine ,5101.13,Traditional medicine 
+5101.14-Tradition,5101.14,Tradition
+5101.99-Other (specify),5101.99,Other (specify)
+5102.01-Agriculture,5102.01,Agriculture
+5102.02-Arms,5102.02,Arms
+5102.03-Barter,5102.03,Barter
+5102.04-Exchange,5102.04,Exchange
+5102.05-Habitat,5102.05,Habitat
+5102.06-Handicraft,5102.06,Handicraft
+5102.07-Hunting,5102.07,Hunting
+5102.08-Fishing,5102.08,Fishing
+5102.09-Foraging,5102.09,Foraging
+5102.10-Metallurgy,5102.10,Metallurgy
+5102.11-Stockraising,5102.11,Stockraising
+5102.99-Other (specify),5102.99,Other (specify)
+"5103.01-Chiefdom, royalty",5103.01,"Chiefdom, royalty"
+"5103.02-Descent, family, kinship",5103.02,"Descent, family, kinship"
+5103.03-Nomadism,5103.03,Nomadism
+"5103.04-Slavery, bondage",5103.04,"Slavery, bondage"
+5103.05-War ,5103.05,War 
+5103.99-Other (specify),5103.99,Other (specify)
+5201.01-Birth rate,5201.01,Birth rate
+5201.02-General fertility,5201.02,General fertility
+5201.03-Illegitimacy,5201.03,Illegitimacy
+5201.04-Marriages rate ,5201.04,Marriages rate 
+5201.05-Sterility and fecundity,5201.05,Sterility and fecundity
+5201.99-Other (specify),5201.99,Other (specify)
+5202.01-Methodology of research,5202.01,Methodology of research
+5202.02-Methodology of analysis,5202.02,Methodology of analysis
+5202.03-Theory,5202.03,Theory
+5202.99-Other (specify),5202.99,Other (specify)
+5203.01-Internal mobility and migrations,5203.01,Internal mobility and migrations
+5203.02-International mobility and migrations,5203.02,International mobility and migrations
+5203.03-Local Demography,5203.03,Local Demography
+5203.04-Regional Demography,5203.04,Regional Demography
+5203.05-Rural Demography,5203.05,Rural Demography
+5203.06-Urban Demography,5203.06,Urban Demography
+5203.99-Other (specify),5203.99,Other (specify)
+5204.01-Fertility and marriage rate,5204.01,Fertility and marriage rate
+5204.02-Methodological aspects,5204.02,Methodological aspects
+5204.03-Migration,5204.03,Migration
+5204.04-Mortality,5204.04,Mortality
+5204.05-Sources of observation,5204.05,Sources of observation
+5204.06-Theoretical aspects,5204.06,Theoretical aspects
+5204.99-Other (specify),5204.99,Other (specify)
+5205.01-Causes of mortality,5205.01,Causes of mortality
+5205.02-General mortality,5205.02,General mortality
+5205.03-Infant mortality,5205.03,Infant mortality
+5205.04-prenatal and perinatal mortality,5205.04,prenatal and perinatal mortality
+5205.05-Related variables,5205.05,Related variables
+5205.99-Other (specify),5205.99,Other (specify)
+5206.01-Active population,5206.01,Active population
+5206.02-Age distribution,5206.02,Age distribution
+5206.03-Ageing of the population,5206.03,Ageing of the population
+5206.04-Biological characteristics ,5206.04,Biological characteristics 
+5206.05-Epidemiological characteristics,5206.05,Epidemiological characteristics
+5206.06-General demographic structures,5206.06,General demographic structures
+5206.07-Morbidity,5206.07,Morbidity
+5206.08-Population genetics ,5206.08,Population genetics 
+5206.09-Sex,5206.09,Sex
+5206.10-Socio-economic characteristics,5206.10,Socio-economic characteristics
+5206.99-Other (specify),5206.99,Other (specify)
+5207.01-Computational demography ,5207.01,Computational demography 
+5207.02-Demographic transition,5207.02,Demographic transition
+5207.03-Demographic analysis,5207.03,Demographic analysis
+5207.04-Population censuses and other data collection,5207.04,Population censuses and other data collection
+5207.05-Population estimates,5207.05,Population estimates
+5207.06-Population forecasts,5207.06,Population forecasts
+5207.07-Population growth,5207.07,Population growth
+5207.08-Population models,5207.08,Population models
+5207.09-Population projections,5207.09,Population projections
+5207.10-Statistics of population ,5207.10,Statistics of population 
+5207.99-Other (specify),5207.99,Other (specify)
+5301.01-Fiscal policy and public debt,5301.01,Fiscal policy and public debt
+5301.02-Public finance (budget),5301.02,Public finance (budget)
+5301.99-Other (specify),5301.99,Other (specify)
+5302.01-Economic indicators,5302.01,Economic indicators
+5302.02-Econometric models,5302.02,Econometric models
+5302.03-Economic projection,5302.03,Economic projection
+5302.04-Economic statistics ,5302.04,Economic statistics 
+5302.05-Economic time-series,5302.05,Economic time-series
+5302.99-Other (specify),5302.99,Other (specify)
+5303.01-Financial accounts,5303.01,Financial accounts
+5303.02-National wealth and balance sheets,5303.02,National wealth and balance sheets
+5303.03-National income accounting,5303.03,National income accounting
+5303.04-Input-output,5303.04,Input-output
+5303.05-Social accounts,5303.05,Social accounts
+5303.99-Other (specify),5303.99,Other (specify)
+"5304.01-Consumption, savings, investment",5304.01,"Consumption, savings, investment"
+5304.02-Distribution,5304.02,Distribution
+5304.03-Domestic trade,5304.03,Domestic trade
+5304.04-Foreign trade ,5304.04,Foreign trade 
+5304.05-Insurance,5304.05,Insurance
+5304.06-Money and banking,5304.06,Money and banking
+5304.07-Production,5304.07,Production
+5304.08-Re-distribution,5304.08,Re-distribution
+5304.99-Other (specify),5304.99,Other (specify)
+5305.01-Capitalist economic systems,5305.01,Capitalist economic systems
+5305.02-Collectivist economic systems,5305.02,Collectivist economic systems
+5305.03-Comparative economic systems,5305.03,Comparative economic systems
+5305.04-Socialist economic systems,5305.04,Socialist economic systems
+5305.99-Other (specify),5305.99,Other (specify)
+5306.01-Economics of research and experimental development ,5306.01,Economics of research and experimental development 
+5306.02-Technological innovation,5306.02,Technological innovation
+5306.03-Transfer of technology,5306.03,Transfer of technology
+5306.99-Other (specify),5306.99,Other (specify)
+5307.01-Capital formation,5307.01,Capital formation
+5307.02-Credit theory,5307.02,Credit theory
+5307.03-Economic development models and theories,5307.03,Economic development models and theories
+5307.04-Economic development studies,5307.04,Economic development studies
+5307.05-Economic equilibrium,5307.05,Economic equilibrium
+5307.06-Economic fluctuations,5307.06,Economic fluctuations
+5307.07-economic forecasting,5307.07,economic forecasting
+5307.08-Economic growth theory,5307.08,Economic growth theory
+5307.09-Economic planning theory,5307.09,Economic planning theory
+5307.10-Employment theory and models,5307.10,Employment theory and models
+5307.11-Fiscal theory,5307.11,Fiscal theory
+5307.12-International trade theory ,5307.12,International trade theory 
+5307.13-Investment theory,5307.13,Investment theory
+5307.14-Macro-economic Theory,5307.14,Macro-economic Theory
+5307.15-Micro-economic Theory,5307.15,Micro-economic Theory
+5307.16-Monetary theory,5307.16,Monetary theory
+5307.17-Savings theory,5307.17,Savings theory
+5307.18-Stabilization theories,5307.18,Stabilization theories
+5307.19-Welfare theory,5307.19,Welfare theory
+5307.99-Other (specify),5307.99,Other (specify)
+5308.01-Economic methodology,5308.01,Economic methodology
+5308.02-Consumer Behavior ,5308.02,Consumer Behavior 
+5308.03-History of economic thought ,5308.03,History of economic thought 
+5308.99-Other (specify),5308.99,Other (specify)
+5309.01-Economic concentration,5309.01,Economic concentration
+5309.02-Economic integration,5309.02,Economic integration
+5309.03-Government regulation of the private sector,5309.03,Government regulation of the private sector
+5309.04-Market structure,5309.04,Market structure
+5309.05-Monopoly and competition,5309.05,Monopoly and competition
+5309.06-Public enterprises,5309.06,Public enterprises
+5309.07-Public utilities,5309.07,Public utilities
+5309.99-Other (specify),5309.99,Other (specify)
+5310.01-Balance of payments,5310.01,Balance of payments
+5310.02-Foreign aid,5310.02,Foreign aid
+5310.03-International aid,5310.03,International aid
+5310.04-International business,5310.04,International business
+5310.05-International economic policy,5310.05,International economic policy
+5310.06-International Finance,5310.06,International Finance
+5310.07-International investment,5310.07,International investment
+5310.08-International monetary arrangements,5310.08,International monetary arrangements
+5310.09-International trade relations ,5310.09,International trade relations 
+5310.90-International economy: American area,5310.90,International economy: American area
+5310.91-International economy: European area,5310.91,International economy: European area
+5310.99-Other (specify),5310.99,Other (specify)
+5311.01-Advertising ,5311.01,Advertising 
+5311.02-Financial management,5311.02,Financial management
+5311.03-Industry Studies,5311.03,Industry Studies
+5311.04-Manpower management,5311.04,Manpower management
+5311.05-Marketing,5311.05,Marketing
+5311.06-Market studies,5311.06,Market studies
+5311.07-Operations research,5311.07,Operations research
+5311.08-Optimum production levels,5311.08,Optimum production levels
+5311.09-Organization of production ,5311.09,Organization of production 
+5311.10-Sales management,5311.10,Sales management
+5311.99-Other (specify),5311.99,Other (specify)
+"5312.01-Agriculture, forestry, fishing ",5312.01,"Agriculture, forestry, fishing "
+"5312.02-Community, social and personal services",5312.02,"Community, social and personal services"
+5312.03-Construction ,5312.03,Construction 
+5312.04-Education ,5312.04,Education 
+5312.05-Energy ,5312.05,Energy 
+5312.06-Finance and insurance,5312.06,Finance and insurance
+5312.07-Health,5312.07,Health
+5312.08-Manufacturing,5312.08,Manufacturing
+5312.09-Mining ,5312.09,Mining 
+5312.10-Research and development ,5312.10,Research and development 
+5312.11-Trade and commerce,5312.11,Trade and commerce
+5312.12-Transport and communications ,5312.12,Transport and communications 
+5312.90-Tourism,5312.90,Tourism
+5312.99-Other (specify),5312.99,Other (specify)
+5401.01-Distribution of natural resources,5401.01,Distribution of natural resources
+5401.02-Geography of economic activities,5401.02,Geography of economic activities
+5401.03-Land utilisation ,5401.03,Land utilisation 
+5401.04-Regional development,5401.04,Regional development
+5401.99-Other (specify),5401.99,Other (specify)
+5403.01-Cultural geography,5403.01,Cultural geography
+5403.02-Demo-geography ,5403.02,Demo-geography 
+5403.03-Linguistic geography ,5403.03,Linguistic geography 
+5403.04-Geography of religion ,5403.04,Geography of religion 
+5403.05-Political geography,5403.05,Political geography
+5403.06-Social geography,5403.06,Social geography
+5403.99-Other (specify),5403.99,Other (specify)
+5404.01-Urban geography,5404.01,Urban geography
+5404.02-Rural geography,5404.02,Rural geography
+5404.99-Other (specify),5404.99,Other (specify)
+5502.01-Comparative History,5502.01,Comparative History
+5502.02-Historiography,5502.02,Historiography
+5502.03-Historical monographs,5502.03,Historical monographs
+5502.04-Theories and methods,5502.04,Theories and methods
+5502.99-Other (specify),5502.99,Other (specify)
+5503.01-Local history,5503.01,Local history
+5503.02-Regional history,5503.02,Regional history
+5503.99-Other (specify),5503.99,Other (specify)
+5504.01-Ancient history,5504.01,Ancient history
+5504.02-Contemporary history,5504.02,Contemporary history
+5504.03-Medieval history,5504.03,Medieval history
+5504.04-Modern history,5504.04,Modern history
+5504.05-Prehistory,5504.05,Prehistory
+5504.99-Other (specify),5504.99,Other (specify)
+5505.01-Archaeology,5505.01,Archaeology
+5505.02-Ceramology,5505.02,Ceramology
+5505.03-Epigraphy,5505.03,Epigraphy
+5505.04-Heraldry,5505.04,Heraldry
+5505.05-Iconography,5505.05,Iconography
+5505.06-Numismatics,5505.06,Numismatics
+5505.07-Onomastics,5505.07,Onomastics
+5505.08-Paleography,5505.08,Paleography
+5505.09-Papyrology,5505.09,Papyrology
+5505.10-Philology ,5505.10,Philology 
+5505.11-Sigillography,5505.11,Sigillography
+5505.12-Stratigraphy ,5505.12,Stratigraphy 
+5505.99-Other (specify),5505.99,Other (specify)
+5506.01-History of architecture,5506.01,History of architecture
+5506.02-History of art,5506.02,History of art
+5506.03-History of astronomy,5506.03,History of astronomy
+5506.04-History of biology,5506.04,History of biology
+5506.05-History of chemistry,5506.05,History of chemistry
+5506.06-History of economics ,5506.06,History of economics 
+5506.07-History of education,5506.07,History of education
+5506.08-History of geography,5506.08,History of geography
+5506.09-History of geology,5506.09,History of geology
+5506.10-History of international relations,5506.10,History of international relations
+5506.11-History of journalism,5506.11,History of journalism
+5506.12-History of law and legal institutions,5506.12,History of law and legal institutions
+5506.13-History of Literature,5506.13,History of Literature
+5506.14-History of linguistics ,5506.14,History of linguistics 
+5506.15-History of logic,5506.15,History of logic
+5506.16-History of the magistrature,5506.16,History of the magistrature
+5506.17-History of medicine,5506.17,History of medicine
+5506.18-History of philosophy ,5506.18,History of philosophy 
+5506.19-History of physics,5506.19,History of physics
+5506.20-History of political ideas,5506.20,History of political ideas
+5506.21-History of religions ,5506.21,History of religions 
+5506.22-History of science,5506.22,History of science
+5506.23-History of sociology ,5506.23,History of sociology 
+5506.24-History of technology,5506.24,History of technology
+5506.25-History of war ,5506.25,History of war 
+5506.90-History of botany,5506.90,History of botany
+5506.99-Other (specify),5506.99,Other (specify)
+5602.01-Common law,5602.01,Common law
+5602.02-Comparative law,5602.02,Comparative law
+5602.03-Jurisprudence,5602.03,Jurisprudence
+5602.04-Law of antiquity,5602.04,Law of antiquity
+5602.05-Natural law,5602.05,Natural law
+5602.06-Statute law,5602.06,Statute law
+5602.99-Other (specify),5602.99,Other (specify)
+5603.01-Aviation law,5603.01,Aviation law
+5603.02-Maritime law,5603.02,Maritime law
+5603.03-Outer-space law ,5603.03,Outer-space law 
+5603.04-Sea-bed law ,5603.04,Sea-bed law 
+5603.99-Other (specify),5603.99,Other (specify)
+5604.01-Court officials and procedures,5604.01,Court officials and procedures
+5604.02-Magistrature,5604.02,Magistrature
+5604.03-Tribunals,5604.03,Tribunals
+5604.99-Other (specify),5604.99,Other (specify)
+5605.01-Administrative law,5605.01,Administrative law
+5605.02-Civil law,5605.02,Civil law
+5605.03-Commercial law,5605.03,Commercial law
+5605.04-Constitutional law,5605.04,Constitutional law
+5605.05-Criminal law,5605.05,Criminal law
+5605.06-Fiscal law,5605.06,Fiscal law
+5605.07-Public legislation,5605.07,Public legislation
+5605.08-Private law,5605.08,Private law
+5605.99-Other (specify),5605.99,Other (specify)
+5701.01-Abstracting,5701.01,Abstracting
+5701.02-Automated documentation,5701.02,Automated documentation
+5701.03-Bilingualism,5701.03,Bilingualism
+5701.04-Computational linguistics ,5701.04,Computational linguistics 
+5701.05-Documentary languages,5701.05,Documentary languages
+5701.06-Documentation,5701.06,Documentation
+5701.07-Language and literature,5701.07,Language and literature
+5701.08-Language of children,5701.08,Language of children
+5701.09-Machine translation,5701.09,Machine translation
+5701.10-Speech pathology and correction ,5701.10,Speech pathology and correction 
+5701.11-Teaching of languages,5701.11,Teaching of languages
+5701.12-Translation,5701.12,Translation
+5701.99-Other (specify),5701.99,Other (specify)
+5702.01-Historical linguistics ,5702.01,Historical linguistics 
+5702.02-Etymology,5702.02,Etymology
+5702.99-Other (specify),5702.99,Other (specify)
+5705.01-Comparative linguistics,5705.01,Comparative linguistics
+5705.02-Ethnolinguistics,5705.02,Ethnolinguistics
+5705.03-Lexicography,5705.03,Lexicography
+5705.04-Lexicology,5705.04,Lexicology
+5705.05-Phonetics,5705.05,Phonetics
+5705.06-Phonology ,5705.06,Phonology 
+5705.07-Psycholinguistics ,5705.07,Psycholinguistics 
+5705.08-Semantics,5705.08,Semantics
+5705.09-Semiology,5705.09,Semiology
+5705.10-Sociolinguistics ,5705.10,Sociolinguistics 
+5705.11-Spelling,5705.11,Spelling
+5705.12-Stylistics (style and rhetoric) ,5705.12,Stylistics (style and rhetoric) 
+"5705.13-Syntax, syntactic analysis",5705.13,"Syntax, syntactic analysis"
+5705.99-Other (specify),5705.99,Other (specify)
+5801.01-Audio-visual methods,5801.01,Audio-visual methods
+5801.02-Comparative pedagogy,5801.02,Comparative pedagogy
+5801.03-Curriculum development,5801.03,Curriculum development
+5801.04-Educational theories ,5801.04,Educational theories 
+5801.05-Experimental pedagogy,5801.05,Experimental pedagogy
+5801.06-Pupil and student assessment,5801.06,Pupil and student assessment
+5801.07-Pedagogical methods ,5801.07,Pedagogical methods 
+5801.08-Programmed instruction,5801.08,Programmed instruction
+5801.99-Other (specify),5801.99,Other (specify)
+5802.01-Adult Education,5802.01,Adult Education
+5802.02-Educational institutions; organization and management,5802.02,Educational institutions; organization and management
+5802.03-Educational planning and financing ,5802.03,Educational planning and financing 
+5802.04-Levels and subjects of education,5802.04,Levels and subjects of education
+"5802.05-Special Education: handicapped, mentally retarded ",5802.05,"Special Education: handicapped, mentally retarded "
+"5802.06-Statistical analysis, modelling and projection ",5802.06,"Statistical analysis, modelling and projection "
+5802.07-Vocational education and training,5802.07,Vocational education and training
+5802.99-Other (specify),5802.99,Other (specify)
+5803.01-Career and status of teachers,5803.01,Career and status of teachers
+5803.02-Training of teachers,5803.02,Training of teachers
+5803.99-Other (specify),5803.99,Other (specify)
+5901.01-International co-operation,5901.01,International co-operation
+5901.02-International organizations,5901.02,International organizations
+5901.03-International politics,5901.03,International politics
+5901.04-International treaties and agreements,5901.04,International treaties and agreements
+5901.05-Problems of international relations ,5901.05,Problems of international relations 
+5901.99-Other (specify),5901.99,Other (specify)
+5902.01-Agricultural policy,5902.01,Agricultural policy
+5902.02-Cultural policy,5902.02,Cultural policy
+5902.03-Commercial policy,5902.03,Commercial policy
+5902.04-Communications policy,5902.04,Communications policy
+5902.05-Demographic policy,5902.05,Demographic policy
+5902.06-Economic policy,5902.06,Economic policy
+5902.07-Educational policy,5902.07,Educational policy
+5902.08-Environmental policy,5902.08,Environmental policy
+5902.09-Foreign policy,5902.09,Foreign policy
+5902.10-Health policy,5902.10,Health policy
+5902.11-Industrial policy,5902.11,Industrial policy
+5902.12-Information policy,5902.12,Information policy
+5902.13-Policy planning,5902.13,Policy planning
+5902.14-Science and technology policy,5902.14,Science and technology policy
+5902.15-Social policy,5902.15,Social policy
+5902.16-Transport policy,5902.16,Transport policy
+5902.99-Other (specify),5902.99,Other (specify)
+5904.01-Executive power,5904.01,Executive power
+5904.02-Judiciary power,5904.02,Judiciary power
+5904.03-Legislative power,5904.03,Legislative power
+5904.04-Relations between the powers,5904.04,Relations between the powers
+5904.99-Other (specify),5904.99,Other (specify)
+5905.01-Elections,5905.01,Elections
+5905.02-Political behavior,5905.02,Political behavior
+5905.03-political groups,5905.03,political groups
+5905.04-Political leadership,5905.04,Political leadership
+5905.05-political movements,5905.05,political movements
+5905.06-Political parties,5905.06,Political parties
+5905.99-Other (specify),5905.99,Other (specify)
+5906.01-Human rights,5906.01,Human rights
+5906.02-Languages,5906.02,Languages
+5906.03-Minorities,5906.03,Minorities
+5906.04-Race ,5906.04,Race 
+5906.05-Religion ,5906.05,Religion 
+5906.06-Social conflicts ,5906.06,Social conflicts 
+5906.99-Other (specify),5906.99,Other (specify)
+5907.90-Political systems: American Area,5907.90,Political systems: American Area
+5909.01-Administrative management,5909.01,Administrative management
+5909.02-Central institutions,5909.02,Central institutions
+5909.03-Civil service,5909.03,Civil service
+5909.04-Public services,5909.04,Public services
+5909.05-Regional institutions,5909.05,Regional institutions
+5909.99-Other (specify),5909.99,Other (specify)
+5910.01-Information,5910.01,Information
+5910.02-Mass media,5910.02,Mass media
+5910.03-Press ,5910.03,Press 
+5910.04-Propaganda,5910.04,Propaganda
+5910.99-Other (specify),5910.99,Other (specify)
+6101.01-Behaviour disorders,6101.01,Behaviour disorders
+6101.02-Deviant behavior,6101.02,Deviant behavior
+6101.03-Mental deficiency,6101.03,Mental deficiency
+6101.04-Psychopathology ,6101.04,Psychopathology 
+6101.99-Other (specify),6101.99,Other (specify)
+6102.01-Development psychology,6102.01,Development psychology
+6102.02-Learning disabilities,6102.02,Learning disabilities
+6102.03-Mental retardation ,6102.03,Mental retardation 
+6102.04-School psychology,6102.04,School psychology
+6102.05-Speech pathology ,6102.05,Speech pathology 
+6102.99-Other (specify),6102.99,Other (specify)
+6103.01-Behavior therapy,6103.01,Behavior therapy
+6103.02-Consulting psycholgy,6103.02,Consulting psycholgy
+6103.03-Educational counselling and guidance,6103.03,Educational counselling and guidance
+6103.04-Group therapy,6103.04,Group therapy
+6103.05-Mental retardation ,6103.05,Mental retardation 
+6103.06-Psychoanalysis ,6103.06,Psychoanalysis 
+6103.07-Psychotherapy ,6103.07,Psychotherapy 
+6103.08-Rehabilitation,6103.08,Rehabilitation
+6103.09-Vocational guidance,6103.09,Vocational guidance
+6103.99-Other (specify),6103.99,Other (specify)
+6104.01-Cognitive functioning,6104.01,Cognitive functioning
+6104.02-Educational methods,6104.02,Educational methods
+6104.03-Laws of learning ,6104.03,Laws of learning 
+6104.04-Psycholinguistics ,6104.04,Psycholinguistics 
+6104.99-Other (specify),6104.99,Other (specify)
+6105.01-Differential psychology,6105.01,Differential psychology
+6105.02-Experimental design,6105.02,Experimental design
+6105.03-Measurement theory,6105.03,Measurement theory
+6105.04-Statistics ,6105.04,Statistics 
+6105.05-Psychometrics,6105.05,Psychometrics
+6105.06-Scale analysis,6105.06,Scale analysis
+6105.07-Test construction,6105.07,Test construction
+6105.08-Tests theory,6105.08,Tests theory
+6105.09-Test validation,6105.09,Test validation
+6105.99-Other (specify),6105.99,Other (specify)
+6106.01-Brain function,6106.01,Brain function
+6106.02-Comparative psychology,6106.02,Comparative psychology
+6106.03-Emotion,6106.03,Emotion
+6106.04-Experimental analysis of behavior,6106.04,Experimental analysis of behavior
+6106.05-Levels of function,6106.05,Levels of function
+6106.06-Memory processes,6106.06,Memory processes
+6106.07-Mental processes,6106.07,Mental processes
+6106.08-Motivation,6106.08,Motivation
+6106.09-Perception processes,6106.09,Perception processes
+6106.10-Physiological psychology,6106.10,Physiological psychology
+"6106.11-Reaction, reflexes",6106.11,"Reaction, reflexes"
+6106.12-Sensory Processes,6106.12,Sensory Processes
+6106.99-Other (specify),6106.99,Other (specify)
+6107.01-Methodology,6107.01,Methodology
+6107.02-Theory and systems,6107.02,Theory and systems
+6107.99-Other (specify),6107.99,Other (specify)
+6108.01-Death,6108.01,Death
+6108.02-Maturity,6108.02,Maturity
+6108.03-Senescence,6108.03,Senescence
+6108.99-Other (specify),6108.99,Other (specify)
+6109.01-Accident prevention,6109.01,Accident prevention
+6109.02-Attitudes and morale,6109.02,Attitudes and morale
+6109.03-Job design and evaluation,6109.03,Job design and evaluation
+6109.04-Labour/management realtions,6109.04,Labour/management realtions
+6109.05-Organizational behaviour,6109.05,Organizational behaviour
+6109.06-Personnel selection,6109.06,Personnel selection
+6109.07-Performance evaluation,6109.07,Performance evaluation
+6109.99-Other (specify),6109.99,Other (specify)
+6110.01-Extra-sensory perception,6110.01,Extra-sensory perception
+6110.02-Hypnosis,6110.02,Hypnosis
+6110.99-Other (specify),6110.99,Other (specify)
+6111.01-Creativity,6111.01,Creativity
+6111.02-Culture and personality,6111.02,Culture and personality
+6111.03-Personality development,6111.03,Personality development
+6111.04-Measurement of personality,6111.04,Measurement of personality
+6111.05-Structure and dynamics of personality,6111.05,Structure and dynamics of personality
+6111.06-Theory of personality,6111.06,Theory of personality
+6111.99-Other (specify),6111.99,Other (specify)
+6112.01-Discrimination,6112.01,Discrimination
+6112.02-Minority group phenomena,6112.02,Minority group phenomena
+6112.03-Public policy ,6112.03,Public policy 
+6112.99-Other (specify),6112.99,Other (specify)
+6113.01-Alcoholism ,6113.01,Alcoholism 
+6113.02-Behavioral response,6113.02,Behavioral response
+6113.03-Drug abuse,6113.03,Drug abuse
+6113.04-Drug function ,6113.04,Drug function 
+6113.05-Drug therapy,6113.05,Drug therapy
+6113.99-Other (specify),6113.99,Other (specify)
+6114.01-Advertising ,6114.01,Advertising 
+6114.02-Attitudes,6114.02,Attitudes
+6114.03-Collective behavior,6114.03,Collective behavior
+6114.04-Community psychology,6114.04,Community psychology
+6114.05-Conflict resolution ,6114.05,Conflict resolution 
+6114.06-Consumer behavior ,6114.06,Consumer behavior 
+6114.07-Culture and personality,6114.07,Culture and personality
+6114.08-Decision processes and theory,6114.08,Decision processes and theory
+6114.09-Forensic psychology ,6114.09,Forensic psychology 
+6114.10-Group interaction,6114.10,Group interaction
+6114.11-Group processes,6114.11,Group processes
+6114.12-Leadership,6114.12,Leadership
+6114.13-Marketing,6114.13,Marketing
+6114.14-Political behavior,6114.14,Political behavior
+6114.15-Public opinion ,6114.15,Public opinion 
+6114.16-Role behaviour,6114.16,Role behaviour
+6114.17-Social perceptions and movements,6114.17,Social perceptions and movements
+6114.18-Symbolic communication,6114.18,Symbolic communication
+6114.99-Other (specify),6114.99,Other (specify)
+6201.01-Architectural design ,6201.01,Architectural design 
+6201.02-Parks and gardens,6201.02,Parks and gardens
+6201.03-Urbanism ,6201.03,Urbanism 
+6201.99-Other (specify),6201.99,Other (specify)
+6202.01-Criticism of texts,6202.01,Criticism of texts
+6202.02-Literary analysis,6202.02,Literary analysis
+6202.03-Literary style and aesthetics ,6202.03,Literary style and aesthetics 
+6202.04-Literary vocabulary,6202.04,Literary vocabulary
+6202.05-Rhetoric ,6202.05,Rhetoric 
+6202.99-Other (specify),6202.99,Other (specify)
+6203.01-Cinematography ,6203.01,Cinematography 
+"6203.02-Dance, choreography ",6203.02,"Dance, choreography "
+6203.03-Decorative arts,6203.03,Decorative arts
+"6203.04-Drawing, engraving",6203.04,"Drawing, engraving"
+6203.05-Fine art aesthetics,6203.05,Fine art aesthetics
+"6203.06-Music, musicology ",6203.06,"Music, musicology "
+6203.07-Painting,6203.07,Painting
+6203.08-Photography ,6203.08,Photography 
+6203.09-Sculpture,6203.09,Sculpture
+6203.10-Theatre,6203.10,Theatre
+6203.99-Other (specify),6203.99,Other (specify)
+6301.01-Cultural evolution,6301.01,Cultural evolution
+6301.02-Cultural relations,6301.02,Cultural relations
+6301.03-Folklore,6301.03,Folklore
+6301.04-Inter-ethnic relations,6301.04,Inter-ethnic relations
+6301.05-Language and Culture,6301.05,Language and Culture
+6301.06-National character and civilisation,6301.06,National character and civilisation
+6301.07-Sociology of art,6301.07,Sociology of art
+6301.08-Sociology of law ,6301.08,Sociology of law 
+6301.09-Sociology of literature,6301.09,Sociology of literature
+6301.10-Sociology of religion ,6301.10,Sociology of religion 
+6301.99-Other (specify),6301.99,Other (specify)
+6302.01-Field data collection,6302.01,Field data collection
+6302.02-Social psychology ,6302.02,Social psychology 
+6302.03-Social survey design,6302.03,Social survey design
+6302.04-Social survey methods,6302.04,Social survey methods
+6302.99-Other (specify),6302.99,Other (specify)
+6303.01-Comparative sociology,6303.01,Comparative sociology
+6303.02-Historical sociology ,6303.02,Historical sociology 
+6303.03-Methodology,6303.03,Methodology
+6303.04-Sociography,6303.04,Sociography
+6303.05-Theory,6303.05,Theory
+6303.99-Other (specify),6303.99,Other (specify)
+6304.01-Conflicts,6304.01,Conflicts
+6304.02-Conflicts resolution ,6304.02,Conflicts resolution 
+6304.03-War and peace ,6304.03,War and peace 
+6304.99-Other (specify),6304.99,Other (specify)
+6305.01-Measure and index construction,6305.01,Measure and index construction
+6305.02-Model building,6305.02,Model building
+6305.03-Statistical analysis ,6305.03,Statistical analysis 
+6305.99-Other (specify),6305.99,Other (specify)
+6306.01-Bureaucracy,6306.01,Bureaucracy
+6306.02-Educational sociology ,6306.02,Educational sociology 
+6306.03-Industrial sociology,6306.03,Industrial sociology
+6306.04-Medical sociology,6306.04,Medical sociology
+6306.05-Sociology of education ,6306.05,Sociology of education 
+6306.06-Sociology of law ,6306.06,Sociology of law 
+6306.07-Sociology of mass-media,6306.07,Sociology of mass-media
+6306.08-Sociology of science ,6306.08,Sociology of science 
+6306.99-Other (specify),6306.99,Other (specify)
+6307.01-Evolution of societies,6307.01,Evolution of societies
+6307.02-Developing countries,6307.02,Developing countries
+6307.03-Social policy,6307.03,Social policy
+6307.04-Social security,6307.04,Social security
+6307.05-Social services,6307.05,Social services
+6307.06-socio-economic development,6307.06,socio-economic development
+6307.07-Technology and social change ,6307.07,Technology and social change 
+6307.99-Other (specify),6307.99,Other (specify)
+6308.01-Signs,6308.01,Signs
+6308.02-Sociolinguistics ,6308.02,Sociolinguistics 
+6308.03-Symbols ,6308.03,Symbols 
+6308.99-Other (specify),6308.99,Other (specify)
+6309.01-Casts,6309.01,Casts
+6309.02-Elites,6309.02,Elites
+"6309.03-Family, kinship",6309.03,"Family, kinship"
+6309.04-Marriage ,6309.04,Marriage 
+6309.05-Social classes,6309.05,Social classes
+6309.06-Social mobility,6309.06,Social mobility
+6309.07-Social stratification,6309.07,Social stratification
+6309.08-Tribes,6309.08,Tribes
+6309.09-Woman's status,6309.09,Woman's status
+6309.99-Other (specify),6309.99,Other (specify)
+6310.01-Crime,6310.01,Crime
+6310.02-Delinquency,6310.02,Delinquency
+6310.03-Disease,6310.03,Disease
+6310.04-Famine,6310.04,Famine
+6310.05-Handicapped,6310.05,Handicapped
+6310.06-Inter-racial relations ,6310.06,Inter-racial relations 
+6310.07-Maladjusted,6310.07,Maladjusted
+6310.08-Poverty,6310.08,Poverty
+6310.09-Quality of life,6310.09,Quality of life
+6310.10-Social conflict and accommondation ,6310.10,Social conflict and accommondation 
+6310.11-Social welfare,6310.11,Social welfare
+6310.12-Standard of living,6310.12,Standard of living
+6310.13-Terrorism,6310.13,Terrorism
+6310.14-Unemployment,6310.14,Unemployment
+6310.99-Other (specify),6310.99,Other (specify)
+6311.01-Community studies,6311.01,Community studies
+6311.02-Ecological sociology,6311.02,Ecological sociology
+6311.03-Local sociology,6311.03,Local sociology
+6311.04-Rural sociology ,6311.04,Rural sociology 
+6311.05-Slums,6311.05,Slums
+6311.06-Urban sociology ,6311.06,Urban sociology 
+6311.99-Other (specify),6311.99,Other (specify)
+7102.01-Codes of values,7102.01,Codes of values
+7102.02-Codes of ethical conduct,7102.02,Codes of ethical conduct
+7102.03-Motivation,7102.03,Motivation
+7102.04-Philosophical ethics,7102.04,Philosophical ethics
+7102.05-Religious ethics ,7102.05,Religious ethics 
+7102.99-Other (specify),7102.99,Other (specify)
+7103.01-International Declarations,7103.01,International Declarations
+7103.02-National ethics,7103.02,National ethics
+7103.03-Economic ethics,7103.03,Economic ethics
+7103.04-Ethics of science ,7103.04,Ethics of science 
+7103.05-Transnational ethics ,7103.05,Transnational ethics 
+7103.99-Other (specify),7103.99,Other (specify)
+7201.01-Aporetics,7201.01,Aporetics
+7201.02-Epistemology,7201.02,Epistemology
+7201.03-Theory of concept,7201.03,Theory of concept
+7201.04-Theory of judgement,7201.04,Theory of judgement
+7201.05-Theory of perception,7201.05,Theory of perception
+7201.06-Theory of reason,7201.06,Theory of reason
+7201.99-Other (specify),7201.99,Other (specify)
+7202.01-Esthetics,7202.01,Esthetics
+7202.02-Hermeneutics,7202.02,Hermeneutics
+7202.03-Mind-body problem,7202.03,Mind-body problem
+7202.04-Philosophy of action,7202.04,Philosophy of action
+7202.05-Philosophy of imagination,7202.05,Philosophy of imagination
+7202.06-Philosophy of intersubjectivity,7202.06,Philosophy of intersubjectivity
+7202.07-Philosophy of language,7202.07,Philosophy of language
+7202.08-Philosophy of will,7202.08,Philosophy of will
+7202.99-Other (specify),7202.99,Other (specify)
+7203.01-Dialectical logic,7203.01,Dialectical logic
+7203.02-Dialectical materialism,7203.02,Dialectical materialism
+"7203.03-Metaphysics, ontology",7203.03,"Metaphysics, ontology"
+7203.04-Natural theology,7203.04,Natural theology
+7203.99-Other (specify),7203.99,Other (specify)
+7204.01-Ancient philosophy,7204.01,Ancient philosophy
+7204.02-Modern philosophy,7204.02,Modern philosophy
+7204.03-Present-day philosophy,7204.03,Present-day philosophy
+7204.04-Theologico-philosophical systems ,7204.04,Theologico-philosophical systems 
+7204.99-Other (specify),7204.99,Other (specify)
+7205.01-Philosophy of biology,7205.01,Philosophy of biology
+7205.02-Philosophy of logic,7205.02,Philosophy of logic
+7205.03-Philosophy of mathematics,7205.03,Philosophy of mathematics
+7205.04-Philosophy of physics,7205.04,Philosophy of physics
+7205.05-Philosophy of social sciences,7205.05,Philosophy of social sciences
+7205.99-Other (specify),7205.99,Other (specify)
+7206.01-Philosophy of life,7206.01,Philosophy of life
+7206.02-Philosophy of matter,7206.02,Philosophy of matter
+7206.03-Philosophy of space and time,7206.03,Philosophy of space and time
+7206.99-Other (specify),7206.99,Other (specify)
+7207.01-Philosophy of culture,7207.01,Philosophy of culture
+7207.02-Philosophy of history ,7207.02,Philosophy of history 
+7207.03-Philosophy of techniques,7207.03,Philosophy of techniques
+7207.04-Political philosophy ,7207.04,Political philosophy 
+7207.05-Theory of ideologies ,7207.05,Theory of ideologies 
+7207.99-Other (specify),7207.99,Other (specify)

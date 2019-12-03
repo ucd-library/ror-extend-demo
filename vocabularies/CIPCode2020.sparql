@@ -1,0 +1,94 @@
+BASE <https://ror.org/vocablaries/CIPCode2020>
+PREFIX cip: <https://ror.org/vocablaries/CIPCode2020/>
+PREFIX schema: <http://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+CONSTRUCT {
+  cip:00 a skos:ConceptScheme;
+           skos:prefLabel ?l ;
+  skos:notation ?n ;
+  schema:description ?d;
+   .
+ }
+ FROM <file:CIPCode2020.csv>
+ WHERE {
+   BIND (STRLANG("Classification of Instructional Programs", "en") AS ?l)
+   BIND (00 as ?n)
+   BIND (STRLANG("The vast majority of CIP titles correspond to academic and occupational instructional programs offered for credit at the postsecondary level. These programs result in recognized completion points and awards, including degrees, certificates, and other formal awards.", "en") AS ?d)
+   FILTER(?CIPCode="01")
+ }
+
+CONSTRUCT {
+  cip:00 skos:hasTopConcept ?URI ;
+   .
+ }
+ FROM <file:CIPCode2020.csv>
+ WHERE {
+   BIND(URI(CONCAT('https://ror.org/vocablaries/CIPCode2020/',?CIPCode)) as ?URI)
+   FILTER(strlen(?CIPCode)=2)
+ }
+
+CONSTRUCT {
+ ?URI a skos:Concept;
+      skos:prefLabel ?l ;
+  skos:notation ?n ;
+  schema:description ?d;
+   .
+ }
+ FROM <file:CIPCode2020.csv>
+ WHERE {
+   BIND(URI(CONCAT('https://ror.org/vocablaries/CIPCode2020/',?CIPCode)) as ?URI)
+   BIND(?CIPCode as ?n)
+   BIND (STRLANG(?CIPTitle, "en") AS ?l)
+   BIND (STRLANG(?CIPDefinition, "en") AS ?d)
+   FILTER(strlen(?CIPCode)=2)
+ }
+
+CONSTRUCT {
+  $f skos:narrower ?s ;
+   .
+ }
+ FROM <file:CIPCode2020.csv>
+ WHERE {
+   BIND(URI(CONCAT('https://ror.org/vocablaries/CIPCode2020/',replace(?CIPCode,'[.]?..$',""))) as ?f)
+   BIND(URI(CONCAT('https://ror.org/vocablaries/CIPCode2020/',?CIPCode)) as ?s)
+   FILTER(strlen(?CIPCode)>2)
+ }
+
+
+CONSTRUCT {
+ ?URI a skos:Concept;
+      skos:prefLabel ?l ;
+  skos:notation ?n ;
+  skos:broader ?p;
+  schema:description ?d;
+   .
+ }
+ FROM <file:CIPCode2020.csv>
+ WHERE {
+   BIND(URI(CONCAT('https://ror.org/vocablaries/CIPCode2020/',?CIPCode)) as ?URI)
+   BIND(URI(CONCAT('https://ror.org/vocablaries/CIPCode2020/',?CIPFamily)) as ?p)
+   BIND(?CIPCode as ?n)
+   BIND (STRLANG(?CIPTitle, "en") AS ?l)
+   BIND (STRLANG(?CIPDefinition, "en") AS ?d)
+   FILTER(strlen(?CIPCode)=5)
+ }
+
+CONSTRUCT {
+ ?URI a skos:Concept;
+      skos:prefLabel ?l ;
+  skos:notation ?n ;
+  skos:broader ?p;
+  schema:description ?d;
+   .
+ }
+ FROM <file:CIPCode2020.csv>
+ WHERE {
+   BIND(URI(CONCAT('https://ror.org/vocablaries/CIPCode2020/',?CIPCode)) as ?URI)
+   BIND(URI(CONCAT('https://ror.org/vocablaries/CIPCode2020/',replace(?CIPCode,"..$",""))) as ?p)
+   BIND(?CIPCode as ?n)
+   BIND (STRLANG(?CIPTitle, "en") AS ?l)
+   BIND (STRLANG(?CIPDefinition, "en") AS ?d)
+   FILTER(strlen(?CIPCode)=7)
+ }
