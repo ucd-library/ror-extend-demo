@@ -19,5 +19,10 @@ riot=/home/quinn/apache-jena-3.9.0/bin/riot
 ( ${tarql} orgs.sparql;${tarql} parents.sparql )  | ${riot} --syntax=ttl --formatted=ttl --base='z:'
 
 #+END_SRC
+ucd=https://ror.org/05rrcem69
+echo "BASE <$ucd>";
+(${tarql} orgs.sparql;${tarql} parents.sparql ) |\
+ ${riot} --syntax=ttl --formatted=ttl --base="${ucd}" |\
+ sed -e 's|${ucd}||g'
 
 #+RESULTS:

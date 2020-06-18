@@ -21,6 +21,7 @@ cip:00  rdf:type            skos:ConceptScheme ;
         skos:hasTopConcept  cip:15 ;
         skos:hasTopConcept  cip:16 ;
         skos:hasTopConcept  cip:19 ;
+        skos:hasTopConcept  cip:21 ;
         skos:hasTopConcept  cip:22 ;
         skos:hasTopConcept  cip:23 ;
         skos:hasTopConcept  cip:24 ;
@@ -54,6 +55,7 @@ cip:00  rdf:type            skos:ConceptScheme ;
         skos:hasTopConcept  cip:52 ;
         skos:hasTopConcept  cip:53 ;
         skos:hasTopConcept  cip:54 ;
+        skos:hasTopConcept  cip:55 ;
         skos:hasTopConcept  cip:60 ;
         skos:hasTopConcept  cip:61 .
 
@@ -121,6 +123,11 @@ cip:19  rdf:type            skos:Concept ;
         skos:prefLabel      "FAMILY AND CONSUMER SCIENCES/HUMAN SCIENCES."@en ;
         skos:notation       "19" ;
         schema:description  "Instructional programs that focus on the human interface with the physical, social, emotional, and intellectual environments and the developmental stages and needs of individuals in the interrelated spheres of family, workplace, and community."@en .
+
+cip:21  rdf:type            skos:Concept ;
+        skos:prefLabel      "RESERVED."@en ;
+        skos:notation       "21" ;
+        schema:description  "Reserved for use by Statistics Canada. These CIP codes are not valid for IPEDS reporting."@en .
 
 cip:22  rdf:type            skos:Concept ;
         skos:prefLabel      "LEGAL PROFESSIONS AND STUDIES."@en ;
@@ -287,6 +294,11 @@ cip:54  rdf:type            skos:Concept ;
         skos:notation       "54" ;
         schema:description  "Instructional programs that focus on the study and interpretation of past events, institutions, issues, and cultures."@en .
 
+cip:55  rdf:type            skos:Concept ;
+        skos:prefLabel      "RESERVED."@en ;
+        skos:notation       "55" ;
+        schema:description  "Reserved for use by Statistics Canada. These CIP codes are not valid for IPEDS reporting."@en .
+
 cip:60  rdf:type            skos:Concept ;
         skos:prefLabel      "HEALTH PROFESSIONS RESIDENCY/FELLOWSHIP PROGRAMS."@en ;
         skos:notation       "60" ;
@@ -334,7 +346,8 @@ cip:01.03  skos:narrower  cip:01.0301 ;
 
 cip:01  skos:narrower  cip:01.04 .
 
-cip:01.04  skos:narrower  cip:01.0401 .
+cip:01.04  skos:narrower  cip:01.0401 ;
+        skos:narrower  cip:01.0480 .
 
 cip:01  skos:narrower  cip:01.05 .
 
@@ -356,6 +369,7 @@ cip:01.06  skos:narrower  cip:01.0601 ;
         skos:narrower  cip:01.0608 ;
         skos:narrower  cip:01.0609 ;
         skos:narrower  cip:01.0610 ;
+        skos:narrower  cip:01.0680 ;
         skos:narrower  cip:01.0699 .
 
 cip:01  skos:narrower  cip:01.07 .
@@ -396,6 +410,7 @@ cip:01.11  skos:narrower  cip:01.1101 ;
         skos:narrower  cip:01.1104 ;
         skos:narrower  cip:01.1105 ;
         skos:narrower  cip:01.1106 ;
+        skos:narrower  cip:01.1180 ;
         skos:narrower  cip:01.1199 .
 
 cip:01  skos:narrower  cip:01.12 .
@@ -771,6 +786,7 @@ cip:12.05  skos:narrower  cip:12.0500 ;
         skos:narrower  cip:12.0508 ;
         skos:narrower  cip:12.0509 ;
         skos:narrower  cip:12.0510 ;
+        skos:narrower  cip:12.0580 ;
         skos:narrower  cip:12.0599 .
 
 cip:12  skos:narrower  cip:12.06 .
@@ -1388,7 +1404,9 @@ cip:16.16  skos:narrower  cip:16.1601 ;
 
 cip:16  skos:narrower  cip:16.17 .
 
-cip:16.17  skos:narrower  cip:16.1701 .
+cip:16.17  skos:narrower  cip:16.1701 ;
+        skos:narrower  cip:16.1702 ;
+        skos:narrower  cip:16.1799 .
 
 cip:16  skos:narrower  cip:16.18 .
 
@@ -1464,6 +1482,10 @@ cip:19.10  skos:narrower  cip:19.1001 .
 cip:19  skos:narrower  cip:19.99 .
 
 cip:19.99  skos:narrower  cip:19.9999 .
+
+cip:21  skos:narrower  cip:21.01 .
+
+cip:21.01  skos:narrower  cip:21.0101 .
 
 cip:22  skos:narrower  cip:22.00 .
 
@@ -1774,6 +1796,10 @@ cip:28.07  skos:narrower  cip:28.0701 ;
         skos:narrower  cip:28.0703 ;
         skos:narrower  cip:28.0799 .
 
+cip:28  skos:narrower  cip:28.08 .
+
+cip:28.08  skos:narrower  cip:28.0801 .
+
 cip:28  skos:narrower  cip:28.99 .
 
 cip:28.99  skos:narrower  cip:28.9999 .
@@ -1812,6 +1838,10 @@ cip:29.04  skos:narrower  cip:29.0401 ;
         skos:narrower  cip:29.0408 ;
         skos:narrower  cip:29.0409 ;
         skos:narrower  cip:29.0499 .
+
+cip:29  skos:narrower  cip:29.05 .
+
+cip:29.05  skos:narrower  cip:29.0501 .
 
 cip:29  skos:narrower  cip:29.06 .
 
@@ -2458,6 +2488,7 @@ cip:44.05  skos:narrower  cip:44.0501 ;
         skos:narrower  cip:44.0502 ;
         skos:narrower  cip:44.0503 ;
         skos:narrower  cip:44.0504 ;
+        skos:narrower  cip:44.0580 ;
         skos:narrower  cip:44.0599 .
 
 cip:44  skos:narrower  cip:44.07 .
@@ -2932,6 +2963,7 @@ cip:51.08  skos:narrower  cip:51.0801 ;
         skos:narrower  cip:51.0814 ;
         skos:narrower  cip:51.0815 ;
         skos:narrower  cip:51.0816 ;
+        skos:narrower  cip:51.0817 ;
         skos:narrower  cip:51.0899 .
 
 cip:51  skos:narrower  cip:51.09 .
@@ -2959,6 +2991,7 @@ cip:51.09  skos:narrower  cip:51.0901 ;
         skos:narrower  cip:51.0921 ;
         skos:narrower  cip:51.0922 ;
         skos:narrower  cip:51.0923 ;
+        skos:narrower  cip:51.0924 ;
         skos:narrower  cip:51.0999 .
 
 cip:51  skos:narrower  cip:51.10 .
@@ -3023,6 +3056,7 @@ cip:51.15  skos:narrower  cip:51.1501 ;
         skos:narrower  cip:51.1511 ;
         skos:narrower  cip:51.1512 ;
         skos:narrower  cip:51.1513 ;
+        skos:narrower  cip:51.1580 ;
         skos:narrower  cip:51.1599 .
 
 cip:51  skos:narrower  cip:51.17 .
@@ -3074,6 +3108,7 @@ cip:51.22  skos:narrower  cip:51.2201 ;
         skos:narrower  cip:51.2212 ;
         skos:narrower  cip:51.2213 ;
         skos:narrower  cip:51.2214 ;
+        skos:narrower  cip:51.2280 ;
         skos:narrower  cip:51.2299 .
 
 cip:51  skos:narrower  cip:51.23 .
@@ -3210,6 +3245,7 @@ cip:51.38  skos:narrower  cip:51.3801 ;
         skos:narrower  cip:51.3820 ;
         skos:narrower  cip:51.3821 ;
         skos:narrower  cip:51.3822 ;
+        skos:narrower  cip:51.3823 ;
         skos:narrower  cip:51.3824 ;
         skos:narrower  cip:51.3899 .
 
@@ -3221,7 +3257,8 @@ cip:51.39  skos:narrower  cip:51.3901 ;
 
 cip:51  skos:narrower  cip:51.99 .
 
-cip:51.99  skos:narrower  cip:51.9999 .
+cip:51.99  skos:narrower  cip:51.9980 ;
+        skos:narrower  cip:51.9999 .
 
 cip:52  skos:narrower  cip:52.01 .
 
@@ -3365,6 +3402,7 @@ cip:52.18  skos:narrower  cip:52.1801 ;
         skos:narrower  cip:52.1802 ;
         skos:narrower  cip:52.1803 ;
         skos:narrower  cip:52.1804 ;
+        skos:narrower  cip:52.1880 ;
         skos:narrower  cip:52.1899 .
 
 cip:52  skos:narrower  cip:52.19 .
@@ -3379,6 +3417,7 @@ cip:52.19  skos:narrower  cip:52.1901 ;
         skos:narrower  cip:52.1908 ;
         skos:narrower  cip:52.1909 ;
         skos:narrower  cip:52.1910 ;
+        skos:narrower  cip:52.1980 ;
         skos:narrower  cip:52.1999 .
 
 cip:52  skos:narrower  cip:52.20 .
@@ -3422,6 +3461,30 @@ cip:54.01  skos:narrower  cip:54.0101 ;
         skos:narrower  cip:54.0107 ;
         skos:narrower  cip:54.0108 ;
         skos:narrower  cip:54.0199 .
+
+cip:55  skos:narrower  cip:55.01 .
+
+cip:55.01  skos:narrower  cip:55.0101 .
+
+cip:55  skos:narrower  cip:55.13 .
+
+cip:55.13  skos:narrower  cip:55.1301 ;
+        skos:narrower  cip:55.1302 ;
+        skos:narrower  cip:55.1303 ;
+        skos:narrower  cip:55.1304 ;
+        skos:narrower  cip:55.1399 .
+
+cip:55  skos:narrower  cip:55.14 .
+
+cip:55.14  skos:narrower  cip:55.1401 ;
+        skos:narrower  cip:55.1403 ;
+        skos:narrower  cip:55.1404 ;
+        skos:narrower  cip:55.1405 ;
+        skos:narrower  cip:55.1499 .
+
+cip:55  skos:narrower  cip:55.99 .
+
+cip:55.99  skos:narrower  cip:55.9999 .
 
 cip:60  skos:narrower  cip:60.01 .
 
@@ -4017,7 +4080,7 @@ cip:01.04  rdf:type         skos:Concept ;
         skos:prefLabel      "Agricultural and Food Products Processing."@en ;
         skos:notation       "01.04" ;
         skos:broader        cip:01 ;
-        schema:description  "Instructional content is defined in code 01.0401."@en .
+        schema:description  "Instructional content for this group of programs is defined in codes 01.0401 - 01.0480."@en .
 
 cip:01.05  rdf:type         skos:Concept ;
         skos:prefLabel      "Agricultural and Domestic Animal Services."@en ;
@@ -4917,7 +4980,7 @@ cip:16.17  rdf:type         skos:Concept ;
         skos:prefLabel      "Second Language Learning."@en ;
         skos:notation       "16.17" ;
         skos:broader        cip:16 ;
-        schema:description  "Instructional content is defined in code 16.1701."@en .
+        schema:description  "Instructional content for this group of programs is defined in codes 16.1701 - 16.1799."@en .
 
 cip:16.18  rdf:type         skos:Concept ;
         skos:prefLabel      "Armenian Languages, Literatures, and Linguistics."@en ;
@@ -4990,6 +5053,12 @@ cip:19.99  rdf:type         skos:Concept ;
         skos:notation       "19.99" ;
         skos:broader        cip:19 ;
         schema:description  "Instructional content is defined in code 19.9999."@en .
+
+cip:21.01  rdf:type         skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "21.01" ;
+        skos:broader        cip:21 ;
+        schema:description  "Instructional content is defined in code 21.0101."@en .
 
 cip:22.00  rdf:type         skos:Concept ;
         skos:prefLabel      "Non-Professional Legal Studies."@en ;
@@ -5225,6 +5294,12 @@ cip:28.07  rdf:type         skos:Concept ;
         skos:broader        cip:28 ;
         schema:description  "Instructional content for this group of programs is defined in codes 28.0701 - 28.0799. These CIP codes are not valid for IPEDS reporting."@en .
 
+cip:28.08  rdf:type         skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "28.08" ;
+        skos:broader        cip:28 ;
+        schema:description  "Instructional content is defined in code 28.0801. These CIP codes are not valid for IPEDS reporting."@en .
+
 cip:28.99  rdf:type         skos:Concept ;
         skos:prefLabel      "Military Science, Leadership and Operational Art, Other."@en ;
         skos:notation       "28.99" ;
@@ -5248,6 +5323,12 @@ cip:29.04  rdf:type         skos:Concept ;
         skos:notation       "29.04" ;
         skos:broader        cip:29 ;
         schema:description  "Instructional content for this group of programs is defined in codes 29.0401 - 29.0499."@en .
+
+cip:29.05  rdf:type         skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "29.05" ;
+        skos:broader        cip:29 ;
+        schema:description  "Instructional content is defined in code 29.0501."@en .
 
 cip:29.06  rdf:type         skos:Concept ;
         skos:prefLabel      "Military Technology and Applied Sciences Management."@en ;
@@ -6405,7 +6486,7 @@ cip:51.99  rdf:type         skos:Concept ;
         skos:prefLabel      "Health Professions and Related Clinical Sciences, Other."@en ;
         skos:notation       "51.99" ;
         skos:broader        cip:51 ;
-        schema:description  "Instructional content is defined in code 51.9999."@en .
+        schema:description  "Instructional content for this group of programs is defined in codes 51.9980 - 51.9999."@en .
 
 cip:52.01  rdf:type         skos:Concept ;
         skos:prefLabel      "Business/Commerce, General."@en ;
@@ -6556,6 +6637,30 @@ cip:54.01  rdf:type         skos:Concept ;
         skos:notation       "54.01" ;
         skos:broader        cip:54 ;
         schema:description  "Instructional content for this group of programs is defined in codes 54.0101 - 54.0199."@en .
+
+cip:55.01  rdf:type         skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "55.01" ;
+        skos:broader        cip:55 ;
+        schema:description  "Instructional content is defined in code 55.0101."@en .
+
+cip:55.13  rdf:type         skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "55.13" ;
+        skos:broader        cip:55 ;
+        schema:description  "Instructional content for this group of programs is defined in codes 55.1301 - 55.1399."@en .
+
+cip:55.14  rdf:type         skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "55.14" ;
+        skos:broader        cip:55 ;
+        schema:description  "Instructional content for this group of programs is defined in codes 55.1401 - 55.1499."@en .
+
+cip:55.99  rdf:type         skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "55.99" ;
+        skos:broader        cip:55 ;
+        schema:description  "Instructional content is defined in code 55.9999."@en .
 
 cip:60.01  rdf:type         skos:Concept ;
         skos:prefLabel      "Dental Residency/Fellowship Programs."@en ;
@@ -6929,6 +7034,12 @@ cip:01.0401  rdf:type       skos:Concept ;
         skos:broader        cip:01.04 ;
         schema:description  "A program that prepares individuals to receive, inspect, store, process, and package agricultural products in the form of human food consumables, animal or plant food, or other industrial products.  Includes instruction in the nutrient and industrial properties of various agricultural products; logistics and storage procedures; chemical and mechanical processing operations; packaging; safety and health requirements; and related technical and business principles."@en .
 
+cip:01.0480  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "01.0480" ;
+        skos:broader        cip:01.04 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
+
 cip:01.0504  rdf:type       skos:Concept ;
         skos:prefLabel      "Dog/Pet/Animal Grooming."@en ;
         skos:notation       "01.0504" ;
@@ -7018,6 +7129,12 @@ cip:01.0610  rdf:type       skos:Concept ;
         skos:notation       "01.0610" ;
         skos:broader        cip:01.06 ;
         schema:description  "A program that focuses on principles and techniques for the production of horticultural crops in an urban environment. Includes instruction in ecology, environmental sustainability, food production systems, and plant and soil sciences."@en .
+
+cip:01.0680  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "01.0680" ;
+        skos:broader        cip:01.06 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
 
 cip:01.0699  rdf:type       skos:Concept ;
         skos:prefLabel      "Applied Horticulture/Horticultural Business Services, Other."@en ;
@@ -7168,6 +7285,12 @@ cip:01.1106  rdf:type       skos:Concept ;
         skos:notation       "01.1106" ;
         skos:broader        cip:01.11 ;
         schema:description  "A program that focuses on the scientific study of rangelands, arid regions, grasslands, and other areas of low productivity, as well as the principles of managing such resources for maximum benefit and environmental balance.  Includes instruction in livestock management, wildlife biology, plant sciences, ecology, soil science, and hydrology."@en .
+
+cip:01.1180  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "01.1180" ;
+        skos:broader        cip:01.11 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
 
 cip:01.1199  rdf:type       skos:Concept ;
         skos:prefLabel      "Plant Sciences, Other."@en ;
@@ -8536,6 +8659,12 @@ cip:12.0510  rdf:type       skos:Concept ;
         skos:notation       "12.0510" ;
         skos:broader        cip:12.05 ;
         schema:description  "A program that prepares individuals to manage wine selection, purchasing, storage, sales, and service for a variety of establishments in the hospitality industry. Includes instruction in wine production, wine regions of the world, wine tasting, food and wine matching, service techniques, and wine program management."@en .
+
+cip:12.0580  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "12.0580" ;
+        skos:broader        cip:12.05 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
 
 cip:12.0599  rdf:type       skos:Concept ;
         skos:prefLabel      "Culinary Arts and Related Services, Other."@en ;
@@ -10553,6 +10682,18 @@ cip:16.1701  rdf:type       skos:Concept ;
         skos:broader        cip:16.17 ;
         schema:description  "A program that focuses on the development of proficiency in reading, writing, and speaking English for those for whom English is not their mother tongue. Includes instruction in the use of basic communication skills to develop and transmit ideas and thoughts in English as well as specialized programs that focus on the development of proficiency in English sufficient to meet specific occupational or academic demands. Note: These programs are for academic credit towards a postsecondary credential. For second language programs that are not for academic credit towards a postsecondary credential, see 32.0109."@en .
 
+cip:16.1702  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "16.1702" ;
+        skos:broader        cip:16.17 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
+
+cip:16.1799  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "16.1799" ;
+        skos:broader        cip:16.17 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
+
 cip:16.1801  rdf:type       skos:Concept ;
         skos:prefLabel      "Armenian Language and Literature."@en ;
         skos:notation       "16.1801" ;
@@ -10786,6 +10927,12 @@ cip:19.9999  rdf:type       skos:Concept ;
         skos:notation       "19.9999" ;
         skos:broader        cip:19.99 ;
         schema:description  "Any instructional program in family and consumer sciences/human sciences not listed above."@en .
+
+cip:21.0101  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "21.0101" ;
+        skos:broader        cip:21.01 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
 
 cip:22.0000  rdf:type       skos:Concept ;
         skos:prefLabel      "Legal Studies."@en ;
@@ -11939,6 +12086,12 @@ cip:28.0799  rdf:type       skos:Concept ;
         skos:broader        cip:28.07 ;
         schema:description  "Any instructional program in military economics and management not listed above. This CIP code is not valid for IPEDS reporting."@en .
 
+cip:28.0801  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "28.0801" ;
+        skos:broader        cip:28.08 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
+
 cip:28.9999  rdf:type       skos:Concept ;
         skos:prefLabel      "Military Science, Leadership and Operational Art, Other."@en ;
         skos:notation       "28.9999" ;
@@ -12100,6 +12253,12 @@ cip:29.0499  rdf:type       skos:Concept ;
         skos:notation       "29.0499" ;
         skos:broader        cip:29.04 ;
         schema:description  "Any instructional program in military systems and maintenance technology not listed above."@en .
+
+cip:29.0501  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "29.0501" ;
+        skos:broader        cip:29.05 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
 
 cip:29.0601  rdf:type       skos:Concept ;
         skos:prefLabel      "Military Technology and Applied Sciences Management."@en ;
@@ -14087,6 +14246,12 @@ cip:44.0504  rdf:type       skos:Concept ;
         skos:broader        cip:44.05 ;
         schema:description  "A program that focuses on the systematic analysis of public policy issues related to relationships among nations and among governments and non-governmental entities. Includes instruction in international politics, governance, financial policy, and security affairs; globalization; economic and social policies of developing nations; and applications to specific public policy topics such as labor and employment, immigration, and human rights."@en .
 
+cip:44.0580  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "44.0580" ;
+        skos:broader        cip:44.05 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
+
 cip:44.0599  rdf:type       skos:Concept ;
         skos:prefLabel      "Public Policy Analysis, Other."@en ;
         skos:notation       "44.0599" ;
@@ -15833,6 +15998,12 @@ cip:51.0816  rdf:type       skos:Concept ;
         skos:broader        cip:51.08 ;
         schema:description  "A program that prepares individuals, under the supervision of speech-language pathologists, to assist in the provision of speech-language pathology services to individuals of all ages, including screenings and assessments, following treatment plans or protocols, documenting and reporting patient performance, performing checks and maintenance of equipment, and providing support in research projects.  Includes instruction in speech and language development, phonetics, childhood and adult communication disorders, speech and hearing screening, and clinical procedures in speech-language pathology."@en .
 
+cip:51.0817  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "51.0817" ;
+        skos:broader        cip:51.08 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
+
 cip:51.0899  rdf:type       skos:Concept ;
         skos:prefLabel      "Allied Health and Medical Assisting Services, Other."@en ;
         skos:notation       "51.0899" ;
@@ -15976,6 +16147,12 @@ cip:51.0923  rdf:type       skos:Concept ;
         skos:notation       "51.0923" ;
         skos:broader        cip:51.09 ;
         schema:description  "A program that prepares individuals, under the supervision of physicians, to cast, splint, and brace orthopedic injuries. Includes instruction in patient assessment; casting, splinting, and orthopedic appliances; radiographic interpretation; traction; and wound care."@en .
+
+cip:51.0924  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "51.0924" ;
+        skos:broader        cip:51.09 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
 
 cip:51.0999  rdf:type       skos:Concept ;
         skos:prefLabel      "Allied Health Diagnostic, Intervention, and Treatment Professions, Other."@en ;
@@ -16271,6 +16448,12 @@ cip:51.1513  rdf:type       skos:Concept ;
         skos:broader        cip:51.15 ;
         schema:description  "A program that focuses on understanding elements of traumatic exposure, trauma-sensitive care, and crisis intervention. Includes instruction in disaster response, grief and loss counseling, crisis intervention and management, trauma counseling, neurobiology of trauma, PTSD and combat-related trauma, relational trauma and treatment of trauma-related disorders."@en .
 
+cip:51.1580  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "51.1580" ;
+        skos:broader        cip:51.15 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
+
 cip:51.1599  rdf:type       skos:Concept ;
         skos:prefLabel      "Mental and Social Health Services and Allied Professions, Other."@en ;
         skos:notation       "51.1599" ;
@@ -16468,6 +16651,12 @@ cip:51.2214  rdf:type       skos:Concept ;
         skos:notation       "51.2214" ;
         skos:broader        cip:51.22 ;
         schema:description  "A program that prepares individuals to respond to the complex social, legal, ethical, and public health policy implications generated by genetic research. Includes instruction in biochemical genetics of complex diseases, bioethics, chromosomes and human disease, genetic counseling, genetic epidemiology, gene mapping, human population genetics, and the molecular basis of human inherited disease."@en .
+
+cip:51.2280  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "51.2280" ;
+        skos:broader        cip:51.22 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
 
 cip:51.2299  rdf:type       skos:Concept ;
         skos:prefLabel      "Public Health, Other."@en ;
@@ -17051,6 +17240,12 @@ cip:51.3822  rdf:type       skos:Concept ;
         skos:broader        cip:51.38 ;
         schema:description  "A program that prepares registered nurses to provide health care specific to women. Includes instruction in the wellness and care of women, gynecology, obstetrics, advanced nursing practices for women, evidence-based nursing practice, advanced physiology and pathophysiology, advanced pharmacology, and pharmacotherapeutics."@en .
 
+cip:51.3823  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "51.3823" ;
+        skos:broader        cip:51.38 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
+
 cip:51.3824  rdf:type       skos:Concept ;
         skos:prefLabel      "Forensic Nursing."@en ;
         skos:notation       "51.3824" ;
@@ -17080,6 +17275,12 @@ cip:51.3999  rdf:type       skos:Concept ;
         skos:notation       "51.3999" ;
         skos:broader        cip:51.39 ;
         schema:description  "Any instructional program in practical nursing, vocational nursing, and nursing assistants not listed above."@en .
+
+cip:51.9980  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "51.9980" ;
+        skos:broader        cip:51.99 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
 
 cip:51.9999  rdf:type       skos:Concept ;
         skos:prefLabel      "Health Professions and Related Clinical Sciences, Other."@en ;
@@ -17621,6 +17822,12 @@ cip:52.1804  rdf:type       skos:Concept ;
         skos:broader        cip:52.18 ;
         schema:description  "A program that prepares individuals to possess the skills associated with direct promotion of products and services to potential customers and to function as independent sales representatives and managers.  Includes instruction in consumer psychology, image projection, public speaking and interpersonal communications, sales organization and operations, customer relations, professional standards and ethics, and applicable technical skills."@en .
 
+cip:52.1880  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "52.1880" ;
+        skos:broader        cip:52.18 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
+
 cip:52.1899  rdf:type       skos:Concept ;
         skos:prefLabel      "General Merchandising, Sales, and Related Marketing Operations, Other."@en ;
         skos:notation       "52.1899" ;
@@ -17686,6 +17893,12 @@ cip:52.1910  rdf:type       skos:Concept ;
         skos:notation       "52.1910" ;
         skos:broader        cip:52.19 ;
         schema:description  "A program that prepares individuals to provide marketing services in the hospitality and leisure fields. Includes instruction in hospitality operations, customer sales and assistance operations and techniques, telephone operations, basic office management, retail sports, recreation equipment, food and beverage."@en .
+
+cip:52.1980  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "52.1980" ;
+        skos:broader        cip:52.19 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
 
 cip:52.1999  rdf:type       skos:Concept ;
         skos:prefLabel      "Specialized Merchandising, Sales, and Marketing Operations, Other."@en ;
@@ -17836,6 +18049,78 @@ cip:54.0199  rdf:type       skos:Concept ;
         skos:notation       "54.0199" ;
         skos:broader        cip:54.01 ;
         schema:description  "Any instructional program in history not listed above."@en .
+
+cip:55.0101  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "55.0101" ;
+        skos:broader        cip:55.01 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
+
+cip:55.1301  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "55.1301" ;
+        skos:broader        cip:55.13 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
+
+cip:55.1302  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "55.1302" ;
+        skos:broader        cip:55.13 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
+
+cip:55.1303  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "55.1303" ;
+        skos:broader        cip:55.13 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
+
+cip:55.1304  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "55.1304" ;
+        skos:broader        cip:55.13 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
+
+cip:55.1399  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "55.1399" ;
+        skos:broader        cip:55.13 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
+
+cip:55.1401  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "55.1401" ;
+        skos:broader        cip:55.14 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
+
+cip:55.1403  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "55.1403" ;
+        skos:broader        cip:55.14 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
+
+cip:55.1404  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "55.1404" ;
+        skos:broader        cip:55.14 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
+
+cip:55.1405  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "55.1405" ;
+        skos:broader        cip:55.14 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
+
+cip:55.1499  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "55.1499" ;
+        skos:broader        cip:55.14 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
+
+cip:55.9999  rdf:type       skos:Concept ;
+        skos:prefLabel      "Reserved."@en ;
+        skos:notation       "55.9999" ;
+        skos:broader        cip:55.99 ;
+        schema:description  "Reserved for use by Statistics Canada. This CIP code is not valid for IPEDS reporting."@en .
 
 cip:60.0101  rdf:type       skos:Concept ;
         skos:prefLabel      "Oral and Maxillofacial Surgery Residency Program."@en ;
