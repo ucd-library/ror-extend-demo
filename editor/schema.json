@@ -1,0 +1,97 @@
+"title": "Organization",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Organization",
+      "minLength": 4,
+      "default": "UC Davis"
+    },
+    "MajorTopic": {
+      "type": "string",
+      "enum": [
+        "11-Logic",
+        "12-Mathematics",
+        "21-Astronomy and astrophysics",
+        "22-Physics",
+        "23-Chemistry",
+        "24-Life Sciences",
+        "25-Earth and Space Sciences",
+        "31-Agricultural Sciences",
+        "32-Medical Sciences",
+        "33-Technological Sciences",
+        "51-Anthropology",
+        "52-Demographics",
+        "53-Economic Sciences",
+        "54-Geography",
+        "55-History",
+        "56-Juridical Sciences and Law",
+        "57-Linguistics",
+        "58-Pedagogy",
+        "59-Political Science",
+        "61-Psychology",
+        "62-Science of Arts and Letters",
+        "63-Sociology",
+        "71-Ethics",
+        "72-Philosophy"
+      ]
+    },
+    "location": {
+      "type": "object",
+      "title": "Location",
+      "properties": {
+        "city": {
+          "type": "string",
+          "default": "San Francisco"
+        },
+        "state": {
+          "type": "string",
+          "default": "CA"
+        },
+        "citystate": {
+          "type": "string",
+          "description": "This is generated automatically from the previous two fields",
+          "template": "{{city}}, {{state}}",
+          "watch": {
+            "city": "location.city",
+            "state": "location.state"
+          }
+        }
+      }
+    },
+    "additionalTopics": {
+      "type": "array",
+      "title": "Additional Topics",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "11-Logic",
+          "12-Mathematics",
+          "21-Astronomy and astrophysics",
+          "22-Physics",
+          "23-Chemistry",
+          "24-Life Sciences",
+          "25-Earth and Space Sciences",
+          "31-Agricultural Sciences",
+          "32-Medical Sciences",
+          "33-Technological Sciences",
+          "51-Anthropology",
+          "52-Demographics",
+          "53-Economic Sciences",
+          "54-Geography",
+          "55-History",
+          "56-Juridical Sciences and Law",
+          "57-Linguistics",
+          "58-Pedagogy",
+          "59-Political Science",
+          "61-Psychology",
+          "62-Science of Arts and Letters",
+          "63-Sociology",
+          "71-Ethics",
+          "72-Philosophy"
+        ]
+      }
+    }
+  }
+}
