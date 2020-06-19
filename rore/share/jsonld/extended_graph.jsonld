@@ -1,0 +1,48 @@
+  "@graph": [
+{
+"@id": "agricultural_and_resource_economics",
+"@type" : "Organization",
+  "name": ["Agricultural and Resource Economics",
+           {
+    "@value":"Agricultural and Resource Economics",
+    "@language":"fr"
+  }],
+"parentOrganization": "human_sciences",
+"cip": [
+"01.0103 - Agricultural Economics.",
+"03.0204 - Natural Resource Economics."
+]
+},
+{
+"@id": "agricultural_sciences",
+"@type" : "Organization",
+"name": "Agricultural Sciences",
+"about": "ror:example",
+"parentOrganization": "college_of_agricultural_and_environmental_sciences",
+"cip": "01 - AGRICULTURE, AGRICULTURE OPERATIONS, AND RELATED SCIENCES."
+},
+{
+"@id": "anatomy_physiology_&_cell_biology",
+"@type" : "Organization",
+"name": "Anatomy, Physiology & Cell Biology",
+"parentOrganization": "school_of_veterinary_medicine"
+},
+{
+"@id": "anesthesiology_and_pain_medicine",
+"@type" : "Organization",
+"name": "Anesthesiology and Pain Medicine",
+"parentOrganization": "school_of_medicine"
+},
+{
+"@id": "animal_sciences",
+"@type" : "Organization",
+"name": "Animal Sciences",
+"parentOrganization": "agricultural_sciences"
+},
+{
+"@id": "anthropology",
+"@type" : "Organization",
+"name": "Anthropology",
+"parentOrganization": "college_of_letters_and_science"
+}]
+}

@@ -1,0 +1,93 @@
+{"@context" : {
+  "@base":"http://ror.org/schema",
+  "@vocab":"#",
+  "@language":"en",
+  "ror":"http://ror.org/schema#",
+  "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
+  "obo":"http://purl.obolibrary.org/obo/BFO_0000050",
+  "vivo":"http://vivoweb.org/ontology/core#",
+  "cip":"http://ror.org/vocabulary/cip#",
+  "geopolitical":"http://aims.fao.org/aos/geopolitical.owl",
+  "id": {
+  	"@id":"@id"
+	},
+  "acronyms": {
+    "@id":"vivo:abbreviaion"
+  },
+  "aliases": {
+    "@id":"vivo:abbreviation"
+  },
+  "all":{
+    "@id":"ror:identifier",
+    "@language":""
+  },
+  "child": {
+    "@id":"obo:BFO_0000051",
+    "@type":"@id"
+  },
+  "cip": {
+    "@id":"vivo:hasSubjectArea",
+    "@type":"@id"
+  },
+  "country": "@nest",
+  "country_name": {
+    "@id":"ror:country_name"
+  },
+  "country_code": {
+    "@id":"geopolitical:codeISO2",
+    "@type":"xsd:string"
+  },
+  "external_ids": "@nest",
+  "FundRef": {
+    "@id":"ror:fundRef"
+  },
+  "GRID": {
+    "@id":"ror:grid"
+  },
+  "ISNI": {
+    "@id":"ror:isni"
+  },
+  "keywords": {
+    "@id":"vivo:freeTextKeyword"
+  },
+  "links": {
+    "@id":"schema:mainEntityOfPage",
+    "@type":"@id"
+  },
+  "labels": {
+    "@id":"rdfs:label",
+    "@context":{
+      "label": {"@id":"@value"},
+  	  "iso639": {"@id":"@language"}
+    }
+  },
+  "name": {
+    "@id":"rdfs:label",
+  },
+  "orgs":"@graph",
+  "OrgRef": {
+    "@id":"ror:orgRef"
+  },
+  "parent": {
+    "@id":"obo:BFO_0000050",
+    "@type":"@id"
+  },
+  "preferred" : {
+    "@id":"ror:preferredIdentifier",
+    "@language":""
+  },
+  "status": {
+    "@id":"ror:status"
+  },
+  "types": {
+    "@id":"@type",
+    "@type":"@id"
+  },
+  "Wikidata":{
+    "@id":"ror:wikidata"
+  },
+  "wikipedia_url": {
+    "@id":"ror:wikipedia",
+    "@type":"@id"
+  }
+}

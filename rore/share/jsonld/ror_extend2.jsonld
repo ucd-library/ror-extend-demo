@@ -1,0 +1,16 @@
+{
+ "@context": ["https://schema.org/version/latest/schema.jsonld",
+   {
+    "@language": "en",
+    "ror": "http://ror.org",
+    "parentOrganization": {
+      "@type": "@id"
+    },
+    "cip": {
+      "@id":"https://www.wikidata.org/wiki/Property:P2357",
+      "@type":"xsd:string"
+    },
+    "name_fr": {"@id":"name","@language":"fr"}
+  }],
+ "@type",["schema:Organization","ror:SubOrganization"]
+}

@@ -1,0 +1,199 @@
+#! /usr/bin/env bash
+
+: <<=cut
+=pod
+
+=head1  NAME
+
+rore - Manipulate extended ROR data
+
+=head1 SYNOPSIS
+
+  rore <command> [<args>]
+
+  where <command> is one of from-csv
+
+Rore is a script to manipulate extended ROR data.  Currently it only converts
+from CSV files.
+
+=head1 GLOBAL OPTIONS
+
+=over 4
+
+=item B<-h|--help>
+
+Shows the manpage for the program. The help pages are embedded in the script and
+require the functions, C<pod2usage> and C<pod2text> to work properly.
+
+=back
+
+=cut
+
+function init() {
+    local opts=`${G[shell_getopt]} -o ha: --long authority:,auth:,help -n 'rore' -- "$@"`
+    if [ $? != 0 ] ; then echo "Bad Command Options." >&2 ; exit 1 ; fi
+
+    eval set -- "$opts"
+
+    while true; do
+	    case $1 in
+        -h | --help ) exec pod2text $0;;
+        -a | --auth | --authority) G[auth]=$2; shift 2;;
+	      -- ) shift; break;;
+	      *) shift; break;
+      esac
+    done
+
+}
+
+: <<='cut'
+=pod
+
+=head1 COMMANDS
+
+There are a number of ror commands that are used in manipulating data.
+
+
+C<ror [--authority=auth] from-csv --parent=parent.csv --orgs=orgs.csv will
+convert a pair of CSV files to an standard ROR linked data file.
+
+=cut
+
+function cmd () {
+    cmd=$1
+    shift;
+    case $cmd in
+	    from_csv ) # commands
+	      ${cmd} "$@";
+	      ;;
+      declare ) # informational requests
+        _${cmd} "$@";
+        ;;
+	    *)
+	      exec pod2usage $0
+	  ;;
+    esac
+}
+
+
+function log() {
+  (>&2 echo LOG: $@)
+}
+
+function err() {
+  local n=1;
+  if [[ $1 = '--quiet' ]] ; then
+    n=$2;
+  else
+    n=$1
+    shift
+    (>&2 echo err: $@)
+  fi
+  exit $n;
+}
+
+: <<=cut
+
+=head2 FROM_CSV
+
+  rore <--auth=authority> from_csv --parent=parent.csv --orgs=orgs.csv
+
+C<rore from_csv> converts a pair of CSV files to linked data.
+
+=head3 FROM_CSV OPTIONS
+
+=over 4
+
+=item B<--orgs=I<orgs.csv>>
+
+Specify the CSV file with the organizations.
+
+=item B<--parents=I<parents.csv>>
+
+Specify the CSV file with the organization parents.
+
+=cut
+
+function from_csv() {
+  local opts=`${G[shell_getopt]} -o o:p: --long orgs:,parents:,format: -n 'rore from_csv' -- "$@"`
+
+  if [ $? != 0 ] ; then echo "Bad Command Options." >&2 ; exit 1 ; fi
+  eval set -- "$opts"
+
+  local parents="parents.csv"
+  local orgs="orgs.csv";
+  local format="ttl"
+  while true; do
+	  case $1 in
+      -o | --orgs ) orgs=$2; shift 2;;
+      -p | --parents ) parents=$2; shift 2;;
+      -f | --format ) format=$2; shift 2;;
+	    *) shift; break;
+    esac
+  done
+
+  local base="https://ror.org/05rrcem69#"
+  local ttl;
+  local d=$(dirname "$0")
+
+  n3=$(tarql --ntriples --base=$base $d/share/csv/orgs.sparql $orgs);
+  n3+=$(tarql --ntriples --base=$base $d/share/csv/parents.sparql $parents);
+
+
+  #ttl+=$(( echo "@prefix : <$base>"; tarql --base=$base $d/share/csv/orgs.sparql $orgs; tarql --base=$base $d/share/csv/parents.sparql $parents; ) | riot --syntax=ttl --formatted=ttl --base="$base" | sed -e "s|<${base}\([^>]*\)>|:\1|g")
+  echo "$n3";
+}
+
+# : <<=cut
+# =pod
+
+# =head2 ezid I<[options]> declare
+
+# The declare command will print a bash style, declare statement for each passed ARK.
+
+# =cut
+
+#function _declare () {
+#   for i in $@; do
+#     log D $i;
+#     fq_ark $i > /dev/null;
+#     declare -p ARK
+#   done
+# }
+
+
+: <<=cut
+=pod
+
+=head1 SCRIPTING
+
+=head1 AUTHOR
+
+Quinn Hart <qjhart@ucdavis.edu>
+
+=cut
+
+
+#MAIN
+# global Variables
+declare -A G=(
+  [auth]='unknown'
+);
+
+while true; do
+	case $1 in
+	  -*) OPTS=($1); shift ;;
+	  -- ) shift; break;;
+	  *) break;
+	esac
+done
+
+# Allow getopt to be somewhere else
+G[shell_getopt]=${FLAGS_GETOPT_CMD:-getopt}
+
+#declare -p G
+
+init "$OPTS"
+cmd "$@"
+
+exit 0;

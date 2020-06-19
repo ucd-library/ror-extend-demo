@@ -1,0 +1,19 @@
+{
+ "@context": {
+    "@vocab": "http://schema.org/",
+    "@language": "en",
+    "ror": "http://ror.org/schema#",
+    "parent": {
+      "@type": "@id"
+    },
+    "parentOrganization": {
+      "@type": "@id"
+    },
+    "cip": {
+      "@id":"https://www.wikidata.org/wiki/Property:P2357",
+      "@type":"xsd:string"
+    },
+    "name_fr": {"@id":"name","@language":"fr"}
+  },
+ "@type":["schema:Organization","ror:SubOrganization"]
+}
