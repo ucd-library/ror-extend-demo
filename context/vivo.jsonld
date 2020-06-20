@@ -1,12 +1,11 @@
-{"@context" : {
+{
   "@base":"http://ror.org/schema",
-  "@vocab":"#",
+  "@vocab":"http://ror.org/schema#",
   "@language":"en",
   "ror":"http://ror.org/schema#",
   "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
   "obo":"http://purl.obolibrary.org/obo/BFO_0000050",
   "vivo":"http://vivoweb.org/ontology/core#",
-  "cip":"http://ror.org/vocabulary/cip#",
   "geopolitical":"http://aims.fao.org/aos/geopolitical.owl",
   "id": {
   	"@id":"@id"
@@ -23,10 +22,6 @@
   },
   "child": {
     "@id":"obo:BFO_0000051",
-    "@type":"@id"
-  },
-  "cip": {
-    "@id":"vivo:hasSubjectArea",
     "@type":"@id"
   },
   "country": "@nest",
@@ -62,7 +57,7 @@
     }
   },
   "name": {
-    "@id":"rdfs:label",
+    "@id":"rdfs:label"
   },
   "orgs":"@graph",
   "OrgRef": {

@@ -1,9 +1,11 @@
 {
-  "@context": {
-    "@id": "http://ror.org/schema",
+  "@context": [
+    "../../context/vivo.jsonld",
+    {
     "cip": "http://ror.org/vocabularies/cip#",
     "@base": "http://ror.org/05rrcem69/"
-  },
+    }
+  ],
   "id": "http://ror.org/05rrcem69",
   "orgs": [
     {
