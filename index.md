@@ -74,11 +74,11 @@ use this file to show all the departments in our Division.
 
 ## Format
 
-The extension of ROR is defined as a linked data specification.  
+The extension of ROR is defined as a linked data specification.
 
 ### Ontology
 
-A number of different organizational schemas were investigated.  These include the [VIVO Ontology (https://wiki.lyrasis.org/display/VIVODOC111x/Ontology+Reference), the [Schema.org Organization (https://schema.org/Organization), and the [Global Research Identifier Database (GRID)]([https://www.grid.ac/) 
+A number of different organizational schemas were investigated.  These include the [VIVO Ontology (https://wiki.lyrasis.org/display/VIVODOC111x/Ontology+Reference), the [Schema.org Organization (https://schema.org/Organization), and the [Global Research Identifier Database (GRID)]([https://www.grid.ac/)
 ontology.  [ROR](https://ror.org/) has not specified a linked data ontology for their system.  This is not a requirement, but would certainly help integrate ROR identifiers and their extensions.  Since ROR's data format
 most closely follows the GRID ontology, that would be the most normal source for the ROR ontology.
 
@@ -162,19 +162,10 @@ For assigning classed to the organizations, we encourage the use of the VIVO Org
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 ### keywords
+
 ### CIPS Codes
+
 Organizations are encouraged to add [[https://nces.ed.gov/ipeds/cipcode/default.aspx?y=55][CIPS Codes]] to their organizational records.
 After a review of a number of potential classification, these codes were
 determined to be the best existing solution for comparing the overlap between

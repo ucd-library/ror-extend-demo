@@ -1,14 +1,10 @@
-PREFIX schema: <http://schema.org/>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX fast: <http://id.worldcat.org/fast/>
-
+PREFIX obo: <http://purl.obolibrary.org/obo/>
 
 CONSTRUCT {
-  ?URI schema:parent ?PARENT;
-       .
+  ?URI obo:BFO_0000050 ?PARENT;
+  .
 }
-FROM <file:parents.csv>
 WHERE {
-BIND(URI(CONCAT('#',?id)) as ?URI)
-BIND(URI(CONCAT('#',?parent)) as ?PARENT)
+BIND(URI(?id) as ?URI)
+BIND(URI(?parent) as ?PARENT)
 }

@@ -44,6 +44,7 @@ function init() {
       esac
     done
 
+#    declare -p G
 }
 
 : <<='cut'
@@ -63,7 +64,7 @@ function cmd () {
     cmd=$1
     shift;
     case $cmd in
-	    from_csv ) # commands
+	    from-csv | from_csv ) # commands
 	      ${cmd} "$@";
 	      ;;
       declare ) # informational requests
@@ -115,11 +116,12 @@ Specify the CSV file with the organization parents.
 =cut
 
 function from_csv() {
-  local opts=`${G[shell_getopt]} -o o:p: --long orgs:,parents:,format: -n 'rore from_csv' -- "$@"`
+  local opts=`${G[shell_getopt]} -o o:p: --long orgs:,parents:,base:,format: -n 'rore from_csv' -- "$@"`
 
   if [ $? != 0 ] ; then echo "Bad Command Options." >&2 ; exit 1 ; fi
   eval set -- "$opts"
 
+  local base;
   local parents="parents.csv"
   local orgs="orgs.csv";
   local format="ttl"
@@ -128,11 +130,11 @@ function from_csv() {
       -o | --orgs ) orgs=$2; shift 2;;
       -p | --parents ) parents=$2; shift 2;;
       -f | --format ) format=$2; shift 2;;
+      -b | --base ) base=$2; shift 2;;
 	    *) shift; break;
     esac
   done
 
-  local base="https://ror.org/05rrcem69#"
   local ttl;
   local d=$(dirname "$0")
 
@@ -191,9 +193,9 @@ done
 # Allow getopt to be somewhere else
 G[shell_getopt]=${FLAGS_GETOPT_CMD:-getopt}
 
-#declare -p G
-
 init "$OPTS"
+#declare -p G
+#echo "$@"
 cmd "$@"
 
 exit 0;
