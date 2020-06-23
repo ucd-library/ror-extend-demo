@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://raw.githubusercontent.com/ucd-library/ror-extend-demo/master/context/vivo.jsonld",
+    "https://ucd-library.github.io/ror-extend-demo/context/vivo.jsonld",
     {
       "ucd": "http://ror.org/05rrcem69/",
       "med": "http://ror.org/05t6gpm70/",
