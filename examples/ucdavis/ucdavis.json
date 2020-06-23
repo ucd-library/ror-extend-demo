@@ -2,15 +2,15 @@
   "@context": [
     "../../context/vivo.jsonld",
     {
-    "cip": "http://ror.org/vocabularies/cip#",
-    "@base": "http://ror.org/05rrcem69/"
+      "cip": "http://ror.org/vocabularies/cip#"
     }
   ],
-  "id": "http://ror.org/05rrcem69",
+  "id": "https://docs.google.com/a/ucdavis.edu/spreadsheets/d/1bKELAUYev0qz1hn5vYIYXAYTSLRH38jVDMi__3wBe6g/edit",
   "orgs": [
     {
       "id": "agricultural_resource_economics",
       "name": "Agricultural & Resource Economics",
+      "types": "vivo:AcademicDepartment",
       "parent": "human_sciences",
       "keywords": [
         "01.0199 - Agricultural Business and Management, Other.",
@@ -30,21 +30,25 @@
     {
       "id": "agricultural_sciences",
       "name": "Agricultural Sciences",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_agricultural_environmental_sciences"
     },
     {
       "id": "anatomy_physiology_&_cell_biology",
       "name": "Anatomy, Physiology & Cell Biology",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_veterinary_medicine"
     },
     {
       "id": "anesthesiology_pain_medicine",
       "name": "Anesthesiology & Pain Medicine",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_medicine"
     },
     {
       "id": "animal_sciences",
       "name": "Animal Science",
+      "types": "vivo:AcademicDepartment",
       "parent": "agricultural_sciences",
       "keywords": [
         "01.0901 - Animal Sciences, General.",
@@ -60,6 +64,7 @@
     {
       "id": "anthropology",
       "name": "Anthropology",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": [
         "45.0201 - Anthropology.",
@@ -73,6 +78,7 @@
     {
       "id": "art_art_history",
       "name": "Art & Art History",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": [
         "50.0703 - Art History, Criticism and Conservation.",
@@ -86,6 +92,7 @@
     {
       "id": "asian_american_studies",
       "name": "Asian American Studies",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": "05.0206 - Asian-American Studies.",
       "hasSubjectArea": [
@@ -95,12 +102,14 @@
     {
       "id": "basic_sciences",
       "name": "Basic Sciences",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_medicine"
     },
     {
       "id": "betty_irene_moore_school_nursing",
       "name": "Betty Irene Moore School of Nursing",
-      "parent": "ucd",
+      "types": "vivo:School",
+      "parent": "ucd:",
       "keywords": [
         "51.3802 - Nursing Administration.",
         "51.9999 - Health Professions and Related Clinical Sciences, Other.",
@@ -117,11 +126,13 @@
     {
       "id": "biochemistry_molecular_medicine",
       "name": "Biochemistry & Molecular Medicine",
+      "types": "vivo:AcademicDepartment",
       "parent": "basic_sciences"
     },
     {
       "id": "biological_agricultural_engineering",
       "name": "Biological & Agricultural Engineering",
+      "types": "vivo:AcademicDepartment",
       "parent": [
         "college_engineering",
         "agricultural_sciences"
@@ -134,6 +145,7 @@
     {
       "id": "biomedical_engineering",
       "name": "Biomedical Engineering",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_engineering",
       "keywords": "14.0501 - Bioengineering and Biomedical Engineering.",
       "hasSubjectArea": [
@@ -143,26 +155,31 @@
     {
       "id": "cell_biology_human_anatomy",
       "name": "Cell Biology & Human Anatomy",
+      "types": "vivo:AcademicDepartment",
       "parent": "basic_sciences"
     },
     {
       "id": "chemical_engineering_materials_science",
       "name": "Chemical Engineering & Materials Science",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_engineering"
     },
     {
       "id": "chemistry",
       "name": "Chemistry",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science"
     },
     {
       "id": "chicana/chicano_studies",
       "name": "Chicana/Chicano Studies",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science"
     },
     {
       "id": "civil_environmental_engineering",
       "name": "Civil & Environmental Engineering",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_engineering",
       "keywords": [
         "14.0801 - Civil Engineering, General.",
@@ -176,26 +193,31 @@
     {
       "id": "college_agricultural_environmental_sciences",
       "name": "College of Agricultural & Environmental Sciences",
-      "parent": "ucd"
+      "types": "vivo:College",
+      "parent": "ucd:"
     },
     {
       "id": "college_biological_sciences",
       "name": "College of Biological Sciences",
-      "parent": "ucd"
+      "types": "vivo:College",
+      "parent": "ucd:"
     },
     {
       "id": "college_engineering",
       "name": "College of Engineering",
-      "parent": "ucd"
+      "types": "vivo:College",
+      "parent": "ucd:"
     },
     {
       "id": "college_letters_science",
       "name": "College of Letters & Science",
-      "parent": "ucd"
+      "types": "vivo:College",
+      "parent": "ucd:"
     },
     {
       "id": "communication",
       "name": "Communication",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": "23.1304 - Rhetoric and Composition.",
       "hasSubjectArea": [
@@ -205,6 +227,7 @@
     {
       "id": "comparative_literature",
       "name": "Comparative Literature",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": "16.0104 - Comparative Literature.",
       "hasSubjectArea": [
@@ -214,6 +237,7 @@
     {
       "id": "computer_science",
       "name": "Computer Science",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_engineering",
       "keywords": "11.0101 - Computer and Information Sciences, General.",
       "hasSubjectArea": [
@@ -223,11 +247,13 @@
     {
       "id": "dermatology",
       "name": "Dermatology",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_medicine"
     },
     {
       "id": "design",
       "name": "Design",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": "50.0401 - Design and Visual Communications, General.",
       "hasSubjectArea": [
@@ -237,6 +263,7 @@
     {
       "id": "earth_planetary_sciences",
       "name": "Earth & Planetary Sciences",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": [
         "40.0601 - Geology/Earth Science, General.",
@@ -252,6 +279,7 @@
     {
       "id": "east_asian_languages_cultures",
       "name": "East Asian Languages & Cultures",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": [
         "16.0301 - Chinese Language and Literature.",
@@ -265,6 +293,7 @@
     {
       "id": "economics",
       "name": "Economics",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": "45.0603 - Econometrics and Quantitative Economics.",
       "hasSubjectArea": [
@@ -274,6 +303,7 @@
     {
       "id": "electrical_computer_engineering",
       "name": "Electrical & Computer Engineering",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_engineering",
       "keywords": "14.1001 - Electrical and Electronics Engineering",
       "hasSubjectArea": [
@@ -283,11 +313,13 @@
     {
       "id": "emergency_medicine",
       "name": "Emergency Medicine",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_medicine"
     },
     {
       "id": "english",
       "name": "English",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": [
         "16.0102 - Linguistics.",
@@ -301,6 +333,7 @@
     {
       "id": "entomology_nematology",
       "name": "Entomology & Nematology",
+      "types": "vivo:AcademicDepartment",
       "parent": "agricultural_sciences",
       "keywords": "26.0702 - Entomology.",
       "hasSubjectArea": [
@@ -310,6 +343,7 @@
     {
       "id": "environmental_science_policy",
       "name": "Environmental Science & Policy",
+      "types": "vivo:AcademicDepartment",
       "parent": "environmental_sciences",
       "keywords": [
         "04.9999 - Architecture and Related Services, Other.",
@@ -325,11 +359,13 @@
     {
       "id": "environmental_sciences",
       "name": "Environmental Sciences",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_agricultural_environmental_sciences"
     },
     {
       "id": "environmental_toxicology",
       "name": "Environmental Toxicology",
+      "types": "vivo:AcademicDepartment",
       "parent": "environmental_sciences",
       "keywords": "26.1006 - Environmental Toxicology.",
       "hasSubjectArea": [
@@ -339,6 +375,7 @@
     {
       "id": "evolution_ecology",
       "name": "Evolution & Ecology",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_biological_sciences",
       "keywords": [
         "26.1310 - Ecology and Evolutionary Biology.",
@@ -354,11 +391,13 @@
     {
       "id": "family_community_medicine",
       "name": "Family & Community Medicine",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_medicine"
     },
     {
       "id": "food_science_technology",
       "name": "Food Science & Technology",
+      "types": "vivo:AcademicDepartment",
       "parent": "human_sciences",
       "keywords": [
         "19.0599 - Foods, Nutrition, and Related Services, Other.",
@@ -374,6 +413,7 @@
     {
       "id": "french_italian",
       "name": "French & Italian",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": [
         "16.0901 - French Language and Literature.",
@@ -387,6 +427,7 @@
     {
       "id": "german_russian",
       "name": "German & Russian",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": [
         "16.0501 - German Language and Literature.",
@@ -400,6 +441,7 @@
     {
       "id": "history",
       "name": "History",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": "54.0101 - History, General.",
       "hasSubjectArea": [
@@ -409,6 +451,7 @@
     {
       "id": "human_ecology",
       "name": "Human Ecology",
+      "types": "vivo:AcademicDepartment",
       "parent": [
         "environmental_sciences",
         "human_sciences"
@@ -435,11 +478,13 @@
     {
       "id": "human_sciences",
       "name": "Human Sciences",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_agricultural_environmental_sciences"
     },
     {
       "id": "internal_medicine",
       "name": "Internal Medicine",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_medicine",
       "keywords": "26.0904 - Endocrinology.",
       "hasSubjectArea": [
@@ -449,6 +494,7 @@
     {
       "id": "land_air_water_resources",
       "name": "Land, Air & Water Resources",
+      "types": "vivo:AcademicDepartment",
       "parent": "environmental_sciences",
       "keywords": [
         "40.0401 - Atmospheric Sciences and Meteorology, General.",
@@ -466,6 +512,7 @@
     {
       "id": "linguistics",
       "name": "Linguistics",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": "16.0102 - Linguistics.",
       "hasSubjectArea": [
@@ -475,6 +522,7 @@
     {
       "id": "mathematics",
       "name": "Mathematics",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": [
         "27.0301 - Applied Mathematics, General.",
@@ -492,6 +540,7 @@
     {
       "id": "mechanical_aerospace_engineering",
       "name": "Mechanical & Aerospace Engineering",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_engineering",
       "keywords": "14.1901 - Mechanical Engineering.",
       "hasSubjectArea": [
@@ -501,16 +550,19 @@
     {
       "id": "medical_microbiology_immunology",
       "name": "Medical Microbiology & Immunology",
+      "types": "vivo:AcademicDepartment",
       "parent": "basic_sciences"
     },
     {
       "id": "medicine_epidemiology",
       "name": "Medicine & Epidemiology",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_veterinary_medicine"
     },
     {
       "id": "microbiology_molecular_genetics",
       "name": "Microbiology & Molecular Genetics",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_biological_sciences",
       "keywords": [
         "26.0502 - Microbiology, General.",
@@ -524,11 +576,13 @@
     {
       "id": "military_science",
       "name": "Military Science",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science"
     },
     {
       "id": "molecular_cellular_biology",
       "name": "Molecular & Cellular Biology",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_biological_sciences",
       "keywords": [
         "26.0202 - Biochemistry.",
@@ -548,11 +602,13 @@
     {
       "id": "molecular_biosciences",
       "name": "Molecular Biosciences",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_veterinary_medicine"
     },
     {
       "id": "music",
       "name": "Music",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": "50.0901 - Music, General.",
       "hasSubjectArea": [
@@ -562,6 +618,7 @@
     {
       "id": "native_american_studies",
       "name": "Native American Studies",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": "05.0202 - American Indian/Native American Studies.",
       "hasSubjectArea": [
@@ -571,6 +628,7 @@
     {
       "id": "neurobiology_physiology_behavior",
       "name": "Neurobiology, Physiology & Behavior",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_biological_sciences",
       "keywords": [
         "26.1503 - Neurobiology and Anatomy.",
@@ -586,16 +644,19 @@
     {
       "id": "neurological_surgery",
       "name": "Neurological Surgery",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_medicine"
     },
     {
       "id": "neurology",
       "name": "Neurology",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_medicine"
     },
     {
       "id": "nutrition",
       "name": "Nutrition",
+      "types": "vivo:AcademicDepartment",
       "parent": "human_sciences",
       "keywords": [
         "19.0599 - Foods, Nutrition, and Related Services, Other.",
@@ -611,46 +672,55 @@
     {
       "id": "obstetrics_gynecology",
       "name": "Obstetrics & Gynecology",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_medicine"
     },
     {
       "id": "ophthalmology_vision_science",
       "name": "Ophthalmology & Vision Science",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_medicine"
     },
     {
       "id": "orthopaedic_surgery",
       "name": "Orthopaedic Surgery",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_medicine"
     },
     {
       "id": "otolaryngology",
       "name": "Otolaryngology",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_medicine"
     },
     {
       "id": "pathology_laboratory_medicine",
       "name": "Pathology & Laboratory Medicine",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_medicine"
     },
     {
       "id": "pathology_microbiology_&_immunology",
       "name": "Pathology, Microbiology & Immunology",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_veterinary_medicine"
     },
     {
       "id": "pediatrics",
       "name": "Pediatrics",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_medicine"
     },
     {
       "id": "pharmacology",
       "name": "Pharmacology",
+      "types": "vivo:AcademicDepartment",
       "parent": "basic_sciences"
     },
     {
       "id": "philosophy",
       "name": "Philosophy",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": [
         "30.2501 - Cognitive Science.",
@@ -664,11 +734,13 @@
     {
       "id": "physical_medicine_rehabilitation",
       "name": "Physical Medicine & Rehabilitation",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_medicine"
     },
     {
       "id": "physics",
       "name": "Physics",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": [
         "40.0899 - Physics, Other.",
@@ -682,11 +754,13 @@
     {
       "id": "physiology_membrane_biology",
       "name": "Physiology & Membrane Biology",
+      "types": "vivo:AcademicDepartment",
       "parent": "basic_sciences"
     },
     {
       "id": "plant_biology",
       "name": "Plant Biology",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_biological_sciences",
       "keywords": "26.0301 - Botany/Plant Biology.",
       "hasSubjectArea": [
@@ -696,6 +770,7 @@
     {
       "id": "plant_pathology",
       "name": "Plant Pathology",
+      "types": "vivo:AcademicDepartment",
       "parent": "agricultural_sciences",
       "keywords": "26.0999 - Physiology, Pathology, and Related Sciences, Other.",
       "hasSubjectArea": [
@@ -705,6 +780,7 @@
     {
       "id": "plant_sciences",
       "name": "Plant Sciences",
+      "types": "vivo:AcademicDepartment",
       "parent": "agricultural_sciences",
       "keywords": [
         "01.9999 - Agriculture, Agriculture Operations, and Related Sciences, Other.",
@@ -730,6 +806,7 @@
     {
       "id": "political_science",
       "name": "Political Science",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": [
         "45.0901 - International Relations and Affairs.",
@@ -745,16 +822,19 @@
     {
       "id": "population_health_reproduction",
       "name": "Population Health & Reproduction",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_veterinary_medicine"
     },
     {
       "id": "psychiatry_behavioral_sciences",
       "name": "Psychiatry & Behavioral Sciences",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_medicine"
     },
     {
       "id": "psychology",
       "name": "Psychology",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": [
         "30.1001 - Biopsychology.",
@@ -770,6 +850,7 @@
     {
       "id": "public_health_sciences",
       "name": "Public Health Sciences",
+      "types": "vivo:AcademicDepartment",
       "parent": "basic_sciences",
       "keywords": "51.2201 - Public Health, General.",
       "hasSubjectArea": [
@@ -779,16 +860,19 @@
     {
       "id": "radiation_oncology",
       "name": "Radiation Oncology",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_medicine"
     },
     {
       "id": "radiology",
       "name": "Radiology",
+      "types": "vivo:AcademicDepartment",
       "parent": "school_medicine"
     },
     {
       "id": "religious_studies",
       "name": "Religious Studies",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": "38.0201 - Religion/Religious Studies.",
       "hasSubjectArea": [
@@ -798,7 +882,8 @@
     {
       "id": "school_education",
       "name": "School of Education",
-      "parent": "ucd",
+      "types": "vivo:School",
+      "parent": "ucd:",
       "keywords": [
         "13.0401 - Educational Leadership and Administration, General.",
         "13.1206 - Teacher Education, Multiple Levels.",
@@ -815,7 +900,8 @@
     {
       "id": "school_law",
       "name": "School of Law",
-      "parent": "ucd",
+      "types": "vivo:School",
+      "parent": "ucd:",
       "keywords": [
         "22.9999 - Legal Professions and Studies, Other.",
         "22.0101 - Law."
@@ -828,12 +914,14 @@
     {
       "id": "school_management",
       "name": "School of Management",
-      "parent": "ucd"
+      "types": "vivo:School",
+      "parent": "ucd:"
     },
     {
       "id": "school_medicine",
       "name": "School of Medicine",
-      "parent": "ucd",
+      "types": "vivo:School",
+      "parent": "ucd:",
       "keywords": "51.1201 - Medicine.",
       "hasSubjectArea": [
         "cip:51.1201"
@@ -842,7 +930,8 @@
     {
       "id": "school_veterinary_medicine",
       "name": "School of Veterinary Medicine",
-      "parent": "ucd",
+      "types": "vivo:School",
+      "parent": "ucd:",
       "keywords": [
         "51.2501 - Veterinary Sciences/Veterinary Clinical Sciences, General.",
         "51.2510 - Veterinary Preventive Medicine, Epidemiology, and Public Health."
@@ -855,6 +944,7 @@
     {
       "id": "sociology",
       "name": "Sociology",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": [
         "45.1101 - Sociology.",
@@ -868,6 +958,7 @@
     {
       "id": "spanish_portuguese",
       "name": "Spanish & Portuguese",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": "16.0905 - Spanish Language and Literature.",
       "hasSubjectArea": [
@@ -877,6 +968,7 @@
     {
       "id": "statistics",
       "name": "Statistics",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": "27.0501 - Statistics, General.",
       "hasSubjectArea": [
@@ -886,16 +978,19 @@
     {
       "id": "surgery",
       "name": "Surgery",
+      "types": "vivo:ClinicalOrganization",
       "parent": "school_medicine"
     },
     {
       "id": "surgical_radiological_sciences",
       "name": "Surgical & Radiological Sciences",
+      "types": "vivo:ClinicalOrganization",
       "parent": "school_veterinary_medicine"
     },
     {
       "id": "textiles_clothing",
       "name": "Textiles & Clothing",
+      "types": "vivo:AcademicDepartment",
       "parent": "human_sciences",
       "keywords": "19.0901 - Apparel and Textiles, General.",
       "hasSubjectArea": [
@@ -905,6 +1000,7 @@
     {
       "id": "theatre_dance",
       "name": "Theatre & Dance",
+      "types": "vivo:AcademicDepartment",
       "parent": "college_letters_science",
       "keywords": "50.0501 - Drama and Dramatics/Theatre Arts, General.",
       "hasSubjectArea": [
@@ -912,17 +1008,20 @@
       ]
     },
     {
-      "id": "ucd",
-      "name": "UC Davis"
+      "id": "ucd:",
+      "name": "UC Davis",
+      "types": "vivo:University"
     },
     {
       "id": "urology",
       "name": "Urology",
+      "types": "vivo:ClinicalOrganization",
       "parent": "school_medicine"
     },
     {
       "id": "viticulture_enology",
       "name": "Viticulture & Enology",
+      "types": "vivo:AcademicDepartment",
       "parent": "agricultural_sciences",
       "keywords": [
         "01.9999 - Agriculture, Agriculture Operations, and Related Sciences, Other.",
@@ -936,7 +1035,8 @@
     {
       "id": "wildlife_fish_conservation_biology",
       "name": "Wildlife, Fish & Conservation Biology",
-      "parent": "id",
+      "types": "vivo:vivo:AcademicDepartment",
+      "parent": "college_agricultural_environmental_sciences",
       "keywords": [
         "03.9999 - Natural Resources and Conservation, Other.",
         "03.0601 - Wildlife, Fish and Wildlands Science and Management."
