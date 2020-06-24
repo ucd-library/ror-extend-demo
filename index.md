@@ -71,6 +71,11 @@ use this file to show all the departments in our Division.
 }
 ```
 
+## Examples 
+
++ [harvard](./examples/harvard) - Shows an example of some of the harvard departments.
++ [cnr_it](./examples/cnr_it) - Shows adding a tree structure to existing ROR entries
++ [ucdavis](../examples/ucdavis) - Shows the UC Davis acedemic structure, maintained with a Google Sheet
 
 ## Format
 
