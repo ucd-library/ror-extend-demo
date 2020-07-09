@@ -1,4 +1,4 @@
-# ROR Extension Best Practice
+# ROR Extension Best Practices
 
 This is a draft extension describing how a research organization can extend it's
 ROR identifier for describing it's local organization.  This is meant to be a
