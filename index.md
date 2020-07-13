@@ -40,12 +40,15 @@ methods for discovery of authoritive files.
 
 ## Alternatives
 
-[Open ISNI for Organizations](https://isni.ringgold.com/database/)
+The International Standard Name Identifier (ISNI - [isni.org](https://isni.org) ) includes records for many organizations and their subsidiary components.  However, it does not directly provide hierarchical relationships.
 
-[ISNI Linked Data](http://www.isni.org/how-isni-works#HowItWorks_LinkedData)
+[Ringgold](https://www.ringgold.com) provides a proprietary database that has extensive details on organizations and their subsidiaries. Ringgold also provides an open dataset based on their data but using the ISNI identifiers - see [Open ISNI for Organizations](https://isni.ringgold.com/database/).
 
-[GRID Linked
-Data](https://search.google.com/structured-data/testing-tool/u/0/#url=https%3A%2F%2Fwww.grid.ac%2Finstitutes%2Fgrid.27860.3b)
+The [VIVO software tool](https://duraspace.org/vivo/about/) provides a way for organizations to post open linked data about their own research activities, which may include departmental hierarchies. Some installations have considerable detail, but with each site maintained separately there is also a lot of inconsistency, and some VIVO installations listed in the directory seem to be no longer running. 
+
+[Wikidata](https://www.wikidata.org/) has a few research institutions with relatively complete subsidiary organization information, but this is at least for now relatively sparse and idiosyncratic. Where an entry exists Wikidata potentially provides other identifiers that may be available for that entity, so it can be useful as a linking hub.
+
+There are a number of identifiers focused on corporations - [D-U-N-S numbers](https://www.dnb.com/duns-number.html), [Legal Entity Identifiers](https://www.gleif.org/en/about-lei/introducing-the-legal-entity-identifier-lei), [OpenCorporates](https://opencorporates.com/), and others - these often include hierarchical relationship information, but generally do not include much data for the educational or government entities that are important for research.
 
 ## More
 See also our [technical details page](details.md).
