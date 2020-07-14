@@ -1,11 +1,70 @@
 ---
 ---
-# ROR Extension Best Practices
+# ROR Extension Technical Details
 
-This is a draft extension describing how a research organization can extend it's
-ROR identifier for describing it's local organization.  This is meant to be a
-set of guidelines that help Research Organizations to use ROR as a consistent
-base to define their local orangizational structure.
+## Standards and formats used
+
+The extension of ROR is defined as a linked data specification, with files provided in the JSONLD (JSON linked data) format.
+
+### JSON
+
+#### JSONLD Context
+
+In order to simplify processing, we also developed a JSON-LD context definition.  This allows for a compact representation of the extension organizations.  Where appropriate, we adopted notation similar to the of the ROR community for consistancy.  These JSONLD contexts do not cover the entire range of properties available to the organizations, as their membership to the
+vivo:Organization would entail.
+
+The context files also work for the standard ROR organization JSON from their API as well, Although the `@context` needs to be added to the record.  The JSONLD context file is found at https://ror-extend-demo.github.api/context/vivo.jsonld.
+
+
+
+
+### Controlled vocabularies
+
+Organizations are categorized in a number of ways; including type, free text keywords, and standard links and codes.  These can all be used to organize the data.
+
+A number of different organizational schemas were investigated.  These include the [VIVO Ontology (https://wiki.lyrasis.org/display/VIVODOC111x/Ontology+Reference), the [Schema.org Organization (https://schema.org/Organization), and the [Global Research Identifier Database (GRID)]([https://www.grid.ac/)
+ontology.  [ROR](https://ror.org/) has not specified a linked data ontology for their system.  This is not a requirement, but would certainly help integrate ROR identifiers and their extensions.  Since ROR's data format
+most closely follows the GRID ontology, that would be the most normal source for the ROR ontology.
+
+Each ontology has their good and bad components.  In the end, we decided to embrace the VIVO ontology.  This is because we felt is was the most likely ontology  to be adopted by users of the ROR extension.  In addition, we freely
+borrowed from VIVO class definitions, eg. Departments, Divisions, etc.
+
+Because the VIVO ontology is currently being updated, we fully expect our ROR ontology to be updated as well.
+
+#### Types
+
+For assigning classed to the organizations, we encourage the use of the VIVO Organization Types. These are:
+
+| | | |
+| --- | --- | --- |
+| Academic Department | Divison | Museum
+| Association | Extension Unit | Private Company
+| Center | Foundation | Program
+| Clinical Organization | Funding Organization | Publisher
+| College | Government Agency | Research Organization
+| Company | Hospital | School
+| Consortium | Institute | Service Providing Laboratory
+| Core Laboratory | Laboratory | University
+| Department | Library
+
+
+
+#### keywords
+
+#### CIPS Codes
+
+Organizations are encouraged to add [[https://nces.ed.gov/ipeds/cipcode/default.aspx?y=55][CIPS Codes]] to their organizational records.
+After a review of a number of potential classification, these codes were
+determined to be the best existing solution for comparing the overlap between
+organizations from different ROR entities.
+
+CIPS codes are strictly identifiers, and not represented as linked data
+formally.  To encourage the use of CIPS codes, we have created linked data
+objects for the CIPS codes as well, and some of our tooling will process cips
+codes specially
+
+
+## Details of the ROR Extension Schema
 
 The following is a simple example that covers all the most important aspects of
 the ROR Extension Best Practice.  Imagine that you are trying to describe the
@@ -79,33 +138,13 @@ use this file to show all the departments in our Division.
 + [cnr_it](./examples/cnr_it) - Shows adding a tree structure to existing ROR entries
 + [ucdavis](./examples/ucdavis) - Shows most of the UC Davis acedemic structure, maintained with a Google Sheet
 
-## Format
+## Google Doc Template to generate extensions
 
-The extension of ROR is defined as a linked data specification.
+## Multiple languages
 
-### Ontology
-
-A number of different organizational schemas were investigated.  These include the [VIVO Ontology (https://wiki.lyrasis.org/display/VIVODOC111x/Ontology+Reference), the [Schema.org Organization (https://schema.org/Organization), and the [Global Research Identifier Database (GRID)]([https://www.grid.ac/)
-ontology.  [ROR](https://ror.org/) has not specified a linked data ontology for their system.  This is not a requirement, but would certainly help integrate ROR identifiers and their extensions.  Since ROR's data format
-most closely follows the GRID ontology, that would be the most normal source for the ROR ontology.
-
-Each ontology has their good and bad components.  In the end, we decided to embrace the VIVO ontology.  This is because we felt is was the most likely ontology  to be adopted by users of the ROR extension.  In addition, we freely
-borrowed from VIVO class definitions, eg. Departments, Divisions, etc.
-
-Because the VIVO ontology is currently being updated, we fully expect our ROR ontology to be updated as well.
-
-### JSONLD Context
-
-In order to simplify processing, we also developed a JSON-LD context definition.  This allows for a compact representation of the extension organizations.  Where appropriate, we adopted notation similar to the of the ROR community for consistancy.  These JSONLD contexts do not cover the entire range of properties available to the organizations, as their membership to the
-vivo:Organization would entail.
-
-The context files also work for the standard ROR organization JSON from their API as well, Although the `@context` needs to be added to the record.  The JSONLD context file is found at https://ror-extend-demo.github.api/context/vivo.jsonld.
-
-
-## Internationalization
-Linked data is well organized for internationalization, with the ability to have
-multiple languages annotating our structure.  The specification fully
-allows this for any label in the setup.  We have added some additional syntax in the JSONLD context to match how the ROR API specifies international labels for organizations.  Specifically, This example for the University of California, Davis
+Linked data is well organized for internationalization, allowing labels in
+multiple languages.
+We have added some additional syntax in the JSONLD context to match how the ROR API specifies language labels for organizations.  Specifically, This example for the University of California, Davis
 
 ```json
 {
@@ -147,44 +186,9 @@ Expands to this linked data.
 ```
 
 
-## Categorizing the Organizations
+## Future directions
 
-Organizations are categorized in a number of ways; including type, free text keywords, and standard links and codes.  These can all be used to organize the data.
-
-### Types
-
-For assigning classed to the organizations, we encourage the use of the VIVO Organization Types. These are:
-
-| | | |
-| --- | --- | --- |
-| Academic Department | Divison | Museum
-| Association | Extension Unit | Private Company
-| Center | Foundation | Program
-| Clinical Organization | Funding Organization | Publisher
-| College | Government Agency | Research Organization
-| Company | Hospital | School
-| Consortium | Institute | Service Providing Laboratory
-| Core Laboratory | Laboratory | University
-| Department | Library
-
-
-
-### keywords
-
-### CIPS Codes
-
-Organizations are encouraged to add [[https://nces.ed.gov/ipeds/cipcode/default.aspx?y=55][CIPS Codes]] to their organizational records.
-After a review of a number of potential classification, these codes were
-determined to be the best existing solution for comparing the overlap between
-organizations from different ROR entities.
-
-CIPS codes are strictly identifiers, and not represented as linked data
-formally.  To encourage the use of CIPS codes, we have created linked data
-objects for the CIPS codes as well, and some of our tooling will process cips
-codes specially
-
-
-## History
+### History
 
 Organizations change over time, and sometimes it's important to be able to track
 those changes, or recreate the organizational structure at a particular moment
