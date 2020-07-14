@@ -4,7 +4,7 @@
 
 ## Standards and formats used
 
-The extension of ROR is defined as a linked data specification, with files provided in the JSONLD (JSON linked data) format.
+The extension of ROR is defined as a linked data specification, with files provided in the [JSON-LD](https://json-ld.org) (JSON linked data) format.
 
 ### JSON
 
@@ -22,7 +22,7 @@ The context files also work for the standard ROR organization JSON from their AP
 
 Organizations are categorized in a number of ways; including type, free text keywords, and standard links and codes.  These can all be used to organize the data.
 
-A number of different organizational schemas were investigated.  These include the [VIVO Ontology (https://wiki.lyrasis.org/display/VIVODOC111x/Ontology+Reference), the [Schema.org Organization (https://schema.org/Organization), and the [Global Research Identifier Database (GRID)]([https://www.grid.ac/)
+A number of different organizational schemas were investigated.  These include the [VIVO Ontology](https://wiki.lyrasis.org/display/VIVODOC111x/Ontology+Reference), the [Schema.org Organization](https://schema.org/Organization), and the [Global Research Identifier Database (GRID)]([https://www.grid.ac/)
 ontology.  [ROR](https://ror.org/) has not specified a linked data ontology for their system.  This is not a requirement, but would certainly help integrate ROR identifiers and their extensions.  Since ROR's data format
 most closely follows the GRID ontology, that would be the most normal source for the ROR ontology.
 
@@ -53,7 +53,7 @@ For assigning classed to the organizations, we encourage the use of the VIVO Org
 
 #### CIPS Codes
 
-Organizations are encouraged to add [[https://nces.ed.gov/ipeds/cipcode/default.aspx?y=55][CIPS Codes]] to their organizational records.
+Organizations are encouraged to add [CIPS Codes](https://nces.ed.gov/ipeds/cipcode/default.aspx?y=55) to their organizational records.
 After a review of a number of potential classification, these codes were
 determined to be the best existing solution for comparing the overlap between
 organizations from different ROR entities.
@@ -132,7 +132,7 @@ use this file to show all the departments in our Division.
 }
 ```
 
-## Examples 
+### Examples 
 
 + [harvard](./examples/harvard) - Shows an example of some of the harvard departments.
 + [cnr_it](./examples/cnr_it) - Shows adding a tree structure to existing ROR entries
