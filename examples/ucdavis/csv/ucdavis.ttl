@@ -1,0 +1,521 @@
+@prefix schema: <http://schema.org/> .
+@prefix fast:  <http://id.worldcat.org/fast/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+<#entomology_and_nematology>
+        a              schema:Organization ;
+        schema:name    "Entomology and Nematology"@en ;
+        schema:parent  <#agricultural_sciences> .
+
+<#land_air_and_water_resources>
+        a              schema:Organization ;
+        schema:name    "Land, Air and Water Resources"@en ;
+        schema:parent  <#environmental_sciences> .
+
+<#agricultural_and_resource_economics>
+        a                schema:Organization ;
+        schema:keywords  "baz" , "bar" , "foo" ;
+        schema:name      "Agricultural and Resource Economics"@en ;
+        schema:parent    <#human_sciences> .
+
+<#cell_biology_and_human_anatomy>
+        a              schema:Organization ;
+        schema:name    "Cell Biology and Human Anatomy"@en ;
+        schema:parent  <#basic_sciences> .
+
+<#native_american_studies>
+        a              schema:Organization ;
+        schema:name    "Native American Studies"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#molecular_and_cellular_biology>
+        a              schema:Organization ;
+        schema:name    "Molecular and Cellular Biology"@en ;
+        schema:parent  <#college_of_biological_sciences> .
+
+<#school_of_veterinary_medicine>
+        a              schema:Organization ;
+        schema:name    "School of Veterinary Medicine"@en ;
+        schema:parent  <#uc_davis_(all_faculty)> .
+
+<#urology>
+        a              schema:Organization ;
+        schema:name    "Urology"@en ;
+        schema:parent  <#school_of_medicine> .
+
+<#plant_biology>
+        a              schema:Organization ;
+        schema:name    "Plant Biology"@en ;
+        schema:parent  <#college_of_biological_sciences> .
+
+<#molecular_biosciences>
+        a              schema:Organization ;
+        schema:name    "Molecular Biosciences"@en ;
+        schema:parent  <#school_of_veterinary_medicine> .
+
+<#college_of_engineering>
+        a              schema:Organization ;
+        schema:name    "College of Engineering"@en ;
+        schema:parent  <#uc_davis_(all_faculty)> .
+
+<#military_science>
+        a              schema:Organization ;
+        schema:name    "Military Science"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#emergency_medicine>
+        a              schema:Organization ;
+        schema:name    "Emergency Medicine"@en ;
+        schema:parent  <#school_of_medicine> .
+
+<#psychology>
+        a              schema:Organization ;
+        schema:name    "Psychology"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#asian_american_studies>
+        a              schema:Organization ;
+        schema:name    "Asian American Studies"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#viticulture_and_enology>
+        a              schema:Organization ;
+        schema:name    "Viticulture and Enology"@en ;
+        schema:parent  <#agricultural_sciences> .
+
+<#college_of_biological_sciences>
+        a              schema:Organization ;
+        schema:name    "College of Biological Sciences"@en ;
+        schema:parent  <#uc_davis_(all_faculty)> .
+
+<#human_ecology>
+        a              schema:Organization ;
+        schema:name    "Human Ecology"@en ;
+        schema:parent  <#human_sciences> , <#environmental_sciences> .
+
+<#chicana/chicano_studies>
+        a              schema:Organization ;
+        schema:name    "Chicana/Chicano Studies"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#textiles_and_clothing>
+        a              schema:Organization ;
+        schema:name    "Textiles and Clothing"@en ;
+        schema:parent  <#human_sciences> .
+
+<#wildlife_fish_and_conservation_biology>
+        a              schema:Organization ;
+        schema:name    "Wildlife, Fish and Conservation Biology"@en ;
+        schema:parent  <#environmental_sciences> .
+
+<#philosophy>
+        a              schema:Organization ;
+        schema:name    "Philosophy"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#economics>
+        a              schema:Organization ;
+        schema:name    "Economics"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#school_of_medicine>
+        a              schema:Organization ;
+        schema:name    "School of Medicine"@en ;
+        schema:parent  <#uc_davis_(all_faculty)> .
+
+<#anesthesiology_and_pain_medicine>
+        a              schema:Organization ;
+        schema:name    "Anesthesiology and Pain Medicine"@en ;
+        schema:parent  <#school_of_medicine> .
+
+<#electrical_and_computer_engineering>
+        a              schema:Organization ;
+        schema:name    "Electrical and Computer Engineering"@en ;
+        schema:parent  <#college_of_engineering> .
+
+<#human_sciences>
+        a              schema:Organization ;
+        schema:name    "Human Sciences"@en ;
+        schema:parent  <#college_of_agricultural_and_environmental_sciences> .
+
+<#sociology>
+        a              schema:Organization ;
+        schema:name    "Sociology"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#biomedical_engineering>
+        a              schema:Organization ;
+        schema:name    "Biomedical Engineering"@en ;
+        schema:parent  <#college_of_engineering> .
+
+<#nutrition>
+        a              schema:Organization ;
+        schema:name    "Nutrition"@en ;
+        schema:parent  <#human_sciences> .
+
+<#school_of_law>
+        a              schema:Organization ;
+        schema:name    "School of Law"@en ;
+        schema:parent  <#uc_davis_(all_faculty)> .
+
+<#ophthalmology_and_vision_science>
+        a              schema:Organization ;
+        schema:name    "Ophthalmology and Vision Science"@en ;
+        schema:parent  <#school_of_medicine> .
+
+<#design>
+        a              schema:Organization ;
+        schema:name    "Design"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#agricultural_sciences>
+        a                schema:Organization ;
+        schema:keywords  "key3" , "key2" , "key1" ;
+        schema:name      "Agricultural Sciences"@en ;
+        schema:parent    <#college_of_agricultural_and_environmental_sciences> .
+
+<#ucd-senate>
+        a              schema:Organization ;
+        schema:name    "UC Davis (senate faculty)"@en ;
+        schema:parent  <#ucd> .
+
+<#plant_sciences>
+        a              schema:Organization ;
+        schema:name    "Plant Sciences"@en ;
+        schema:parent  <#agricultural_sciences> .
+
+<#evolution_and_ecology>
+        a              schema:Organization ;
+        schema:name    "Evolution and Ecology"@en ;
+        schema:parent  <#college_of_biological_sciences> .
+
+<#art_and_art_history>
+        a              schema:Organization ;
+        schema:name    "Art and Art History"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#medicine_and_epidemiology>
+        a              schema:Organization ;
+        schema:name    "Medicine and Epidemiology"@en ;
+        schema:parent  <#school_of_veterinary_medicine> .
+
+<#pathology_and_laboratory_medicine>
+        a              schema:Organization ;
+        schema:name    "Pathology and Laboratory Medicine"@en ;
+        schema:parent  <#school_of_medicine> .
+
+<#german_and_russian>
+        a              schema:Organization ;
+        schema:name    "German and Russian"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#neurological_surgery>
+        a              schema:Organization ;
+        schema:name    "Neurological Surgery"@en ;
+        schema:parent  <#school_of_medicine> .
+
+<#surgery>
+        a              schema:Organization ;
+        schema:name    "Surgery"@en ;
+        schema:parent  <#school_of_medicine> .
+
+<#environmental_toxicology>
+        a              schema:Organization ;
+        schema:name    "Environmental Toxicology"@en ;
+        schema:parent  <#environmental_sciences> .
+
+<#school_of_management>
+        a              schema:Organization ;
+        schema:name    "School of Management"@en ;
+        schema:parent  <#uc_davis_(all_faculty)> .
+
+<#anatomy_physiology_&_cell_biology>
+        a                schema:Organization ;
+        schema:keywords  "assdvark" ;
+        schema:name      "Anatomy, Physiology & Cell Biology"@en ;
+        schema:parent    <#school_of_veterinary_medicine> .
+
+<#pediatrics>
+        a              schema:Organization ;
+        schema:name    "Pediatrics"@en ;
+        schema:parent  <#school_of_medicine> .
+
+<#computer_science>
+        a              schema:Organization ;
+        schema:name    "Computer Science"@en ;
+        schema:parent  <#college_of_engineering> .
+
+<#family_and_community_medicine>
+        a              schema:Organization ;
+        schema:name    "Family and Community Medicine"@en ;
+        schema:parent  <#school_of_medicine> .
+
+<#civil_and_environmental_engineering>
+        a              schema:Organization ;
+        schema:name    "Civil and Environmental Engineering"@en ;
+        schema:parent  <#college_of_engineering> .
+
+<#environmental_science_and_policy>
+        a              schema:Organization ;
+        schema:name    "Environmental Science and Policy"@en ;
+        schema:parent  <#environmental_sciences> .
+
+<#linguistics>
+        a              schema:Organization ;
+        schema:name    "Linguistics"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#dermatology>
+        a              schema:Organization ;
+        schema:name    "Dermatology"@en ;
+        schema:parent  <#school_of_medicine> .
+
+<#mathematics>
+        a              schema:Organization ;
+        schema:name    "Mathematics"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#statistics>
+        a              schema:Organization ;
+        schema:name    "Statistics"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#political_science>
+        a              schema:Organization ;
+        schema:name    "Political Science"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#population_health_and_reproduction>
+        a              schema:Organization ;
+        schema:name    "Population Health and Reproduction"@en ;
+        schema:parent  <#school_of_veterinary_medicine> .
+
+<#college_of_agricultural_and_environmental_sciences>
+        a              schema:Organization ;
+        schema:name    "College of Agricultural and Environmental Sciences"@en ;
+        schema:parent  <#uc_davis_(all_faculty)> .
+
+<#radiology>
+        a              schema:Organization ;
+        schema:name    "Radiology"@en ;
+        schema:parent  <#school_of_medicine> .
+
+<#radiation_oncology>
+        a              schema:Organization ;
+        schema:name    "Radiation Oncology"@en ;
+        schema:parent  <#school_of_medicine> .
+
+<#biological_and_agricultural_engineering>
+        a              schema:Organization ;
+        schema:name    "Biological and Agricultural Engineering"@en ;
+        schema:parent  <#agricultural_sciences> , <#college_of_engineering> .
+
+<#otolaryngology>
+        a              schema:Organization ;
+        schema:name    "Otolaryngology"@en ;
+        schema:parent  <#school_of_medicine> .
+
+<#medical_microbiology_and_immunology>
+        a              schema:Organization ;
+        schema:name    "Medical Microbiology and Immunology"@en ;
+        schema:parent  <#basic_sciences> .
+
+<#microbiology_and_molecular_genetics>
+        a              schema:Organization ;
+        schema:name    "Microbiology and Molecular Genetics"@en ;
+        schema:parent  <#college_of_biological_sciences> .
+
+<#physiology_and_membrane_biology>
+        a              schema:Organization ;
+        schema:name    "Physiology and Membrane Biology"@en ;
+        schema:parent  <#basic_sciences> .
+
+<#internal_medicine>
+        a              schema:Organization ;
+        schema:name    "Internal Medicine"@en ;
+        schema:parent  <#school_of_medicine> .
+
+<#music>
+        a              schema:Organization ;
+        schema:name    "Music"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#neurobiology_physiology_and_behavior>
+        a              schema:Organization ;
+        schema:name    "Neurobiology, Physiology and Behavior"@en ;
+        schema:parent  <#college_of_biological_sciences> .
+
+<#surgical_and_radiological_sciences>
+        a              schema:Organization ;
+        schema:name    "Surgical and Radiological Sciences"@en ;
+        schema:parent  <#school_of_veterinary_medicine> .
+
+<#animal_sciences>
+        a              schema:Organization ;
+        schema:name    "Animal Sciences"@en ;
+        schema:parent  <#agricultural_sciences> .
+
+<#ucd>
+        a            schema:Organization ;
+        schema:name  "UC Davis"@en .
+
+<#food_science_and_technology>
+        a              schema:Organization ;
+        schema:name    "Food Science and Technology"@en ;
+        schema:parent  <#human_sciences> .
+
+<#earth_and_planetary_sciences>
+        a              schema:Organization ;
+        schema:name    "Earth and Planetary Sciences"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#uc_davis_(all_faculty)>
+        a              schema:Organization ;
+        schema:name    "UC Davis (all faculty)"@en ;
+        schema:parent  <#ucd> .
+
+<#pathology_microbiology_&_immunology>
+        a              schema:Organization ;
+        schema:name    "Pathology, Microbiology & Immunology"@en ;
+        schema:parent  <#school_of_veterinary_medicine> .
+
+<#psychiatry_and_behavioral_sciences>
+        a              schema:Organization ;
+        schema:name    "Psychiatry and Behavioral Sciences"@en ;
+        schema:parent  <#school_of_medicine> .
+
+<#anthropology>
+        a              schema:Organization ;
+        schema:name    "Anthropology"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#chemistry>
+        a              schema:Organization ;
+        schema:name    "Chemistry"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#comparative_literature>
+        a              schema:Organization ;
+        schema:name    "Comparative Literature"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#obstetrics_and_gynecology>
+        a              schema:Organization ;
+        schema:name    "Obstetrics and Gynecology"@en ;
+        schema:parent  <#school_of_medicine> .
+
+<#mechanical_and_aerospace_engineering>
+        a              schema:Organization ;
+        schema:name    "Mechanical and Aerospace Engineering"@en ;
+        schema:parent  <#college_of_engineering> .
+
+<#orthopaedic_surgery>
+        a              schema:Organization ;
+        schema:name    "Orthopaedic Surgery"@en ;
+        schema:parent  <#school_of_medicine> .
+
+<#environmental_sciences>
+        a              schema:Organization ;
+        schema:name    "Environmental Sciences"@en ;
+        schema:parent  <#college_of_agricultural_and_environmental_sciences> .
+
+<#college_of_letters_and_science>
+        a              schema:Organization ;
+        schema:name    "College of Letters and Science"@en ;
+        schema:parent  <#uc_davis_(all_faculty)> .
+
+<#school_of_education>
+        a              schema:Organization ;
+        schema:name    "School of Education"@en ;
+        schema:parent  <#uc_davis_(all_faculty)> .
+
+<#east_asian_languages_and_cultures>
+        a              schema:Organization ;
+        schema:name    "East Asian Languages and Cultures"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#pharmacology>
+        a              schema:Organization ;
+        schema:name    "Pharmacology"@en ;
+        schema:parent  <#basic_sciences> .
+
+<#english>
+        a              schema:Organization ;
+        schema:name    "English"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#religious_studies>
+        a              schema:Organization ;
+        schema:name    "Religious Studies"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#plant_pathology>
+        a              schema:Organization ;
+        schema:name    "Plant Pathology"@en ;
+        schema:parent  <#agricultural_sciences> .
+
+<#betty_irene_moore_school_of_nursing>
+        a              schema:Organization ;
+        schema:name    "Betty Irene Moore School of Nursing"@en ;
+        schema:parent  <#uc_davis_(all_faculty)> .
+
+<#physics>
+        a              schema:Organization ;
+        schema:name    "Physics"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#theatre_and_dance>
+        a              schema:Organization ;
+        schema:name    "Theatre and Dance"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#physical_medicine_and_rehabilitation>
+        a              schema:Organization ;
+        schema:name    "Physical Medicine and Rehabilitation"@en ;
+        schema:parent  <#school_of_medicine> .
+
+<#history>
+        a              schema:Organization ;
+        schema:name    "History"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#chemical_engineering_and_materials_science>
+        a              schema:Organization ;
+        schema:name    "Chemical Engineering and Materials Science"@en ;
+        schema:parent  <#college_of_engineering> .
+
+<#french_and_italian>
+        a              schema:Organization ;
+        schema:name    "French and Italian"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#biochemistry_and_molecular_medicine>
+        a              schema:Organization ;
+        schema:name    "Biochemistry and Molecular Medicine"@en ;
+        schema:parent  <#basic_sciences> .
+
+<#communication>
+        a              schema:Organization ;
+        schema:name    "Communication"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#basic_sciences>
+        a              schema:Organization ;
+        schema:name    "Basic Sciences"@en ;
+        schema:parent  <#school_of_medicine> .
+
+<#public_health_sciences>
+        a              schema:Organization ;
+        schema:name    "Public Health Sciences"@en ;
+        schema:parent  <#basic_sciences> .
+
+<#spanish_and_portuguese>
+        a              schema:Organization ;
+        schema:name    "Spanish and Portuguese"@en ;
+        schema:parent  <#college_of_letters_and_science> .
+
+<#neurology>
+        a              schema:Organization ;
+        schema:name    "Neurology"@en ;
+        schema:parent  <#school_of_medicine> .
