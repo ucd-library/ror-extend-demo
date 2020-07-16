@@ -115,9 +115,9 @@ use this file to show all the departments in our Division.
 
 ### Examples 
 
-+ [harvard](./examples/harvard) - Shows an example of some of the harvard departments.
-+ [cnr_it](./examples/cnr_it) - Shows adding a tree structure to existing ROR entries
-+ [ucdavis](./examples/ucdavis) - Shows most of the UC Davis acedemic structure, maintained with a Google Sheet
++ [harvard](https://github.com/ucd-library/ror-extend-demo/tree/master/orgs/harvard.edu) - Shows an example of some of the harvard departments.
++ [cnr_it](https://github.com/ucd-library/ror-extend-demo/tree/master/orgs/cfa.harvard.edu/cnr_it) - Shows adding a tree structure to existing ROR entries
++ [ucdavis](https://github.com/ucd-library/ror-extend-demo/tree/master/orgs/ucdavis.edu) - Shows most of the UC Davis acedemic structure, maintained with a Google Sheet
 
 ## Template to generate extensions
 
