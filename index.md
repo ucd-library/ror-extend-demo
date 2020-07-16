@@ -4,6 +4,15 @@ These organizations form a diverse collection including unversities, research in
 
 ## Why extend ROR?
 
+The key impetus behind extending ROR to units within an institution is to be able to refer to the affiliations of a researcher at a university (eg. department, institute) in a consistent manner. When a college, faculty, department, institute or center name is used as a free text, the practice opens the door to inconsistencies. Having sub-institution-level identifier will benefit the following use-cases:
+
+    *Referring to a unit after a name change
+    *Consistently referring to faculty and staff within a unit for staff websites and expertise discovery sites
+    *Identifying work produced by the unit in support of accreditations or progress and final reports
+    *Identifying work from units with specific subject area across institutions for collection purposes
+    *Matching internal identifiers used by an agency to a global reference
+
+
 
 Further technical details can be found [on the technical details page](details.md).
 
