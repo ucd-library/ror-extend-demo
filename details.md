@@ -4,14 +4,10 @@
 
 ## Standards and formats used
 
-The extension of ROR is defined as a linked data specification, with files provided in the [JSON-LD](https://json-ld.org) (JSON linked data) format.
-
 ### JSONLD Context
 
-In order to simplify processing, we also developed a JSON-LD context definition.  This allows for a compact representation of the extension organizations.  Where appropriate, we adopted notation similar to the of the ROR community for consistancy.  These JSONLD contexts do not cover the entire range of properties available to the organizations, as their membership to the
-vivo:Organization would entail.
-
-The context files also work for the standard ROR organization JSON from their API as well, Although the `@context` needs to be added to the record.  The JSONLD context file is found at https://ror-extend-demo.github.api/context/vivo.jsonld.
+The extension of ROR is defined as a linked data specification, with files provided in the [JSON-LD](https://json-ld.org) (JSON linked data) format. JSON is a versatile, open file format. We want the data to be re-usable in multiple solutions. On one end, the plain text format allows manual lookup for users who are interested in a handful of datapoints. On the other end, setting up a linked data database will allow complex queries leveraging relationships between units. Finally, the selected format allows for an intermediate-complexity solution, with the data imported into a relational database. 
+In order to simplify processing, we developed a JSON-LD context definition. It allows the addition of elements outside of the core schema, for example, names of the institution in different languages.
 
 
 ### ROR extension schema decisions
@@ -43,10 +39,10 @@ For assigning classed to the organizations, we encourage the use of the VIVO Org
 
 #### Keywords
 
-We identified the subject area researched or taught within a unit to be of interest to stakeholders. Therefore, we needed to identify a controlled vocabulary that would allow describing all fields of scholarship within a department. Selecting a comprehensive vocabulary proved challenging, after we discovered that several widely used options were science and technology heavy (eg., UNESCO codes), and we needed a comparable comprehensiveness in the arts and humanities. 
+We identified the subject area researched or taught within a unit to be of interest to stakeholders. Therefore, we needed to identify a controlled vocabulary that would allow describing all fields of scholarship within a department. Selecting a comprehensive vocabulary proved challenging, after we discovered that several widely used options were science and technology heavy (eg., UNESCO codes, the Australian and New Zealand Standard Research Classification ([ANZSRC](http://registry.it.csiro.au/def/keyword/anzsrc))), and we needed a comparable comprehensiveness in the arts and humanities. 
 
-We selected [CIPS Codes](https://nces.ed.gov/ipeds/cipcode/default.aspx?y=55) as a comprehensive controlled vocabulary to describe the scholarship of a unit with an institutional. CIPS codes are strictly identifiers, and not represented as linked data formally.  To encourage the use of CIPS codes, we have created linked data
-objects for the CIPS codes as well, and some of our tooling will process CIPS codes specially.
+We selected [CIP Codes](https://nces.ed.gov/ipeds/cipcode/default.aspx?y=55) as a comprehensive controlled vocabulary to describe the scholarship of a unit with an institutional. CIP codes are strictly identifiers, and not represented as linked data formally.  To encourage the use of CIPS codes, we have created linked data
+objects for the CIP codes as well, and some of our tooling will process CIPS codes specially.
 
 
 ## Details of the ROR Extension Schema
