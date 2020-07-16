@@ -43,7 +43,7 @@ For assigning classed to the organizations, we encourage the use of the VIVO Org
 
 
 
-#### keywords
+#### Keywords
 
 We identified the subject area researched or taught within a unit to be of interest to stakeholders. Therefore, we needed to identify a controlled vocabulary that would allow describing all fields of scholarship within a department. Selecting a comprehensive vocabulary proved challenging, after we discovered that several widely used options were science and technology heavy (eg., UNESCO codes), and we needed a comparable comprehensiveness in the arts and humanities. 
 
@@ -57,8 +57,8 @@ objects for the CIPS codes as well, and some of our tooling will process CIPS co
 
 The following is a simple example that covers all the most important aspects of
 the ROR Extension Best Practice.  Imagine that you are trying to describe the
-organizational structure of your Research organization. In our case, for the
-University of California, that can be found at https://ror.org/05rrcem69.  This
+organizational structure of your research organization. In our case, for the
+University of California, Davis that can be found at https://ror.org/05rrcem69.  This
 is a persistent identifier for this Unversity.  Now imagine we'd like to
 identify a particular department in our University.  In JSON, that might look
 like this:
@@ -127,7 +127,9 @@ use this file to show all the departments in our Division.
 + [cnr_it](./examples/cnr_it) - Shows adding a tree structure to existing ROR entries
 + [ucdavis](./examples/ucdavis) - Shows most of the UC Davis acedemic structure, maintained with a Google Sheet
 
-## Google Doc Template to generate extensions
+## Template to generate extensions
+
+Copy this ["example department speadsheet"](https://docs.google.com/spreadsheets/d/13MD8wKxe235DWsKQJ9eBAlvEenkFzKQlFDFGhNNIt1w/edit#gid=770416888) to jump-start the process for generation ROR extensions. The instructions on how to fill out the spreadsheet for your institution, as well as the documentation for the spreadsheet are available [here](https://docs.google.com/document/d/1DwLOxIC92NCq_JSzCF1FAP_JBCV8N99bUOQS9atHp-4/edit).
 
 ## Multiple languages
 
