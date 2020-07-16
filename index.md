@@ -1,186 +1,25 @@
-# ROR Extension Best Practices
+ROR, the Research Organization Registry (available from [ror.org](https://ror.org/)) is a community-led project developing an open registry of unique identifiers for research organizations around the world. The initial version of the repository has been available since January 2019, and close to 100,000 research organizations have now been assigned unique identifiers.
 
-This is a draft extension describing how a research organization can extend it's
-ROR identifier for describing it's local organization.  This is meant to be a
-set of guidelines that help Research Organizations to use ROR as a consistent
-base to define their local orangizational structure.
+These organizations form a diverse collection including unversities, research institutes, government agencies, medical facilities, nonprofit organizations, and corporations that engage in scholarly research. To limit the complexity of the dataset ROR generally assigns identifiers only to "top-level" organizations, so the details of organizational structure are not generally captured within ROR itself.
 
-The following is a simple example that covers all the most important aspects of
-the ROR Extension Best Practice.  Imagine that you are trying to describe the
-organizational structure of your Research organization. In our case, for the
-University of California, that can be found at https://ror.org/05rrcem69.  This
-is a persistent identifier for this Unversity.  Now imagine we'd like to
-identify a particular department in our University.  In JSON, that might look
-like this:
+## Why extend ROR?
 
 
-``` json
-{
-   "id":"lawr",
-   "name":"Department of Land, Air, and Water Resources",
-   "alias": "LAWR",
-}
-```
+Further technical details can be found [on the technical details page](details.md).
 
-Where we've given it an identifier, and name.  That's great, but then we want to
-use this file to show all the departments in our Division.
+## How to use the data
 
-``` json
-{
-  "id": "http://ror.org/05rrcem69",
-  "type": "University",
-  "orgs": [
-    {
-      "id": "lawr",
-      "name": "Department of Land, Air, and Water Resources",
-      "alias": "LAWR",
-      "type": "Department",
-      "keywords": [
-        "40.0401 - Atmospheric Sciences and Meteorology, General.",
-        "40.0605 - Hydrology and Water Resources Science.",
-        "01.1299 - Soil Sciences, Other.",
-        "01.1201 - Soil Science and Agronomy, General."
-      ],
-      "parent": "env_sci"
-    },
-    {
-      "id": "toxicology",
-      "name": "Environmental Toxicology",
-      "type": "Department",
-      "parent": "env_sci"
-    },
-    {
-      "id": "esp",
-      "name": "Environmental Science and Policy",
-      "type": "Department",
-      "parent": "env_sci"
-    },
-    {
-      "id": "env_sci",
-      "name": "Environmental Sciences",
-      "type": "Division",
-      "parent": "aes"
-    },
-    {
-      "id": "aes",
-      "name": "College of Agricultural and Environmental Sciences",
-      "alias": "AES",
-      "type": "College"
-    }
-  ]
-}
-```
+### Departments of a single organization
 
-## Examples
+When a researcher has identified their institution at the ROR id level, a more detailed affiliation identifier may be associated with them by allowing the researcher to select (via browse, search, auto-complete, etc.) from the departmental file for that ROR id. For example for ROR id https://ror.org/03vek6s52 (Harvard University), the file 03vek6s52.jsonld would be loaded from this repository, with the list of "orgs" and their associated names and id's, and displayed or handled with a suitable user interface and/or API. If the researcher selects "Applied Physics", then they would be associated with the extended identifier https://ror.org/03vek6s52/applied_physics.
 
-+ [harvard](./orgs/harvard.edu) - Shows an example of some of the harvard departments.
-+ [cnr_it](./orgs/cfa.harvard.edu) - Shows adding a tree structure to existing ROR entries
-+ [ucdavis](./orgs/ucdavis.edu) - Shows most of the UC Davis acedemic structure, maintained with a Google Sheet
+Note that the extension data includes a hierarchy, with relations provided by the "parent" predicate. For "Applied Physics" at Harvard, the parent is "School of Engineering and Applied Sciences", which has its own extended identifier, https://ror.org/03vek6s52/school_of_engineering_and_applied_sciences. A user interface may choose to use or ignore this hierarchy as appropriate. The "types" predicate may provide some filtering in cases where some levels of organizational hierarchy are not useful as identifiers in a particular context.
 
-## Format
+### Cross-organizational data
 
-The extension of ROR is defined as a linked data specification.
+Rather than looking at one extension file alone, some applications will require loading all the available files. The data could be put into a triple store or other graph database for querying. To provide a filtered list of departments, institutes, or other types of sub-organizations that cover a particular subject, say "Economics", would be a matter of finding triples with a "vivo:hasSubjectArea" value starting with "vocabularies:cip#45.06".
 
-### Ontology
-
-A number of different organizational schemas were investigated.  These include the [VIVO Ontology (https://wiki.lyrasis.org/display/VIVODOC111x/Ontology+Reference), the [Schema.org Organization (https://schema.org/Organization), and the [Global Research Identifier Database (GRID)]([https://www.grid.ac/)
-ontology.  [ROR](https://ror.org/) has not specified a linked data ontology for their system.  This is not a requirement, but would certainly help integrate ROR identifiers and their extensions.  Since ROR's data format
-most closely follows the GRID ontology, that would be the most normal source for the ROR ontology.
-
-Each ontology has their good and bad components.  In the end, we decided to embrace the VIVO ontology.  This is because we felt is was the most likely ontology  to be adopted by users of the ROR extension.  In addition, we freely
-borrowed from VIVO class definitions, eg. Departments, Divisions, etc.
-
-Because the VIVO ontology is currently being updated, we fully expect our ROR ontology to be updated as well.
-
-### JSONLD Context
-
-In order to simplify processing, we also developed a JSON-LD context definition.  This allows for a compact representation of the extension organizations.  Where appropriate, we adopted notation similar to the of the ROR community for consistancy.  These JSONLD contexts do not cover the entire range of properties available to the organizations, as their membership to the
-vivo:Organization would entail.
-
-The context files also work for the standard ROR organization JSON from their API as well, Although the `@context` needs to be added to the record.  The JSONLD context file is found at https://ror-extend-demo.github.api/context/vivo.jsonld.
-
-
-## Internationalization
-Linked data is well organized for internationalization, with the ability to have
-multiple languages annotating our structure.  The specification fully
-allows this for any label in the setup.  We have added some additional syntax in the JSONLD context to match how the ROR API specifies international labels for organizations.  Specifically, This example for the University of California, Davis
-
-```json
-{
-  "@context":"https://ucd-library.github.io/ror-extend-demo/context/vivo.jsonld",
-  "id": "https://ror.org/05rrcem69",
-  "name": "University of California, Davis",
-  "labels": [
-    {
-      "label": "Université de Californie à Davis",
-      "iso639": "fr"
-    },
-    {
-      "label": "Universidad de California en Davis",
-      "iso639": "es"
-    }
-  ],
-```
-
-Expands to this linked data.
-
-```json
-{
-    "@id": "https://ror.org/05rrcem69",
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "fr",
-        "@value": "Université de Californie à Davis"
-      },
-      {
-        "@language": "es",
-        "@value": "Universidad de California en Davis"
-      },
-      {
-        "@language": "en",
-        "@value": "University of California, Davis"
-      }
-    ],
-}
-```
-
-
-## Categorizing the Organizations
-
-Organizations are categorized in a number of ways; including type, free text keywords, and standard links and codes.  These can all be used to organize the data.
-
-### Types
-
-For assigning classed to the organizations, we encourage the use of the VIVO Organization Types. These are:
-
-| | | |
-| --- | --- | --- |
-| Academic Department | Divison | Museum
-| Association | Extension Unit | Private Company
-| Center | Foundation | Program
-| Clinical Organization | Funding Organization | Publisher
-| College | Government Agency | Research Organization
-| Company | Hospital | School
-| Consortium | Institute | Service Providing Laboratory
-| Core Laboratory | Laboratory | University
-| Department | Library
-
-
-
-### keywords
-
-### CIPS Codes
-
-Organizations are encouraged to add [[https://nces.ed.gov/ipeds/cipcode/default.aspx?y=55][CIPS Codes]] to their organizational records.
-After a review of a number of potential classification, these codes were
-determined to be the best existing solution for comparing the overlap between
-organizations from different ROR entities.
-
-CIPS codes are strictly identifiers, and not represented as linked data
-formally.  To encourage the use of CIPS codes, we have created linked data
-objects for the CIPS codes as well, and some of our tooling will process cips
-codes specially
-
+More sophisticated querying, for example by country or top-level organization type, might require combining the ROR linked-data with this extended ROR linked-data in the same graph database, or doing some form of federated query. Statistical analysis, for example getting counts of departments in different subject areas by country, could also be handled with a combined graph database, assuming the extension data is sufficiently complete.
 
 ## Authority
 
@@ -196,20 +35,18 @@ Defining the official authoritive description of a ROR organization is beyond
 the scope of this document.  However we are considering a number of potential
 methods for discovery of authoritive files.
 
-## History
-
-Organizations change over time, and sometimes it's important to be able to track
-those changes, or recreate the organizational structure at a particular moment
-in time.
 
 ## Alternatives
 
+The International Standard Name Identifier (ISNI - [isni.org](https://isni.org) ) includes records for many organizations and their subsidiary components.  However, it does not directly provide hierarchical relationships.
 
-[Open ISNI for Organizations](https://isni.ringgold.com/database/)
+[Ringgold](https://www.ringgold.com) provides a proprietary database that has extensive details on organizations and their subsidiaries. Ringgold also provides an open dataset based on their data but using the ISNI identifiers - see [Open ISNI for Organizations](https://isni.ringgold.com/database/).
 
-[ISNI Linked Data](http://www.isni.org/how-isni-works#HowItWorks_LinkedData)
-[GRID Linked
-Data](https://search.google.com/structured-data/testing-tool/u/0/#url=https%3A%2F%2Fwww.grid.ac%2Finstitutes%2Fgrid.27860.3b)
+The [VIVO software tool](https://duraspace.org/vivo/about/) provides a way for organizations to post open linked data about their own research activities, which may include departmental hierarchies. Some installations have considerable detail, but with each site maintained separately there is also a lot of inconsistency, and some VIVO installations listed in the directory seem to be no longer running. 
 
+[Wikidata](https://www.wikidata.org/) has a few research institutions with relatively complete subsidiary organization information, but this is at least for now relatively sparse and idiosyncratic. Where an entry exists Wikidata potentially provides other identifiers that may be available for that entity, so it can be useful as a linking hub.
 
-https://doi.org/10.6084/m9.figshare.11353022
+There are a number of identifiers focused on corporations - [D-U-N-S numbers](https://www.dnb.com/duns-number.html), [Legal Entity Identifiers](https://www.gleif.org/en/about-lei/introducing-the-legal-entity-identifier-lei), [OpenCorporates](https://opencorporates.com/), and others - these often include hierarchical relationship information, but generally do not include much data for the educational or government entities that are important for research.
+
+## More
+See also our [technical details page](details.md).
