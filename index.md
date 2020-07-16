@@ -12,10 +12,7 @@ The key impetus behind extending ROR to units within an institution is to be abl
 * Identifying work from units with specific subject area across institutions for collection purposes
 * Matching internal identifiers used by an agency to a global reference
 
-
-
-
-Further technical details can be found [on the technical details page](details.md).
+Our initial proposal to extend ROR ids presented at PIDapalooza 2020 can be found in ("The Path to Department Level PIDs", 10.5281/zenodo.3635003)[https://doi.org/10.5281/zenodo.3635004].
 
 ## How to use the data
 
@@ -33,7 +30,7 @@ More sophisticated querying, for example by country or top-level organization ty
 
 ## Authority
 
-It is expected that different stakeholders, eg. funders and publishers may define the hierarchical arrangement of a ROR organization.  They may, or may not actually be associated with that ROR organization at the present time. In our best practices, we outline that a separate file needs to be created each institution before further aggregation files are created. Consequtive users will re-use the same file. As the project develops further, we hope that a representative of each institution will update and complete the file for their institution. Our schema accounts for changes that the institutional user may want to make to the file.
+It is expected that different stakeholders, eg. funders and publishers may define the hierarchical arrangement of a ROR organization.  They may, or may not actually be associated with that ROR organization at the present time. In our best practices, we outline that a separate file needs to be created for each institution before further aggregation files are created. Consequtive users will re-use the same file. As the project develops further, we hope that a representative of each institution will update and complete the file for their institution. Our schema accounts for changes that the institutional user may want to make to the file.
 
 ### Official Authority
 
