@@ -33,11 +33,7 @@ More sophisticated querying, for example by country or top-level organization ty
 
 ## Authority
 
-It is expected that different agents may define the hierarchical arrangement of
-a ROR organization,  They may, or may not actually be associated with that ROR
-organization.  While this is not discouraged, applications #should# attempt to
-allow users to investigate the provanance of these descriptions.  This
-specification does not include an offical method of this
+It is expected that different stakeholders, eg. funders and publishers may define the hierarchical arrangement of a ROR organization.  They may, or may not actually be associated with that ROR organization at the present time. In our best practices, we outline that a separate file needs to be created each institution before further aggregation files are created. Consequtive users will re-use the same file. As the project develops further, we hope that a representative of each institution will update and complete the file for their institution. Our schema accounts for changes that the institutional user may want to make to the file.
 
 ### Official Authority
 
