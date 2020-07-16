@@ -16,22 +16,16 @@ vivo:Organization would entail.
 The context files also work for the standard ROR organization JSON from their API as well, Although the `@context` needs to be added to the record.  The JSONLD context file is found at https://ror-extend-demo.github.api/context/vivo.jsonld.
 
 
-
-
-### Controlled vocabularies
-
-Organizations are categorized in a number of ways; including type, free text keywords, and standard links and codes.  These can all be used to organize the data.
+### ROR extension schema decisions
 
 A number of different organizational schemas were investigated.  These include the [VIVO Ontology](https://wiki.lyrasis.org/display/VIVODOC111x/Ontology+Reference), the [Schema.org Organization](https://schema.org/Organization), and the [Global Research Identifier Database (GRID)]([https://www.grid.ac/)
-ontology.  [ROR](https://ror.org/) has not specified a linked data ontology for their system.  This is not a requirement, but would certainly help integrate ROR identifiers and their extensions.  Since ROR's data format
-most closely follows the GRID ontology, that would be the most normal source for the ROR ontology.
+ontology.  [ROR](https://ror.org/) has not specified a linked data ontology for their system.  This is not a requirement, but would certainly help integrate ROR identifiers and their extensions.  Since ROR's data format most closely follows the GRID ontology, that would be the most normal source for the ROR ontology.
 
-Each ontology has their good and bad components.  In the end, we decided to embrace the VIVO ontology.  This is because we felt is was the most likely ontology  to be adopted by users of the ROR extension.  In addition, we freely
-borrowed from VIVO class definitions, eg. Departments, Divisions, etc.
+After weighing pros and cons, we decided to embrace the VIVO ontology.  This is because we felt is was the most likely ontology to be adopted by users of the ROR extension.  In addition, we freely borrowed from VIVO class definitions, eg. Departments, Divisions, etc.
 
 Because the VIVO ontology is currently being updated, we fully expect our ROR ontology to be updated as well.
 
-#### Types
+#### Controlled vocabularies
 
 For assigning classed to the organizations, we encourage the use of the VIVO Organization Types. These are:
 
@@ -51,17 +45,12 @@ For assigning classed to the organizations, we encourage the use of the VIVO Org
 
 #### keywords
 
+We identified the subject area researched or taught within a unit to be of interest to stakeholders. Therefore, we needed to identify a controlled vocabulary that would allow describing all fields of scholarship within a department. Selecting a comprehensive vocabulary proved challenging, after we discovered that several widely used options were science and technology heavy (eg., UNESCO codes), and we needed a comparable comprehensiveness in the arts and humanities. 
+
 #### CIPS Codes
 
-Organizations are encouraged to add [CIPS Codes](https://nces.ed.gov/ipeds/cipcode/default.aspx?y=55) to their organizational records.
-After a review of a number of potential classification, these codes were
-determined to be the best existing solution for comparing the overlap between
-organizations from different ROR entities.
-
-CIPS codes are strictly identifiers, and not represented as linked data
-formally.  To encourage the use of CIPS codes, we have created linked data
-objects for the CIPS codes as well, and some of our tooling will process cips
-codes specially
+We selected [CIPS Codes](https://nces.ed.gov/ipeds/cipcode/default.aspx?y=55) as a comprehensive controlled vocabulary to describe the scholarship of a unit with an institutional. CIPS codes are strictly identifiers, and not represented as linked data formally.  To encourage the use of CIPS codes, we have created linked data
+objects for the CIPS codes as well, and some of our tooling will process CIPS codes specially.
 
 
 ## Details of the ROR Extension Schema
