@@ -1,0 +1,70 @@
+{
+  "@context":"https://ucd-library.github.io/ror-extend-demo/context/vivo.jsonld",
+  "id": "https://ror.org/05rrcem69",
+  "name": "University of California, Davis",
+  "types": [
+    "Education"
+  ],
+  "links": [
+    "http://ucdavis.edu/"
+  ],
+  "aliases": [
+    "UC Davis"
+  ],
+  "acronyms": [
+    "UCD"
+  ],
+  "status": "active",
+  "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_California,_Davis",
+  "labels": [
+    {
+      "label": "Université de Californie à Davis",
+      "iso639": "fr"
+    },
+    {
+      "label": "Universidad de California en Davis",
+      "iso639": "es"
+    }
+  ],
+  "country": {
+    "country_name": "United States",
+    "country_code": "US"
+  },
+  "external_ids": {
+    "ISNI": {
+      "preferred": null,
+      "all": [
+        "0000 0004 1936 9684"
+      ]
+    },
+    "FundRef": {
+      "preferred": "100007707",
+      "all": [
+        "100007707",
+        "100009751",
+        "100010553",
+        "100009752",
+        "100007862",
+        "100009219",
+        "100008956"
+      ]
+    },
+    "OrgRef": {
+      "preferred": "31924",
+      "all": [
+        "31924",
+        "894718"
+      ]
+    },
+    "Wikidata": {
+      "preferred": null,
+      "all": [
+        "Q129421"
+      ]
+    },
+    "GRID": {
+      "preferred": "grid.27860.3b",
+      "all": "grid.27860.3b"
+    }
+  }
+}

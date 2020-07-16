@@ -1,5 +1,3 @@
-# Departmental Extension for the Research Organization Registry (ROR)
-
 ROR, the Research Organization Registry (available from [ror.org](https://ror.org/)) is a community-led project developing an open registry of unique identifiers for research organizations around the world. The initial version of the repository has been available since January 2019, and close to 100,000 research organizations have now been assigned unique identifiers.
 
 These organizations form a diverse collection including unversities, research institutes, government agencies, medical facilities, nonprofit organizations, and corporations that engage in scholarly research. To limit the complexity of the dataset ROR generally assigns identifiers only to "top-level" organizations, so the details of organizational structure are not generally captured within ROR itself.

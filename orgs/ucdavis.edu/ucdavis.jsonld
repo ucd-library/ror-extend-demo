@@ -1,0 +1,1053 @@
+{
+  "@context": [
+    "https://ucd-library.github.io/ror-extend-demo/context/vivo.jsonld",
+    {
+      "ucd": "http://ror.org/05rrcem69/",
+      "med": "http://ror.org/05t6gpm70/",
+      "cip": "http://ror.org/vocabularies/cip#",
+      "@base": "http://ror.org/05rrcem69/"
+    }
+  ],
+  "id": "https://docs.google.com/spreadsheets/d/1pvl008jm7T_Ala20y0zJKCv5rNpKl9JklJL0f4o0mHA/edit",
+  "orgs": [
+    {
+      "id": "agricultural_resource_economics",
+      "name": "Agricultural & Resource Economics",
+      "type": "vivo:AcademicDepartment",
+      "parent": "human_sciences",
+      "keywords": [
+        "01.0199 - Agricultural Business and Management, Other.",
+        "01.0103 - Agricultural Economics.",
+        "01.9999 - Agriculture, Agriculture Operations, and Related Sciences, Other.",
+        "52.1399 - Management Sciences and Quantitative Methods, Other.",
+        "52.0601 - Business/Managerial Economics."
+      ],
+      "hasSubjectArea": [
+        "cip:01.0199",
+        "cip:01.0103",
+        "cip:01.9999",
+        "cip:52.1399",
+        "cip:52.0601"
+      ]
+    },
+    {
+      "id": "agricultural_sciences",
+      "name": "Agricultural Sciences",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_agricultural_environmental_sciences"
+    },
+    {
+      "id": "anatomy_physiology_&_cell_biology",
+      "name": "Anatomy, Physiology & Cell Biology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_veterinary_medicine"
+    },
+    {
+      "id": "anesthesiology_pain_medicine",
+      "name": "Anesthesiology & Pain Medicine",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_medicine"
+    },
+    {
+      "id": "animal_sciences",
+      "name": "Animal Science",
+      "type": "vivo:AcademicDepartment",
+      "parent": "agricultural_sciences",
+      "keywords": [
+        "01.0901 - Animal Sciences, General.",
+        "01.0999 - Animal Sciences, Other.",
+        "01.0101 - Agricultural Business and Management, General."
+      ],
+      "hasSubjectArea": [
+        "cip:01.0901",
+        "cip:01.0999",
+        "cip:01.0101"
+      ]
+    },
+    {
+      "id": "anthropology",
+      "name": "Anthropology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": [
+        "45.0201 - Anthropology.",
+        "05.0108 - Near and Middle Eastern Studies."
+      ],
+      "hasSubjectArea": [
+        "cip:45.0201",
+        "cip:05.0108"
+      ]
+    },
+    {
+      "id": "art_art_history",
+      "name": "Art & Art History",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": [
+        "50.0703 - Art History, Criticism and Conservation.",
+        "50.0701 - Art/Art Studies, General."
+      ],
+      "hasSubjectArea": [
+        "cip:50.0703",
+        "cip:50.0701"
+      ]
+    },
+    {
+      "id": "asian_american_studies",
+      "name": "Asian American Studies",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": "05.0206 - Asian-American Studies.",
+      "hasSubjectArea": [
+        "cip:05.0206"
+      ]
+    },
+    {
+      "id": "basic_sciences",
+      "name": "Basic Sciences",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_medicine"
+    },
+    {
+      "id": "betty_irene_moore_school_nursing",
+      "name": "Betty Irene Moore School of Nursing",
+      "type": "vivo:School",
+      "parent": "ucd:",
+      "keywords": [
+        "51.3802 - Nursing Administration.",
+        "51.9999 - Health Professions and Related Clinical Sciences, Other.",
+        "51.3808 - Nursing Science.",
+        "51.3805 - Family Practice Nurse/Nursing."
+      ],
+      "hasSubjectArea": [
+        "cip:51.3802",
+        "cip:51.9999",
+        "cip:51.3808",
+        "cip:51.3805"
+      ]
+    },
+    {
+      "id": "biochemistry_molecular_medicine",
+      "name": "Biochemistry & Molecular Medicine",
+      "type": "vivo:AcademicDepartment",
+      "parent": "basic_sciences"
+    },
+    {
+      "id": "biological_agricultural_engineering",
+      "name": "Biological & Agricultural Engineering",
+      "type": "vivo:AcademicDepartment",
+      "parent": [
+        "college_engineering",
+        "agricultural_sciences"
+      ],
+      "keywords": "14.0301 - Agricultural Engineering.",
+      "hasSubjectArea": [
+        "cip:14.0301"
+      ]
+    },
+    {
+      "id": "biomedical_engineering",
+      "name": "Biomedical Engineering",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_engineering",
+      "keywords": "14.0501 - Bioengineering and Biomedical Engineering.",
+      "hasSubjectArea": [
+        "cip:14.0501"
+      ]
+    },
+    {
+      "id": "cell_biology_human_anatomy",
+      "name": "Cell Biology & Human Anatomy",
+      "type": "vivo:AcademicDepartment",
+      "parent": "basic_sciences"
+    },
+    {
+      "id": "chemical_engineering_materials_science",
+      "name": "Chemical Engineering & Materials Science",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_engineering"
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science"
+    },
+    {
+      "id": "chicana/chicano_studies",
+      "name": "Chicana/Chicano Studies",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science"
+    },
+    {
+      "id": "civil_environmental_engineering",
+      "name": "Civil & Environmental Engineering",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_engineering",
+      "keywords": [
+        "14.0801 - Civil Engineering, General.",
+        "14.1401 - Environmental/Environmental Health Engineering."
+      ],
+      "hasSubjectArea": [
+        "cip:14.0801",
+        "cip:14.1401"
+      ]
+    },
+    {
+      "id": "college_agricultural_environmental_sciences",
+      "name": "College of Agricultural & Environmental Sciences",
+      "type": "vivo:College",
+      "parent": "ucd:"
+    },
+    {
+      "id": "college_biological_sciences",
+      "name": "College of Biological Sciences",
+      "type": "vivo:College",
+      "parent": "ucd:"
+    },
+    {
+      "id": "college_engineering",
+      "name": "College of Engineering",
+      "type": "vivo:College",
+      "parent": "ucd:"
+    },
+    {
+      "id": "college_letters_science",
+      "name": "College of Letters & Science",
+      "type": "vivo:College",
+      "parent": "ucd:"
+    },
+    {
+      "id": "communication",
+      "name": "Communication",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": "23.1304 - Rhetoric and Composition.",
+      "hasSubjectArea": [
+        "cip:23.1304"
+      ]
+    },
+    {
+      "id": "comparative_literature",
+      "name": "Comparative Literature",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": "16.0104 - Comparative Literature.",
+      "hasSubjectArea": [
+        "cip:16.0104"
+      ]
+    },
+    {
+      "id": "computer_science",
+      "name": "Computer Science",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_engineering",
+      "keywords": "11.0101 - Computer and Information Sciences, General.",
+      "hasSubjectArea": [
+        "cip:11.0101"
+      ]
+    },
+    {
+      "id": "dermatology",
+      "name": "Dermatology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_medicine"
+    },
+    {
+      "id": "design",
+      "name": "Design",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": "50.0401 - Design and Visual Communications, General.",
+      "hasSubjectArea": [
+        "cip:50.0401"
+      ]
+    },
+    {
+      "id": "earth_planetary_sciences",
+      "name": "Earth & Planetary Sciences",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": [
+        "40.0601 - Geology/Earth Science, General.",
+        "30.3201 - Marine Sciences.",
+        "40.9999 - Physical Sciences, Other."
+      ],
+      "hasSubjectArea": [
+        "cip:40.0601",
+        "cip:30.3201",
+        "cip:40.9999"
+      ]
+    },
+    {
+      "id": "east_asian_languages_cultures",
+      "name": "East Asian Languages & Cultures",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": [
+        "16.0301 - Chinese Language and Literature.",
+        "16.0302 - Japanese Language and Literature."
+      ],
+      "hasSubjectArea": [
+        "cip:16.0301",
+        "cip:16.0302"
+      ]
+    },
+    {
+      "id": "economics",
+      "name": "Economics",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": "45.0603 - Econometrics and Quantitative Economics.",
+      "hasSubjectArea": [
+        "cip:45.0603"
+      ]
+    },
+    {
+      "id": "electrical_computer_engineering",
+      "name": "Electrical & Computer Engineering",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_engineering",
+      "keywords": "14.1001 - Electrical and Electronics Engineering",
+      "hasSubjectArea": [
+        "cip:14.1001"
+      ]
+    },
+    {
+      "id": "emergency_medicine",
+      "name": "Emergency Medicine",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_medicine"
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": [
+        "16.0102 - Linguistics.",
+        "23.0101 - English Language and Literature, General."
+      ],
+      "hasSubjectArea": [
+        "cip:16.0102",
+        "cip:23.0101"
+      ]
+    },
+    {
+      "id": "entomology_nematology",
+      "name": "Entomology & Nematology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "agricultural_sciences",
+      "keywords": "26.0702 - Entomology.",
+      "hasSubjectArea": [
+        "cip:26.0702"
+      ]
+    },
+    {
+      "id": "environmental_science_policy",
+      "name": "Environmental Science & Policy",
+      "type": "vivo:AcademicDepartment",
+      "parent": "environmental_sciences",
+      "keywords": [
+        "04.9999 - Architecture and Related Services, Other.",
+        "03.0101 - Natural Resources/Conservation, General.",
+        "30.3201 - Marine Sciences."
+      ],
+      "hasSubjectArea": [
+        "cip:04.9999",
+        "cip:03.0101",
+        "cip:30.3201"
+      ]
+    },
+    {
+      "id": "environmental_sciences",
+      "name": "Environmental Sciences",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_agricultural_environmental_sciences"
+    },
+    {
+      "id": "environmental_toxicology",
+      "name": "Environmental Toxicology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "environmental_sciences",
+      "keywords": "26.1006 - Environmental Toxicology.",
+      "hasSubjectArea": [
+        "cip:26.1006"
+      ]
+    },
+    {
+      "id": "evolution_ecology",
+      "name": "Evolution & Ecology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_biological_sciences",
+      "keywords": [
+        "26.1310 - Ecology and Evolutionary Biology.",
+        "26.0701 - Zoology/Animal Biology.",
+        "30.3201 - Marine Sciences."
+      ],
+      "hasSubjectArea": [
+        "cip:26.1310",
+        "cip:26.0701",
+        "cip:30.3201"
+      ]
+    },
+    {
+      "id": "family_community_medicine",
+      "name": "Family & Community Medicine",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_medicine"
+    },
+    {
+      "id": "food_science_technology",
+      "name": "Food Science & Technology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "human_sciences",
+      "keywords": [
+        "19.0599 - Foods, Nutrition, and Related Services, Other.",
+        "01.1001 - Food Science.",
+        "01.9999 - Agriculture, Agriculture Operations, and Related Sciences, Other."
+      ],
+      "hasSubjectArea": [
+        "cip:19.0599",
+        "cip:01.1001",
+        "cip:01.9999"
+      ]
+    },
+    {
+      "id": "french_italian",
+      "name": "French & Italian",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": [
+        "16.0901 - French Language and Literature.",
+        "16.0902 - Italian Language and Literature."
+      ],
+      "hasSubjectArea": [
+        "cip:16.0901",
+        "cip:16.0902"
+      ]
+    },
+    {
+      "id": "german_russian",
+      "name": "German & Russian",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": [
+        "16.0501 - German Language and Literature.",
+        "16.0402 - Russian Language and Literature."
+      ],
+      "hasSubjectArea": [
+        "cip:16.0501",
+        "cip:16.0402"
+      ]
+    },
+    {
+      "id": "history",
+      "name": "History",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": "54.0101 - History, General.",
+      "hasSubjectArea": [
+        "cip:54.0101"
+      ]
+    },
+    {
+      "id": "human_ecology",
+      "name": "Human Ecology",
+      "type": "vivo:AcademicDepartment",
+      "parent": [
+        "environmental_sciences",
+        "human_sciences"
+      ],
+      "keywords": [
+        "42.9999 - Psychology, Other.",
+        "19.0701 - Human Development and Family Studies, General.",
+        "44.9999 - Public Administration and Social Service Professions, Other.",
+        "19.0101 - Family and Consumer Sciences/Human Sciences, General.",
+        "03.0103 - Environmental Studies.",
+        "04.0601 - Landscape Architecture.",
+        "01.0308 - Agroecology and Sustainable Agriculture."
+      ],
+      "hasSubjectArea": [
+        "cip:42.9999",
+        "cip:19.0701",
+        "cip:44.9999",
+        "cip:19.0101",
+        "cip:03.0103",
+        "cip:04.0601",
+        "cip:01.0308"
+      ]
+    },
+    {
+      "id": "human_sciences",
+      "name": "Human Sciences",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_agricultural_environmental_sciences"
+    },
+    {
+      "id": "internal_medicine",
+      "name": "Internal Medicine",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_medicine",
+      "keywords": "26.0904 - Endocrinology.",
+      "hasSubjectArea": [
+        "cip:26.0904"
+      ]
+    },
+    {
+      "id": "land_air_water_resources",
+      "name": "Land, Air & Water Resources",
+      "type": "vivo:AcademicDepartment",
+      "parent": "environmental_sciences",
+      "keywords": [
+        "40.0401 - Atmospheric Sciences and Meteorology, General.",
+        "40.0605 - Hydrology and Water Resources Science.",
+        "01.1299 - Soil Sciences, Other.",
+        "01.1201 - Soil Science and Agronomy, General."
+      ],
+      "hasSubjectArea": [
+        "cip:40.0401",
+        "cip:40.0605",
+        "cip:01.1299",
+        "cip:01.1201"
+      ]
+    },
+    {
+      "id": "linguistics",
+      "name": "Linguistics",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": "16.0102 - Linguistics.",
+      "hasSubjectArea": [
+        "cip:16.0102"
+      ]
+    },
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": [
+        "27.0301 - Applied Mathematics, General.",
+        "27.0101 - Mathematics, General.",
+        "27.0303 - Computational Mathematics.",
+        "27.0199 - Mathematics, Other."
+      ],
+      "hasSubjectArea": [
+        "cip:27.0301",
+        "cip:27.0101",
+        "cip:27.0303",
+        "cip:27.0199"
+      ]
+    },
+    {
+      "id": "mechanical_aerospace_engineering",
+      "name": "Mechanical & Aerospace Engineering",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_engineering",
+      "keywords": "14.1901 - Mechanical Engineering.",
+      "hasSubjectArea": [
+        "cip:14.1901"
+      ]
+    },
+    {
+      "id": "medical_microbiology_immunology",
+      "name": "Medical Microbiology & Immunology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "basic_sciences"
+    },
+    {
+      "id": "medicine_epidemiology",
+      "name": "Medicine & Epidemiology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_veterinary_medicine"
+    },
+    {
+      "id": "microbiology_molecular_genetics",
+      "name": "Microbiology & Molecular Genetics",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_biological_sciences",
+      "keywords": [
+        "26.0502 - Microbiology, General.",
+        "26.0503 - Medical Microbiology and Bacteriology."
+      ],
+      "hasSubjectArea": [
+        "cip:26.0502",
+        "cip:26.0503"
+      ]
+    },
+    {
+      "id": "military_science",
+      "name": "Military Science",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science"
+    },
+    {
+      "id": "molecular_cellular_biology",
+      "name": "Molecular & Cellular Biology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_biological_sciences",
+      "keywords": [
+        "26.0202 - Biochemistry.",
+        "26.9999 - Biological and Biomedical Sciences, Other.",
+        "26.0401 - Cell/Cellular Biology and Histology.",
+        "26.0801 - Genetics, General.",
+        "26.0205 - Molecular Biochemistry."
+      ],
+      "hasSubjectArea": [
+        "cip:26.0202",
+        "cip:26.9999",
+        "cip:26.0401",
+        "cip:26.0801",
+        "cip:26.0205"
+      ]
+    },
+    {
+      "id": "molecular_biosciences",
+      "name": "Molecular Biosciences",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_veterinary_medicine"
+    },
+    {
+      "id": "music",
+      "name": "Music",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": "50.0901 - Music, General.",
+      "hasSubjectArea": [
+        "cip:50.0901"
+      ]
+    },
+    {
+      "id": "native_american_studies",
+      "name": "Native American Studies",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": "05.0202 - American Indian/Native American Studies.",
+      "hasSubjectArea": [
+        "cip:05.0202"
+      ]
+    },
+    {
+      "id": "neurobiology_physiology_behavior",
+      "name": "Neurobiology, Physiology & Behavior",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_biological_sciences",
+      "keywords": [
+        "26.1503 - Neurobiology and Anatomy.",
+        "26.0901 - Physiology, General.",
+        "26.0908 - Exercise Physiology."
+      ],
+      "hasSubjectArea": [
+        "cip:26.1503",
+        "cip:26.0901",
+        "cip:26.0908"
+      ]
+    },
+    {
+      "id": "neurological_surgery",
+      "name": "Neurological Surgery",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_medicine"
+    },
+    {
+      "id": "neurology",
+      "name": "Neurology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_medicine"
+    },
+    {
+      "id": "nutrition",
+      "name": "Nutrition",
+      "type": "vivo:AcademicDepartment",
+      "parent": "human_sciences",
+      "keywords": [
+        "19.0599 - Foods, Nutrition, and Related Services, Other.",
+        "30.1901 - Nutrition Sciences.",
+        "19.0501 - Foods, Nutrition, and Wellness Studies, General."
+      ],
+      "hasSubjectArea": [
+        "cip:19.0599",
+        "cip:30.1901",
+        "cip:19.0501"
+      ]
+    },
+    {
+      "id": "obstetrics_gynecology",
+      "name": "Obstetrics & Gynecology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_medicine"
+    },
+    {
+      "id": "ophthalmology_vision_science",
+      "name": "Ophthalmology & Vision Science",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_medicine"
+    },
+    {
+      "id": "orthopaedic_surgery",
+      "name": "Orthopaedic Surgery",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_medicine"
+    },
+    {
+      "id": "otolaryngology",
+      "name": "Otolaryngology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_medicine"
+    },
+    {
+      "id": "pathology_laboratory_medicine",
+      "name": "Pathology & Laboratory Medicine",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_medicine"
+    },
+    {
+      "id": "pathology_microbiology_&_immunology",
+      "name": "Pathology, Microbiology & Immunology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_veterinary_medicine"
+    },
+    {
+      "id": "pediatrics",
+      "name": "Pediatrics",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_medicine"
+    },
+    {
+      "id": "pharmacology",
+      "name": "Pharmacology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "basic_sciences"
+    },
+    {
+      "id": "philosophy",
+      "name": "Philosophy",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": [
+        "30.2501 - Cognitive Science.",
+        "38.0101 - Philosophy."
+      ],
+      "hasSubjectArea": [
+        "cip:30.2501",
+        "cip:38.0101"
+      ]
+    },
+    {
+      "id": "physical_medicine_rehabilitation",
+      "name": "Physical Medicine & Rehabilitation",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_medicine"
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": [
+        "40.0899 - Physics, Other.",
+        "40.0801 - Physics, General."
+      ],
+      "hasSubjectArea": [
+        "cip:40.0899",
+        "cip:40.0801"
+      ]
+    },
+    {
+      "id": "physiology_membrane_biology",
+      "name": "Physiology & Membrane Biology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "basic_sciences"
+    },
+    {
+      "id": "plant_biology",
+      "name": "Plant Biology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_biological_sciences",
+      "keywords": "26.0301 - Botany/Plant Biology.",
+      "hasSubjectArea": [
+        "cip:26.0301"
+      ]
+    },
+    {
+      "id": "plant_pathology",
+      "name": "Plant Pathology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "agricultural_sciences",
+      "keywords": "26.0999 - Physiology, Pathology, and Related Sciences, Other.",
+      "hasSubjectArea": [
+        "cip:26.0999"
+      ]
+    },
+    {
+      "id": "plant_sciences",
+      "name": "Plant Sciences",
+      "type": "vivo:AcademicDepartment",
+      "parent": "agricultural_sciences",
+      "keywords": [
+        "01.9999 - Agriculture, Agriculture Operations, and Related Sciences, Other.",
+        "01.0199 - Agricultural Business and Management, Other.",
+        "26.1201 - Biotechnology.",
+        "01.1102 - Agronomy and Crop Science.",
+        "03.9999 - Natural Resources and Conservation, Other.",
+        "01.0701 - International Agriculture.",
+        "01.1101 - Plant Sciences, General.",
+        "01.1106 - Range Science and Management."
+      ],
+      "hasSubjectArea": [
+        "cip:01.9999",
+        "cip:01.0199",
+        "cip:26.1201",
+        "cip:01.1102",
+        "cip:03.9999",
+        "cip:01.0701",
+        "cip:01.1101",
+        "cip:01.1106"
+      ]
+    },
+    {
+      "id": "political_science",
+      "name": "Political Science",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": [
+        "45.0901 - International Relations and Affairs.",
+        "45.1001 - Political Science and Government, General.",
+        "45.1099 - Political Science and Government, Other."
+      ],
+      "hasSubjectArea": [
+        "cip:45.0901",
+        "cip:45.1001",
+        "cip:45.1099"
+      ]
+    },
+    {
+      "id": "population_health_reproduction",
+      "name": "Population Health & Reproduction",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_veterinary_medicine"
+    },
+    {
+      "id": "psychiatry_behavioral_sciences",
+      "name": "Psychiatry & Behavioral Sciences",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_medicine"
+    },
+    {
+      "id": "psychology",
+      "name": "Psychology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": [
+        "30.1001 - Biopsychology.",
+        "42.2799 - Research and Experimental Psychology, Other.",
+        "42.9999 - Psychology, Other."
+      ],
+      "hasSubjectArea": [
+        "cip:30.1001",
+        "cip:42.2799",
+        "cip:42.9999"
+      ]
+    },
+    {
+      "id": "public_health_sciences",
+      "name": "Public Health Sciences",
+      "type": "vivo:AcademicDepartment",
+      "parent": "basic_sciences",
+      "keywords": "51.2201 - Public Health, General.",
+      "hasSubjectArea": [
+        "cip:51.2201"
+      ]
+    },
+    {
+      "id": "radiation_oncology",
+      "name": "Radiation Oncology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_medicine"
+    },
+    {
+      "id": "radiology",
+      "name": "Radiology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "school_medicine"
+    },
+    {
+      "id": "religious_studies",
+      "name": "Religious Studies",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": "38.0201 - Religion/Religious Studies.",
+      "hasSubjectArea": [
+        "cip:38.0201"
+      ]
+    },
+    {
+      "id": "school_education",
+      "name": "School of Education",
+      "type": "vivo:School",
+      "parent": "ucd:",
+      "keywords": [
+        "13.0401 - Educational Leadership and Administration, General.",
+        "13.1206 - Teacher Education, Multiple Levels.",
+        "13.0101 - Education, General.",
+        "13.1299 - Teacher Education and Professional Development, Specific Levels and Methods, Other."
+      ],
+      "hasSubjectArea": [
+        "cip:13.0401",
+        "cip:13.1206",
+        "cip:13.0101",
+        "cip:13.1299"
+      ]
+    },
+    {
+      "id": "school_law",
+      "name": "School of Law",
+      "type": "vivo:School",
+      "parent": "ucd:",
+      "keywords": [
+        "22.9999 - Legal Professions and Studies, Other.",
+        "22.0101 - Law."
+      ],
+      "hasSubjectArea": [
+        "cip:22.9999",
+        "cip:22.0101"
+      ]
+    },
+    {
+      "id": "school_management",
+      "name": "School of Management",
+      "type": "vivo:School",
+      "parent": "ucd:"
+    },
+    {
+      "id": "school_medicine",
+      "name": "School of Medicine",
+      "type": "vivo:School",
+      "parent": "ucd:",
+      "keywords": "51.1201 - Medicine.",
+      "hasSubjectArea": [
+        "cip:51.1201"
+      ]
+    },
+    {
+      "id": "school_veterinary_medicine",
+      "name": "School of Veterinary Medicine",
+      "type": "vivo:School",
+      "parent": "ucd:",
+      "keywords": [
+        "51.2501 - Veterinary Sciences/Veterinary Clinical Sciences, General.",
+        "51.2510 - Veterinary Preventive Medicine, Epidemiology, and Public Health."
+      ],
+      "hasSubjectArea": [
+        "cip:51.2501",
+        "cip:51.2510"
+      ]
+    },
+    {
+      "id": "sociology",
+      "name": "Sociology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": [
+        "45.1101 - Sociology.",
+        "45.9999 - Social Sciences, Other."
+      ],
+      "hasSubjectArea": [
+        "cip:45.1101",
+        "cip:45.9999"
+      ]
+    },
+    {
+      "id": "spanish_portuguese",
+      "name": "Spanish & Portuguese",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": "16.0905 - Spanish Language and Literature.",
+      "hasSubjectArea": [
+        "cip:16.0905"
+      ]
+    },
+    {
+      "id": "statistics",
+      "name": "Statistics",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": "27.0501 - Statistics, General.",
+      "hasSubjectArea": [
+        "cip:27.0501"
+      ]
+    },
+    {
+      "id": "surgery",
+      "name": "Surgery",
+      "type": "vivo:ClinicalOrganization",
+      "parent": "school_medicine"
+    },
+    {
+      "id": "surgical_radiological_sciences",
+      "name": "Surgical & Radiological Sciences",
+      "type": "vivo:ClinicalOrganization",
+      "parent": "school_veterinary_medicine"
+    },
+    {
+      "id": "textiles_clothing",
+      "name": "Textiles & Clothing",
+      "type": "vivo:AcademicDepartment",
+      "parent": "human_sciences",
+      "keywords": "19.0901 - Apparel and Textiles, General.",
+      "hasSubjectArea": [
+        "cip:19.0901"
+      ]
+    },
+    {
+      "id": "theatre_dance",
+      "name": "Theatre & Dance",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_letters_science",
+      "keywords": "50.0501 - Drama and Dramatics/Theatre Arts, General.",
+      "hasSubjectArea": [
+        "cip:50.0501"
+      ]
+    },
+    {
+      "id": "ucd:",
+      "name": "UC Davis",
+      "type": "vivo:University"
+    },
+    {
+      "id": "urology",
+      "name": "Urology",
+      "type": "vivo:ClinicalOrganization",
+      "parent": "school_medicine"
+    },
+    {
+      "id": "viticulture_enology",
+      "name": "Viticulture & Enology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "agricultural_sciences",
+      "keywords": [
+        "01.9999 - Agriculture, Agriculture Operations, and Related Sciences, Other.",
+        "01.1099 - Food Science and Technology, Other."
+      ],
+      "hasSubjectArea": [
+        "cip:01.9999",
+        "cip:01.1099"
+      ]
+    },
+    {
+      "id": "wildlife_fish_conservation_biology",
+      "name": "Wildlife, Fish & Conservation Biology",
+      "type": "vivo:AcademicDepartment",
+      "parent": "college_agricultural_environmental_sciences",
+      "keywords": [
+        "03.9999 - Natural Resources and Conservation, Other.",
+        "03.0601 - Wildlife, Fish and Wildlands Science and Management."
+      ],
+      "hasSubjectArea": [
+        "cip:03.9999",
+        "cip:03.0601"
+      ]
+    }
+  ]
+}
