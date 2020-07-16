@@ -4,8 +4,15 @@ These organizations form a diverse collection including unversities, research in
 
 ## Why extend ROR?
 
+The key impetus behind extending ROR to units within an institution is to be able to refer to the affiliations of a researcher at a university (eg. department, institute) in a consistent manner. When a college, faculty, department, institute or center name is used as a free text, the practice opens the door to inconsistencies. Having sub-institution-level identifier will benefit the following use-cases:
 
-Further technical details can be found [on the technical details page](details.md).
+* Referring to a unit after a name change
+* Consistently referring to faculty and staff within a unit for staff websites and expertise discovery sites
+* Identifying work produced by the unit in support of accreditations or progress and final reports
+* Identifying work from units with specific subject area across institutions for collection purposes
+* Matching internal identifiers used by an agency to a global reference
+
+The initial proposal to extend ROR ids presented by Carolyn Grant at PIDapalooza 2020 can be found in ["The Path to Department Level PIDs", 10.5281/zenodo.3635003](https://doi.org/10.5281/zenodo.3635004). Extending a ROR identifier adds granularity to the data, while preserving the association with the top ROR identifier.
 
 ## How to use the data
 
@@ -23,18 +30,12 @@ More sophisticated querying, for example by country or top-level organization ty
 
 ## Authority
 
-It is expected that different agents may define the hierarchical arrangement of
-a ROR organization,  They may, or may not actually be associated with that ROR
-organization.  While this is not discouraged, applications #should# attempt to
-allow users to investigate the provanance of these descriptions.  This
-specification does not include an offical method of this
+It is expected that different stakeholders, eg. funders and publishers may define the hierarchical arrangement of a ROR organization.  They may, or may not actually be associated with that ROR organization at the present time. In our best practices, we outline that a separate file needs to be created for each institution before further aggregation files are created. Consequtive users will re-use the same file. 
 
 ### Official Authority
 
-Defining the official authoritive description of a ROR organization is beyond
-the scope of this document.  However we are considering a number of potential
-methods for discovery of authoritive files.
-
+Defining the official authoritive description of a ROR organization is beyond the scope of this document. However we are considering a number of potential
+methods for discovery of authoritive files. As the project develops further, we hope that a representative of each institution will update and complete the file for their institution. We propose including a "same as" field in the metadata for previously assigned extensions taht the institution wants replaced. That way the current schema will reflect the institutional preference, but previous ids that may already be in use will still resolve. In the ideal future, a curation board would undertake determining the authorization an individual has for changing a ROR extension.
 
 ## Alternatives
 

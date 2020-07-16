@@ -4,34 +4,22 @@
 
 ## Standards and formats used
 
-The extension of ROR is defined as a linked data specification, with files provided in the [JSON-LD](https://json-ld.org) (JSON linked data) format.
+### JSONLD Context
 
-### JSON
-
-#### JSONLD Context
-
-In order to simplify processing, we also developed a JSON-LD context definition.  This allows for a compact representation of the extension organizations.  Where appropriate, we adopted notation similar to the of the ROR community for consistancy.  These JSONLD contexts do not cover the entire range of properties available to the organizations, as their membership to the
-vivo:Organization would entail.
-
-The context files also work for the standard ROR organization JSON from their API as well, Although the `@context` needs to be added to the record.  The JSONLD context file is found at https://ror-extend-demo.github.api/context/vivo.jsonld.
+The extension of ROR is defined as a linked data specification, with files provided in the [JSON-LD](https://json-ld.org) (JSON linked data) format. JSON is a versatile, open file format. We want the data to be re-usable in multiple solutions. On one end, the plain text format allows manual lookup for users who are interested in a handful of datapoints. On the other end, setting up a linked data database will allow complex queries leveraging relationships between units. Finally, the selected format allows for an intermediate-complexity solution, with the data imported into a relational database. 
+In order to simplify processing, we developed a JSON-LD context definition. It allows the addition of elements outside of the core schema, for example, names of the institution in different languages.
 
 
-
-
-### Controlled vocabularies
-
-Organizations are categorized in a number of ways; including type, free text keywords, and standard links and codes.  These can all be used to organize the data.
+### ROR extension schema decisions
 
 A number of different organizational schemas were investigated.  These include the [VIVO Ontology](https://wiki.lyrasis.org/display/VIVODOC111x/Ontology+Reference), the [Schema.org Organization](https://schema.org/Organization), and the [Global Research Identifier Database (GRID)]([https://www.grid.ac/)
-ontology.  [ROR](https://ror.org/) has not specified a linked data ontology for their system.  This is not a requirement, but would certainly help integrate ROR identifiers and their extensions.  Since ROR's data format
-most closely follows the GRID ontology, that would be the most normal source for the ROR ontology.
-
-Each ontology has their good and bad components.  In the end, we decided to embrace the VIVO ontology.  This is because we felt is was the most likely ontology  to be adopted by users of the ROR extension.  In addition, we freely
-borrowed from VIVO class definitions, eg. Departments, Divisions, etc.
+ontology.  [ROR](https://ror.org/) has not specified a linked data ontology for their system.  After weighing pros and cons, we decided to embrace the VIVO ontology.  This is because we felt is was the most likely ontology to be adopted by users of the ROR extension.  In addition, we freely borrowed from VIVO class definitions, eg. Departments, Divisions, etc.
 
 Because the VIVO ontology is currently being updated, we fully expect our ROR ontology to be updated as well.
 
-#### Types
+### Controlled vocabularies
+
+#### Organizations
 
 For assigning classed to the organizations, we encourage the use of the VIVO Organization Types. These are:
 
@@ -49,27 +37,20 @@ For assigning classed to the organizations, we encourage the use of the VIVO Org
 
 
 
-#### keywords
+#### Keywords
 
-#### CIPS Codes
+We identified the subject area researched or taught within a unit to be of interest to stakeholders. Therefore, we needed to identify a controlled vocabulary that would allow describing all fields of scholarship within a department. Selecting a comprehensive vocabulary proved challenging, after we discovered that several widely used options were science and technology heavy (eg., UNESCO codes, the Australian and New Zealand Standard Research Classification ([ANZSRC](http://registry.it.csiro.au/def/keyword/anzsrc))), and we needed a comparable comprehensiveness in the arts and humanities. 
 
-Organizations are encouraged to add [CIPS Codes](https://nces.ed.gov/ipeds/cipcode/default.aspx?y=55) to their organizational records.
-After a review of a number of potential classification, these codes were
-determined to be the best existing solution for comparing the overlap between
-organizations from different ROR entities.
-
-CIPS codes are strictly identifiers, and not represented as linked data
-formally.  To encourage the use of CIPS codes, we have created linked data
-objects for the CIPS codes as well, and some of our tooling will process cips
-codes specially
+We selected [CIP Codes](https://nces.ed.gov/ipeds/cipcode/default.aspx?y=55) as a comprehensive controlled vocabulary to describe the scholarship of a unit with an institutional. CIP codes are strictly identifiers, and not represented as linked data formally.  To encourage the use of CIPS codes, we have created linked data
+objects for the CIP codes as well, and some of our tooling will process CIPS codes specially.
 
 
 ## Details of the ROR Extension Schema
 
 The following is a simple example that covers all the most important aspects of
 the ROR Extension Best Practice.  Imagine that you are trying to describe the
-organizational structure of your Research organization. In our case, for the
-University of California, that can be found at https://ror.org/05rrcem69.  This
+organizational structure of your research organization. In our case, for the
+University of California, Davis that can be found at https://ror.org/05rrcem69.  This
 is a persistent identifier for this Unversity.  Now imagine we'd like to
 identify a particular department in our University.  In JSON, that might look
 like this:
@@ -138,7 +119,9 @@ use this file to show all the departments in our Division.
 + [cnr_it](./examples/cnr_it) - Shows adding a tree structure to existing ROR entries
 + [ucdavis](./examples/ucdavis) - Shows most of the UC Davis acedemic structure, maintained with a Google Sheet
 
-## Google Doc Template to generate extensions
+## Template to generate extensions
+
+Copy this ["example department speadsheet"](https://docs.google.com/spreadsheets/d/13MD8wKxe235DWsKQJ9eBAlvEenkFzKQlFDFGhNNIt1w/edit#gid=770416888) to jump-start the process for generation ROR extensions. The instructions on how to fill out the spreadsheet for your institution, as well as the documentation for the spreadsheet are available [here](https://docs.google.com/document/d/1DwLOxIC92NCq_JSzCF1FAP_JBCV8N99bUOQS9atHp-4/edit).
 
 ## Multiple languages
 
@@ -188,9 +171,17 @@ Expands to this linked data.
 
 ## Future directions
 
+### More testing
+
+Ultimately, we need more stakeholders to create ROR extensions and provide feedback on the process.
+
+### Connecting datasets
+
+Ideally, the central ROR dataset will be seamlessly integrated with the extensions generated by research institutions. In the present, this is possible through searching on the top ROR identifier. We envision additional metadata field in the ROR schema that would accommodate a DOI. Each institutional dataset of extended identifiers will be issued a DOI that would then be recorded in the ROR identifier for that organization. This will allow for automated download and merge of the datasets.
+
 ### History
 
-Organizations change over time, and sometimes it's important to be able to track
-those changes, or recreate the organizational structure at a particular moment
-in time.
+Organizations change over time. Stakeholders are interested in tracking those changes or recreating the organizational structure at a particular moment in time. Future development of the schema will include additing fields to refer to preceding units.
+
+
 
