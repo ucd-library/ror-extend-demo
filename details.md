@@ -6,9 +6,7 @@
 
 The extension of ROR is defined as a linked data specification, with files provided in the [JSON-LD](https://json-ld.org) (JSON linked data) format.
 
-### JSON
-
-#### JSONLD Context
+### JSONLD Context
 
 In order to simplify processing, we also developed a JSON-LD context definition.  This allows for a compact representation of the extension organizations.  Where appropriate, we adopted notation similar to the of the ROR community for consistancy.  These JSONLD contexts do not cover the entire range of properties available to the organizations, as their membership to the
 vivo:Organization would entail.
@@ -23,7 +21,9 @@ ontology.  [ROR](https://ror.org/) has not specified a linked data ontology for 
 
 Because the VIVO ontology is currently being updated, we fully expect our ROR ontology to be updated as well.
 
-#### Controlled vocabularies
+### Controlled vocabularies
+
+#### Organizations
 
 For assigning classed to the organizations, we encourage the use of the VIVO Organization Types. These are:
 
@@ -44,8 +44,6 @@ For assigning classed to the organizations, we encourage the use of the VIVO Org
 #### Keywords
 
 We identified the subject area researched or taught within a unit to be of interest to stakeholders. Therefore, we needed to identify a controlled vocabulary that would allow describing all fields of scholarship within a department. Selecting a comprehensive vocabulary proved challenging, after we discovered that several widely used options were science and technology heavy (eg., UNESCO codes), and we needed a comparable comprehensiveness in the arts and humanities. 
-
-#### CIPS Codes
 
 We selected [CIPS Codes](https://nces.ed.gov/ipeds/cipcode/default.aspx?y=55) as a comprehensive controlled vocabulary to describe the scholarship of a unit with an institutional. CIPS codes are strictly identifiers, and not represented as linked data formally.  To encourage the use of CIPS codes, we have created linked data
 objects for the CIPS codes as well, and some of our tooling will process CIPS codes specially.
