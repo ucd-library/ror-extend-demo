@@ -30,14 +30,12 @@ More sophisticated querying, for example by country or top-level organization ty
 
 ## Authority
 
-It is expected that different stakeholders, eg. funders and publishers may define the hierarchical arrangement of a ROR organization.  They may, or may not actually be associated with that ROR organization at the present time. In our best practices, we outline that a separate file needs to be created for each institution before further aggregation files are created. Consequtive users will re-use the same file. As the project develops further, we hope that a representative of each institution will update and complete the file for their institution. Our schema accounts for changes that the institutional user may want to make to the file.
+It is expected that different stakeholders, eg. funders and publishers may define the hierarchical arrangement of a ROR organization.  They may, or may not actually be associated with that ROR organization at the present time. In our best practices, we outline that a separate file needs to be created for each institution before further aggregation files are created. Consequtive users will re-use the same file. 
 
 ### Official Authority
 
-Defining the official authoritive description of a ROR organization is beyond
-the scope of this document.  However we are considering a number of potential
-methods for discovery of authoritive files.
-
+Defining the official authoritive description of a ROR organization is beyond the scope of this document. However we are considering a number of potential
+methods for discovery of authoritive files. As the project develops further, we hope that a representative of each institution will update and complete the file for their institution. We propose including a "same as" field in the metadata for previously assigned extensions taht the institution wants replaced. That way the current schema will reflect the institutional preference, but previous ids that may already be in use will still resolve. In the ideal future, a curation board would undertake determining the authorization an individual has for changing a ROR extension.
 
 ## Alternatives
 
