@@ -12,7 +12,7 @@ The key impetus behind extending ROR to units within an institution is to be abl
 * Identifying work from units with specific subject area across institutions for collection purposes
 * Matching internal identifiers used by an agency to a global reference
 
-The initial proposal to extend ROR ids presented by Carolyn Grant at PIDapalooza 2020 can be found in ["The Path to Department Level PIDs", 10.5281/zenodo.3635003](https://doi.org/10.5281/zenodo.3635004).
+The initial proposal to extend ROR ids presented by Carolyn Grant at PIDapalooza 2020 can be found in ["The Path to Department Level PIDs", 10.5281/zenodo.3635003](https://doi.org/10.5281/zenodo.3635004). Extending a ROR identifier adds granularity to the data, while preserving the association with the top ROR identifier.
 
 ## How to use the data
 
