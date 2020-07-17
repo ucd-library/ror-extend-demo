@@ -41,8 +41,8 @@ For assigning classed to the organizations, we encourage the use of the VIVO Org
 
 We identified the subject area researched or taught within a unit to be of interest to stakeholders. Therefore, we needed to identify a controlled vocabulary that would allow describing all fields of scholarship within a department. Using a controlled vocabulary would also allow discovery of similar scholarship across multiple institutions. Selecting a comprehensive vocabulary proved challenging, after we discovered that several widely used options were science and technology heavy (eg., UNESCO codes, the Australian and New Zealand Standard Research Classification ([ANZSRC](http://registry.it.csiro.au/def/keyword/anzsrc))), and we needed a comparable comprehensiveness in the arts and humanities. 
 
-We selected [CIP Codes](https://nces.ed.gov/ipeds/cipcode/default.aspx?y=55) as a comprehensive controlled vocabulary to describe the scholarship of a unit with an institutional. CIP codes are strictly identifiers, and not represented as linked data formally.  To encourage the use of CIPS codes, we have created linked data
-objects for the CIP codes as well, and some of our tooling will process CIPS codes specially.
+We selected [CIP Codes](https://nces.ed.gov/ipeds/cipcode/default.aspx?y=55) as a comprehensive controlled vocabulary to describe the scholarship of a unit with an institutional. CIP codes are strictly identifiers, and not represented as linked data formally.  To encourage the use of CIP codes, we have created linked data
+objects for the CIP codes as well, and some of our tooling will process CIP codes specially.
 
 
 ## Details of the ROR Extension Schema
