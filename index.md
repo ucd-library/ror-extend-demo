@@ -34,8 +34,8 @@ It is expected that different stakeholders, eg. funders and publishers may defin
 
 ### Official Authority
 
-Defining the official authoritive description of a ROR organization is beyond the scope of this document. However we are considering a number of potential
-methods for discovery of authoritive files. As the project develops further, we hope that a representative of each institution will update and complete the file for their institution. We propose including a "same as" field in the metadata for previously assigned extensions taht the institution wants replaced. That way the current schema will reflect the institutional preference, but previous ids that may already be in use will still resolve. In the ideal future, a curation board would undertake determining the authorization an individual has for changing a ROR extension.
+Defining the official authoritative description of a ROR organization is beyond the scope of this document. However we are considering a number of potential
+methods for discovery of authoritative files. As the project develops further, we hope that a representative of each institution will update and complete the file for their institution. We propose including a "same as" field in the metadata for previously assigned extensions that the institution wants replaced. That way the current schema will reflect the institutional preference, but previous ids that may already be in use will still resolve. In the ideal future, a curation board would undertake determining the authorization an individual has for changing a ROR extension.
 
 ## Alternatives
 
